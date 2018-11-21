@@ -33,21 +33,11 @@
 		18FC9E5A21A55E1C00FC6544 /* DDExDialogView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC9E3A21A55E1C00FC6544 /* DDExDialogView.m */; };
 		18FC9E5B21A55E1C00FC6544 /* JYAbstractTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC9E3B21A55E1C00FC6544 /* JYAbstractTableViewCell.m */; };
 		18FC9E5F21A55FC300FC6544 /* VCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC9E5E21A55FC300FC6544 /* VCManager.m */; };
-		18FC9E7F21A5615A00FC6544 /* DDMyViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC9E6421A5615A00FC6544 /* DDMyViewModel.m */; };
-		18FC9E8021A5615A00FC6544 /* JYMyOrderViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC9E6521A5615A00FC6544 /* JYMyOrderViewModel.m */; };
-		18FC9E8121A5615A00FC6544 /* DDTwoBtnTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC9E6721A5615A00FC6544 /* DDTwoBtnTableViewCell.m */; };
-		18FC9E8221A5615A00FC6544 /* OnlyBottomBtnTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18FC9E6A21A5615A00FC6544 /* OnlyBottomBtnTableViewCell.xib */; };
-		18FC9E8321A5615A00FC6544 /* DDImgTextBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC9E6B21A5615A00FC6544 /* DDImgTextBtn.m */; };
-		18FC9E8421A5615A00FC6544 /* JYOrderInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC9E6D21A5615A00FC6544 /* JYOrderInfoTableViewCell.m */; };
-		18FC9E8521A5615A00FC6544 /* DDMyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC9E6F21A5615A00FC6544 /* DDMyTableViewCell.m */; };
-		18FC9E8621A5615A00FC6544 /* JYMineHeadTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC9E7121A5615A00FC6544 /* JYMineHeadTableViewCell.m */; };
-		18FC9E8721A5615A00FC6544 /* JYOrderNumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC9E7321A5615A00FC6544 /* JYOrderNumTableViewCell.m */; };
-		18FC9E8821A5615A00FC6544 /* OnlyBottomBtnTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC9E7521A5615A00FC6544 /* OnlyBottomBtnTableViewCell.m */; };
-		18FC9E8921A5615A00FC6544 /* JYOrderTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC9E7821A5615A00FC6544 /* JYOrderTabBar.m */; };
-		18FC9E8A21A5615A00FC6544 /* JYOrderStateTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC9E7921A5615A00FC6544 /* JYOrderStateTableViewCell.m */; };
-		18FC9E8B21A5615A00FC6544 /* JYMyOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC9E7B21A5615A00FC6544 /* JYMyOrderViewController.m */; };
-		18FC9E8C21A5615A00FC6544 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC9E7E21A5615A00FC6544 /* MineViewController.m */; };
 		18FC9E8F21A567FF00FC6544 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FC9E8E21A567FF00FC6544 /* Images.xcassets */; };
+		4556ADAC21A5B77D0020892E /* Course in Resources */ = {isa = PBXBuildFile; fileRef = 4556ADA821A5B77B0020892E /* Course */; };
+		4556ADAD21A5B77D0020892E /* Home in Resources */ = {isa = PBXBuildFile; fileRef = 4556ADA921A5B77C0020892E /* Home */; };
+		4556ADAE21A5B77D0020892E /* Mine in Resources */ = {isa = PBXBuildFile; fileRef = 4556ADAA21A5B77C0020892E /* Mine */; };
+		4556ADAF21A5B77D0020892E /* Study in Resources */ = {isa = PBXBuildFile; fileRef = 4556ADAB21A5B77D0020892E /* Study */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -107,34 +97,11 @@
 		18FC9E5C21A55E2D00FC6544 /* JnjyPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JnjyPrefixHeader.pch; sourceTree = "<group>"; };
 		18FC9E5D21A55FC300FC6544 /* VCManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCManager.h; sourceTree = "<group>"; };
 		18FC9E5E21A55FC300FC6544 /* VCManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCManager.m; sourceTree = "<group>"; };
-		18FC9E6221A5615A00FC6544 /* DDMyViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMyViewModel.h; sourceTree = "<group>"; };
-		18FC9E6321A5615A00FC6544 /* JYMyOrderViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYMyOrderViewModel.h; sourceTree = "<group>"; };
-		18FC9E6421A5615A00FC6544 /* DDMyViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMyViewModel.m; sourceTree = "<group>"; };
-		18FC9E6521A5615A00FC6544 /* JYMyOrderViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYMyOrderViewModel.m; sourceTree = "<group>"; };
-		18FC9E6721A5615A00FC6544 /* DDTwoBtnTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTwoBtnTableViewCell.m; sourceTree = "<group>"; };
-		18FC9E6821A5615A00FC6544 /* JYMineHeadTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYMineHeadTableViewCell.h; sourceTree = "<group>"; };
-		18FC9E6921A5615A00FC6544 /* OnlyBottomBtnTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnlyBottomBtnTableViewCell.h; sourceTree = "<group>"; };
-		18FC9E6A21A5615A00FC6544 /* OnlyBottomBtnTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OnlyBottomBtnTableViewCell.xib; sourceTree = "<group>"; };
-		18FC9E6B21A5615A00FC6544 /* DDImgTextBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDImgTextBtn.m; sourceTree = "<group>"; };
-		18FC9E6C21A5615A00FC6544 /* JYOrderNumTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYOrderNumTableViewCell.h; sourceTree = "<group>"; };
-		18FC9E6D21A5615A00FC6544 /* JYOrderInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYOrderInfoTableViewCell.m; sourceTree = "<group>"; };
-		18FC9E6E21A5615A00FC6544 /* JYOrderStateTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYOrderStateTableViewCell.h; sourceTree = "<group>"; };
-		18FC9E6F21A5615A00FC6544 /* DDMyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMyTableViewCell.m; sourceTree = "<group>"; };
-		18FC9E7021A5615A00FC6544 /* JYOrderTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYOrderTabBar.h; sourceTree = "<group>"; };
-		18FC9E7121A5615A00FC6544 /* JYMineHeadTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYMineHeadTableViewCell.m; sourceTree = "<group>"; };
-		18FC9E7221A5615A00FC6544 /* DDTwoBtnTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTwoBtnTableViewCell.h; sourceTree = "<group>"; };
-		18FC9E7321A5615A00FC6544 /* JYOrderNumTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYOrderNumTableViewCell.m; sourceTree = "<group>"; };
-		18FC9E7421A5615A00FC6544 /* DDImgTextBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDImgTextBtn.h; sourceTree = "<group>"; };
-		18FC9E7521A5615A00FC6544 /* OnlyBottomBtnTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnlyBottomBtnTableViewCell.m; sourceTree = "<group>"; };
-		18FC9E7621A5615A00FC6544 /* JYOrderInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYOrderInfoTableViewCell.h; sourceTree = "<group>"; };
-		18FC9E7721A5615A00FC6544 /* DDMyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMyTableViewCell.h; sourceTree = "<group>"; };
-		18FC9E7821A5615A00FC6544 /* JYOrderTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYOrderTabBar.m; sourceTree = "<group>"; };
-		18FC9E7921A5615A00FC6544 /* JYOrderStateTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYOrderStateTableViewCell.m; sourceTree = "<group>"; };
-		18FC9E7B21A5615A00FC6544 /* JYMyOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYMyOrderViewController.m; sourceTree = "<group>"; };
-		18FC9E7C21A5615A00FC6544 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
-		18FC9E7D21A5615A00FC6544 /* JYMyOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYMyOrderViewController.h; sourceTree = "<group>"; };
-		18FC9E7E21A5615A00FC6544 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
 		18FC9E8E21A567FF00FC6544 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4556ADA821A5B77B0020892E /* Course */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Course; path = ../../../jnjy/jnjy/Course; sourceTree = "<group>"; };
+		4556ADA921A5B77C0020892E /* Home */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Home; path = ../../../jnjy/jnjy/Home; sourceTree = "<group>"; };
+		4556ADAA21A5B77C0020892E /* Mine */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Mine; path = ../../../jnjy/jnjy/Mine; sourceTree = "<group>"; };
+		4556ADAB21A5B77D0020892E /* Study */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Study; path = ../../../jnjy/jnjy/Study; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -308,68 +275,13 @@
 			path = Tool;
 			sourceTree = "<group>";
 		};
-		18FC9E6021A5615A00FC6544 /* Mine */ = {
-			isa = PBXGroup;
-			children = (
-				18FC9E6121A5615A00FC6544 /* ViewModel */,
-				18FC9E6621A5615A00FC6544 /* View */,
-				18FC9E7A21A5615A00FC6544 /* ViewController */,
-			);
-			path = Mine;
-			sourceTree = "<group>";
-		};
-		18FC9E6121A5615A00FC6544 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				18FC9E6221A5615A00FC6544 /* DDMyViewModel.h */,
-				18FC9E6321A5615A00FC6544 /* JYMyOrderViewModel.h */,
-				18FC9E6421A5615A00FC6544 /* DDMyViewModel.m */,
-				18FC9E6521A5615A00FC6544 /* JYMyOrderViewModel.m */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		18FC9E6621A5615A00FC6544 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				18FC9E6721A5615A00FC6544 /* DDTwoBtnTableViewCell.m */,
-				18FC9E6821A5615A00FC6544 /* JYMineHeadTableViewCell.h */,
-				18FC9E6921A5615A00FC6544 /* OnlyBottomBtnTableViewCell.h */,
-				18FC9E6A21A5615A00FC6544 /* OnlyBottomBtnTableViewCell.xib */,
-				18FC9E6B21A5615A00FC6544 /* DDImgTextBtn.m */,
-				18FC9E6C21A5615A00FC6544 /* JYOrderNumTableViewCell.h */,
-				18FC9E6D21A5615A00FC6544 /* JYOrderInfoTableViewCell.m */,
-				18FC9E6E21A5615A00FC6544 /* JYOrderStateTableViewCell.h */,
-				18FC9E6F21A5615A00FC6544 /* DDMyTableViewCell.m */,
-				18FC9E7021A5615A00FC6544 /* JYOrderTabBar.h */,
-				18FC9E7121A5615A00FC6544 /* JYMineHeadTableViewCell.m */,
-				18FC9E7221A5615A00FC6544 /* DDTwoBtnTableViewCell.h */,
-				18FC9E7321A5615A00FC6544 /* JYOrderNumTableViewCell.m */,
-				18FC9E7421A5615A00FC6544 /* DDImgTextBtn.h */,
-				18FC9E7521A5615A00FC6544 /* OnlyBottomBtnTableViewCell.m */,
-				18FC9E7621A5615A00FC6544 /* JYOrderInfoTableViewCell.h */,
-				18FC9E7721A5615A00FC6544 /* DDMyTableViewCell.h */,
-				18FC9E7821A5615A00FC6544 /* JYOrderTabBar.m */,
-				18FC9E7921A5615A00FC6544 /* JYOrderStateTableViewCell.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		18FC9E7A21A5615A00FC6544 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				18FC9E7B21A5615A00FC6544 /* JYMyOrderViewController.m */,
-				18FC9E7C21A5615A00FC6544 /* MineViewController.h */,
-				18FC9E7D21A5615A00FC6544 /* JYMyOrderViewController.h */,
-				18FC9E7E21A5615A00FC6544 /* MineViewController.m */,
-			);
-			path = ViewController;
-			sourceTree = "<group>";
-		};
 		18FC9E8D21A5659000FC6544 /* TestVC */ = {
 			isa = PBXGroup;
 			children = (
-				18FC9E6021A5615A00FC6544 /* Mine */,
+				4556ADA821A5B77B0020892E /* Course */,
+				4556ADA921A5B77C0020892E /* Home */,
+				4556ADAA21A5B77C0020892E /* Mine */,
+				4556ADAB21A5B77D0020892E /* Study */,
 			);
 			path = TestVC;
 			sourceTree = "<group>";
@@ -431,11 +343,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4556ADAC21A5B77D0020892E /* Course in Resources */,
 				18FC9DE621A55DF600FC6544 /* LaunchScreen.storyboard in Resources */,
 				18FC9E8F21A567FF00FC6544 /* Images.xcassets in Resources */,
-				18FC9E8221A5615A00FC6544 /* OnlyBottomBtnTableViewCell.xib in Resources */,
 				18FC9DE321A55DF600FC6544 /* Assets.xcassets in Resources */,
+				4556ADAE21A5B77D0020892E /* Mine in Resources */,
 				18FC9DE121A55DF300FC6544 /* Main.storyboard in Resources */,
+				4556ADAF21A5B77D0020892E /* Study in Resources */,
+				4556ADAD21A5B77D0020892E /* Home in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,39 +362,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				18FC9E4C21A55E1C00FC6544 /* UITextView+placeHolder.m in Sources */,
-				18FC9E8321A5615A00FC6544 /* DDImgTextBtn.m in Sources */,
 				18FC9E5221A55E1C00FC6544 /* Tools.m in Sources */,
-				18FC9E8C21A5615A00FC6544 /* MineViewController.m in Sources */,
 				18FC9E4E21A55E1C00FC6544 /* NSString+MD5.m in Sources */,
-				18FC9E8121A5615A00FC6544 /* DDTwoBtnTableViewCell.m in Sources */,
 				18FC9E4D21A55E1C00FC6544 /* NSString+AttributedString.m in Sources */,
-				18FC9E8021A5615A00FC6544 /* JYMyOrderViewModel.m in Sources */,
 				18FC9E5321A55E1C00FC6544 /* UIView+JYExFrame.m in Sources */,
 				18FC9DDE21A55DF300FC6544 /* ViewController.m in Sources */,
-				18FC9E8721A5615A00FC6544 /* JYOrderNumTableViewCell.m in Sources */,
 				18FC9E4021A55E1C00FC6544 /* DDRequestManager.m in Sources */,
-				18FC9E8B21A5615A00FC6544 /* JYMyOrderViewController.m in Sources */,
 				18FC9E4121A55E1C00FC6544 /* customLabel.m in Sources */,
 				18FC9E4A21A55E1C00FC6544 /* UIView+cornerRadius.m in Sources */,
 				18FC9E5421A55E1C00FC6544 /* JYBaseViewModel.m in Sources */,
 				18FC9E3E21A55E1C00FC6544 /* DDExNoDataView.m in Sources */,
 				18FC9E5721A55E1C00FC6544 /* BSUtility.m in Sources */,
-				18FC9E7F21A5615A00FC6544 /* DDMyViewModel.m in Sources */,
 				18FC9E5121A55E1C00FC6544 /* UITextField+NLLimit.m in Sources */,
 				18FC9E5F21A55FC300FC6544 /* VCManager.m in Sources */,
 				18FC9E5921A55E1C00FC6544 /* TabViewControllerManager.m in Sources */,
-				18FC9E8421A5615A00FC6544 /* JYOrderInfoTableViewCell.m in Sources */,
-				18FC9E8821A5615A00FC6544 /* OnlyBottomBtnTableViewCell.m in Sources */,
 				18FC9E3D21A55E1C00FC6544 /* JYBaseTabBarController.m in Sources */,
 				18FC9E5B21A55E1C00FC6544 /* JYAbstractTableViewCell.m in Sources */,
 				18FC9E4921A55E1C00FC6544 /* UIView+shotMethod.m in Sources */,
-				18FC9E8A21A5615A00FC6544 /* JYOrderStateTableViewCell.m in Sources */,
 				18FC9DE921A55DF600FC6544 /* main.m in Sources */,
-				18FC9E8521A5615A00FC6544 /* DDMyTableViewCell.m in Sources */,
 				18FC9DDB21A55DF300FC6544 /* AppDelegate.m in Sources */,
-				18FC9E8921A5615A00FC6544 /* JYOrderTabBar.m in Sources */,
 				18FC9E5A21A55E1C00FC6544 /* DDExDialogView.m in Sources */,
-				18FC9E8621A5615A00FC6544 /* JYMineHeadTableViewCell.m in Sources */,
 				18FC9E4B21A55E1C00FC6544 /* NSTimer+block.m in Sources */,
 				18FC9E5821A55E1C00FC6544 /* DDScrollView.m in Sources */,
 			);
