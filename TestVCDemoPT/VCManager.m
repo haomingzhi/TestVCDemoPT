@@ -23,7 +23,10 @@
     });
     return instance;
 }
-
+-(void)regsisterClass:(NSString *)noticename obj:(NSString*)objName type:(NSInteger )viewType
+{
+    
+}
 -(void)regsisterClass:(NSString *)noticename obj:(NSString*)objName
 {
     if([[NSBundle mainBundle] classNamed:objName])
