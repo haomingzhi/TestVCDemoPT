@@ -47,6 +47,7 @@
 		18FC9E8A21A5615A00FC6544 /* JYOrderStateTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC9E7921A5615A00FC6544 /* JYOrderStateTableViewCell.m */; };
 		18FC9E8B21A5615A00FC6544 /* JYMyOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC9E7B21A5615A00FC6544 /* JYMyOrderViewController.m */; };
 		18FC9E8C21A5615A00FC6544 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC9E7E21A5615A00FC6544 /* MineViewController.m */; };
+		18FC9E8F21A567FF00FC6544 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FC9E8E21A567FF00FC6544 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -133,6 +134,7 @@
 		18FC9E7C21A5615A00FC6544 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
 		18FC9E7D21A5615A00FC6544 /* JYMyOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYMyOrderViewController.h; sourceTree = "<group>"; };
 		18FC9E7E21A5615A00FC6544 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		18FC9E8E21A567FF00FC6544 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +181,7 @@
 				18FC9DE821A55DF600FC6544 /* main.m */,
 				18FC9E5D21A55FC300FC6544 /* VCManager.h */,
 				18FC9E5E21A55FC300FC6544 /* VCManager.m */,
+				18FC9E8E21A567FF00FC6544 /* Images.xcassets */,
 			);
 			path = TestVCDemoPT;
 			sourceTree = "<group>";
@@ -429,6 +432,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18FC9DE621A55DF600FC6544 /* LaunchScreen.storyboard in Resources */,
+				18FC9E8F21A567FF00FC6544 /* Images.xcassets in Resources */,
 				18FC9E8221A5615A00FC6544 /* OnlyBottomBtnTableViewCell.xib in Resources */,
 				18FC9DE321A55DF600FC6544 /* Assets.xcassets in Resources */,
 				18FC9DE121A55DF300FC6544 /* Main.storyboard in Resources */,
@@ -619,6 +623,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YDMR8ARQ28;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/TestVCDemoPT/JnjyPrefixHeader.pch";
@@ -638,6 +643,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YDMR8ARQ28;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/TestVCDemoPT/JnjyPrefixHeader.pch";

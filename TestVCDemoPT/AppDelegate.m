@@ -17,7 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    NSString *vcName = @"JYMyOrderViewController";
+    NSString *vcName = @"MineViewController";
      [[VCManager sharedManager] regsisterClass:vcName obj:vcName];
      Class c = [[VCManager sharedManager] getClass:vcName];
     id obj = [[c alloc] init];
