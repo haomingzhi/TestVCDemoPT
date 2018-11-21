@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface VCManager : NSObject
 + (instancetype)sharedManager;
+-(void)regsisterClass:(NSString *)noticename obj:(NSString*)objName type:(NSInteger )viewType;
 -(void)regsisterClass:(NSString *)noticename obj:(NSString*)objName;
 -(Class)getClass:(NSString *)noticename;
 @end
