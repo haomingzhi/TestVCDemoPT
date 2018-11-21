@@ -34,10 +34,7 @@
 		18FC9E5B21A55E1C00FC6544 /* JYAbstractTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC9E3B21A55E1C00FC6544 /* JYAbstractTableViewCell.m */; };
 		18FC9E5F21A55FC300FC6544 /* VCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC9E5E21A55FC300FC6544 /* VCManager.m */; };
 		18FC9E8F21A567FF00FC6544 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FC9E8E21A567FF00FC6544 /* Images.xcassets */; };
-		4556ADAC21A5B77D0020892E /* Course in Resources */ = {isa = PBXBuildFile; fileRef = 4556ADA821A5B77B0020892E /* Course */; };
-		4556ADAD21A5B77D0020892E /* Home in Resources */ = {isa = PBXBuildFile; fileRef = 4556ADA921A5B77C0020892E /* Home */; };
-		4556ADAE21A5B77D0020892E /* Mine in Resources */ = {isa = PBXBuildFile; fileRef = 4556ADAA21A5B77C0020892E /* Mine */; };
-		4556ADAF21A5B77D0020892E /* Study in Resources */ = {isa = PBXBuildFile; fileRef = 4556ADAB21A5B77D0020892E /* Study */; };
+		4556ADD621A5BC3F0020892E /* Mine in Resources */ = {isa = PBXBuildFile; fileRef = 4556ADD521A5BC3E0020892E /* Mine */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,10 +95,7 @@
 		18FC9E5D21A55FC300FC6544 /* VCManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCManager.h; sourceTree = "<group>"; };
 		18FC9E5E21A55FC300FC6544 /* VCManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCManager.m; sourceTree = "<group>"; };
 		18FC9E8E21A567FF00FC6544 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		4556ADA821A5B77B0020892E /* Course */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Course; path = ../../../jnjy/jnjy/Course; sourceTree = "<group>"; };
-		4556ADA921A5B77C0020892E /* Home */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Home; path = ../../../jnjy/jnjy/Home; sourceTree = "<group>"; };
-		4556ADAA21A5B77C0020892E /* Mine */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Mine; path = ../../../jnjy/jnjy/Mine; sourceTree = "<group>"; };
-		4556ADAB21A5B77D0020892E /* Study */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Study; path = ../../../jnjy/jnjy/Study; sourceTree = "<group>"; };
+		4556ADD521A5BC3E0020892E /* Mine */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Mine; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -278,10 +272,7 @@
 		18FC9E8D21A5659000FC6544 /* TestVC */ = {
 			isa = PBXGroup;
 			children = (
-				4556ADA821A5B77B0020892E /* Course */,
-				4556ADA921A5B77C0020892E /* Home */,
-				4556ADAA21A5B77C0020892E /* Mine */,
-				4556ADAB21A5B77D0020892E /* Study */,
+				4556ADD521A5BC3E0020892E /* Mine */,
 			);
 			path = TestVC;
 			sourceTree = "<group>";
@@ -343,14 +334,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4556ADAC21A5B77D0020892E /* Course in Resources */,
 				18FC9DE621A55DF600FC6544 /* LaunchScreen.storyboard in Resources */,
 				18FC9E8F21A567FF00FC6544 /* Images.xcassets in Resources */,
 				18FC9DE321A55DF600FC6544 /* Assets.xcassets in Resources */,
-				4556ADAE21A5B77D0020892E /* Mine in Resources */,
 				18FC9DE121A55DF300FC6544 /* Main.storyboard in Resources */,
-				4556ADAF21A5B77D0020892E /* Study in Resources */,
-				4556ADAD21A5B77D0020892E /* Home in Resources */,
+				4556ADD621A5BC3F0020892E /* Mine in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
