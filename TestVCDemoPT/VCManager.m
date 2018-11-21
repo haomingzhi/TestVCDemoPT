@@ -36,6 +36,7 @@
     }
     else
     {
+         _dic[noticename] = [UIViewController new];
         NSLog(@"未实行Request对象");
     }
     
