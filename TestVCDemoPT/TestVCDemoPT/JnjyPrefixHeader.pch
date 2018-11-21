@@ -1,0 +1,18 @@
+//
+//  JnjyPrefixHeader.pch
+//  jnjy
+//
+//  Created by apple on 2018/11/6.
+//  Copyright © 2018 wjy. All rights reserved.
+//
+
+#ifndef JnjyPrefixHeader_pch
+#define JnjyPrefixHeader_pch
+#import "Macros.h"
+#import "UIView+JYExFrame.h"
+#import "colors.h"
+#import "BSUtility.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* JnjyPrefixHeader_pch */
