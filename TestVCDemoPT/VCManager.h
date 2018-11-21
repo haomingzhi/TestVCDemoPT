@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface VCManager : NSObject
 + (instancetype)sharedManager;
--(void)regsisterClass:(NSString *)noticename obj:(NSString*)objName type:(NSInteger )viewType;
+-(void)regsisterClass:(NSString *)noticename obj:(NSString*)objName type:(NSInteger )viewType;//0是vc 1是cell 2是view弹出框 3view普通控件
 -(void)regsisterClass:(NSString *)noticename obj:(NSString*)objName;
 -(Class)getClass:(NSString *)noticename;
 @end

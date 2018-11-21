@@ -165,8 +165,8 @@
 		18FC9DD821A55DF300FC6544 /* TestVCDemoPT */ = {
 			isa = PBXGroup;
 			children = (
+				18FC9E8D21A5659000FC6544 /* TestVC */,
 				18FC9E5C21A55E2D00FC6544 /* JnjyPrefixHeader.pch */,
-				18FC9E6021A5615A00FC6544 /* Mine */,
 				18FC9DEF21A55E1C00FC6544 /* Base */,
 				18FC9DD921A55DF300FC6544 /* AppDelegate.h */,
 				18FC9DDA21A55DF300FC6544 /* AppDelegate.m */,
@@ -361,6 +361,14 @@
 				18FC9E7E21A5615A00FC6544 /* MineViewController.m */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		18FC9E8D21A5659000FC6544 /* TestVC */ = {
+			isa = PBXGroup;
+			children = (
+				18FC9E6021A5615A00FC6544 /* Mine */,
+			);
+			path = TestVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
