@@ -157,6 +157,22 @@
 		18FC9E5B21A55E1C00FC6544 /* JYAbstractTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC9E3B21A55E1C00FC6544 /* JYAbstractTableViewCell.m */; };
 		18FC9E5F21A55FC300FC6544 /* VCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC9E5E21A55FC300FC6544 /* VCManager.m */; };
 		18FC9E8F21A567FF00FC6544 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FC9E8E21A567FF00FC6544 /* Images.xcassets */; };
+		45A84AEA21A6E1B600893726 /* banner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45A84AE621A6E1B500893726 /* banner@2x.png */; };
+		45A84AEB21A6E1B600893726 /* banner@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45A84AE721A6E1B500893726 /* banner@3x.png */; };
+		45A84AEC21A6E1B600893726 /* dwei@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45A84AE821A6E1B500893726 /* dwei@2x.png */; };
+		45A84AED21A6E1B600893726 /* dwei@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45A84AE921A6E1B600893726 /* dwei@3x.png */; };
+		45A84AF021A6E1DA00893726 /* 限制@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45A84AEE21A6E1D900893726 /* 限制@3x.png */; };
+		45A84AF121A6E1DA00893726 /* 限制@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45A84AEF21A6E1D900893726 /* 限制@2x.png */; };
+		45A84C5C21A6E6CE00893726 /* JYStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A84C5B21A6E6CE00893726 /* JYStarView.m */; };
+		45A84C5E21A6EBE100893726 /* ju-icon-star-daa@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45A84C5D21A6EBE100893726 /* ju-icon-star-daa@2x.png */; };
+		45A84C6021A6EBEA00893726 /* ju-icon-star-da@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45A84C5F21A6EBEA00893726 /* ju-icon-star-da@2x.png */; };
+		45A84C6621A6F5F800893726 /* JYClassInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A84C6521A6F5F800893726 /* JYClassInfoView.m */; };
+		45A84C6921A6FDDB00893726 /* 课程2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45A84C6721A6FDDB00893726 /* 课程2@2x.png */; };
+		45A84C6A21A6FDDB00893726 /* 课程2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45A84C6821A6FDDB00893726 /* 课程2@3x.png */; };
+		45A84C6D21A6FDE700893726 /* 满@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45A84C6B21A6FDE600893726 /* 满@3x.png */; };
+		45A84C6E21A6FDE700893726 /* 满@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45A84C6C21A6FDE600893726 /* 满@2x.png */; };
+		45A84C7421A701B700893726 /* JYOnlineClassInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A84C7321A701B700893726 /* JYOnlineClassInfoView.m */; };
+		45D97CE721A70559004C3997 /* JYOnlineClassTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D97CE521A70558004C3997 /* JYOnlineClassTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -462,6 +478,26 @@
 		18FC9E5D21A55FC300FC6544 /* VCManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCManager.h; sourceTree = "<group>"; };
 		18FC9E5E21A55FC300FC6544 /* VCManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCManager.m; sourceTree = "<group>"; };
 		18FC9E8E21A567FF00FC6544 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		45A84AE621A6E1B500893726 /* banner@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "banner@2x.png"; path = "../../../../Documents/jnjy/edusvn/trunk/ui/拼课空间/学习/banner@2x.png"; sourceTree = "<group>"; };
+		45A84AE721A6E1B500893726 /* banner@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "banner@3x.png"; path = "../../../../Documents/jnjy/edusvn/trunk/ui/拼课空间/学习/banner@3x.png"; sourceTree = "<group>"; };
+		45A84AE821A6E1B500893726 /* dwei@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dwei@2x.png"; path = "../../../../Documents/jnjy/edusvn/trunk/ui/拼课空间/学习/dwei@2x.png"; sourceTree = "<group>"; };
+		45A84AE921A6E1B600893726 /* dwei@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dwei@3x.png"; path = "../../../../Documents/jnjy/edusvn/trunk/ui/拼课空间/学习/dwei@3x.png"; sourceTree = "<group>"; };
+		45A84AEE21A6E1D900893726 /* 限制@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "限制@3x.png"; path = "../../../../Documents/jnjy/edusvn/trunk/ui/拼课空间/首页/限制@3x.png"; sourceTree = "<group>"; };
+		45A84AEF21A6E1D900893726 /* 限制@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "限制@2x.png"; path = "../../../../Documents/jnjy/edusvn/trunk/ui/拼课空间/首页/限制@2x.png"; sourceTree = "<group>"; };
+		45A84C5A21A6E6CD00893726 /* JYStarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYStarView.h; sourceTree = "<group>"; };
+		45A84C5B21A6E6CE00893726 /* JYStarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYStarView.m; sourceTree = "<group>"; };
+		45A84C5D21A6EBE100893726 /* ju-icon-star-daa@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ju-icon-star-daa@2x.png"; path = "../../../../Documents/jnjy/edusvn/trunk/ui/拼课空间/首页/ju-icon-star-daa@2x.png"; sourceTree = "<group>"; };
+		45A84C5F21A6EBEA00893726 /* ju-icon-star-da@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ju-icon-star-da@2x.png"; path = "../../../../Documents/jnjy/edusvn/trunk/ui/拼课空间/首页/ju-icon-star-da@2x.png"; sourceTree = "<group>"; };
+		45A84C6421A6F5F700893726 /* JYClassInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYClassInfoView.h; sourceTree = "<group>"; };
+		45A84C6521A6F5F800893726 /* JYClassInfoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYClassInfoView.m; sourceTree = "<group>"; };
+		45A84C6721A6FDDB00893726 /* 课程2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "课程2@2x.png"; path = "../../../../Documents/jnjy/edusvn/trunk/ui/拼课空间/首页/课程2@2x.png"; sourceTree = "<group>"; };
+		45A84C6821A6FDDB00893726 /* 课程2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "课程2@3x.png"; path = "../../../../Documents/jnjy/edusvn/trunk/ui/拼课空间/首页/课程2@3x.png"; sourceTree = "<group>"; };
+		45A84C6B21A6FDE600893726 /* 满@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "满@3x.png"; path = "../../../../Documents/jnjy/edusvn/trunk/ui/拼课空间/首页/满@3x.png"; sourceTree = "<group>"; };
+		45A84C6C21A6FDE600893726 /* 满@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "满@2x.png"; path = "../../../../Documents/jnjy/edusvn/trunk/ui/拼课空间/首页/满@2x.png"; sourceTree = "<group>"; };
+		45A84C7221A701B700893726 /* JYOnlineClassInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYOnlineClassInfoView.h; sourceTree = "<group>"; };
+		45A84C7321A701B700893726 /* JYOnlineClassInfoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYOnlineClassInfoView.m; sourceTree = "<group>"; };
+		45D97CE521A70558004C3997 /* JYOnlineClassTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYOnlineClassTableViewCell.m; sourceTree = "<group>"; };
+		45D97CE621A70558004C3997 /* JYOnlineClassTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYOnlineClassTableViewCell.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -623,6 +659,8 @@
 		180569FD21A641CB00285F26 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				45A84C5A21A6E6CD00893726 /* JYStarView.h */,
+				45A84C5B21A6E6CE00893726 /* JYStarView.m */,
 				180569FE21A641CB00285F26 /* JYStudyOrderTableViewCell.m */,
 				180569FF21A641CB00285F26 /* JYDownloadInfoTableViewCell.m */,
 				18056A0021A641CB00285F26 /* JYStudyOrderTableViewCell.h */,
@@ -749,6 +787,12 @@
 		18056A5621A641DE00285F26 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				45D97CE621A70558004C3997 /* JYOnlineClassTableViewCell.h */,
+				45D97CE521A70558004C3997 /* JYOnlineClassTableViewCell.m */,
+				45A84C7221A701B700893726 /* JYOnlineClassInfoView.h */,
+				45A84C7321A701B700893726 /* JYOnlineClassInfoView.m */,
+				45A84C6421A6F5F700893726 /* JYClassInfoView.h */,
+				45A84C6521A6F5F800893726 /* JYClassInfoView.m */,
 				18056A5721A641DE00285F26 /* JYClassInfoTableViewCell.m */,
 				18056A5821A641DE00285F26 /* JYFreeClassTableViewCell.h */,
 				18056A5921A641DE00285F26 /* JYBuyInfoTableViewCell.h */,
@@ -1011,12 +1055,32 @@
 		18FC9E8D21A5659000FC6544 /* TestVC */ = {
 			isa = PBXGroup;
 			children = (
+				45A84AE521A6E1AC00893726 /* New Group */,
 				18056A3821A641DD00285F26 /* Course */,
 				18056A0D21A641D500285F26 /* Home */,
 				180569F721A641CB00285F26 /* Study */,
 				1805696A21A6413A00285F26 /* Mine */,
 			);
 			path = TestVC;
+			sourceTree = "<group>";
+		};
+		45A84AE521A6E1AC00893726 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				45A84C6C21A6FDE600893726 /* 满@2x.png */,
+				45A84C6B21A6FDE600893726 /* 满@3x.png */,
+				45A84C6721A6FDDB00893726 /* 课程2@2x.png */,
+				45A84C6821A6FDDB00893726 /* 课程2@3x.png */,
+				45A84AEF21A6E1D900893726 /* 限制@2x.png */,
+				45A84C5F21A6EBEA00893726 /* ju-icon-star-da@2x.png */,
+				45A84C5D21A6EBE100893726 /* ju-icon-star-daa@2x.png */,
+				45A84AEE21A6E1D900893726 /* 限制@3x.png */,
+				45A84AE621A6E1B500893726 /* banner@2x.png */,
+				45A84AE721A6E1B500893726 /* banner@3x.png */,
+				45A84AE821A6E1B500893726 /* dwei@2x.png */,
+				45A84AE921A6E1B600893726 /* dwei@3x.png */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1076,11 +1140,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45A84AF121A6E1DA00893726 /* 限制@2x.png in Resources */,
 				18FC9DE621A55DF600FC6544 /* LaunchScreen.storyboard in Resources */,
+				45A84AF021A6E1DA00893726 /* 限制@3x.png in Resources */,
+				45A84AEC21A6E1B600893726 /* dwei@2x.png in Resources */,
+				45A84C6921A6FDDB00893726 /* 课程2@2x.png in Resources */,
 				18FC9E8F21A567FF00FC6544 /* Images.xcassets in Resources */,
+				45A84C6021A6EBEA00893726 /* ju-icon-star-da@2x.png in Resources */,
+				45A84C6D21A6FDE700893726 /* 满@3x.png in Resources */,
+				45A84C6E21A6FDE700893726 /* 满@2x.png in Resources */,
+				45A84AEA21A6E1B600893726 /* banner@2x.png in Resources */,
+				45A84C6A21A6FDDB00893726 /* 课程2@3x.png in Resources */,
+				45A84AEB21A6E1B600893726 /* banner@3x.png in Resources */,
 				18FC9DE321A55DF600FC6544 /* Assets.xcassets in Resources */,
+				45A84AED21A6E1B600893726 /* dwei@3x.png in Resources */,
 				180569DA21A6413B00285F26 /* OnlyBottomBtnTableViewCell.xib in Resources */,
 				18FC9DE121A55DF300FC6544 /* Main.storyboard in Resources */,
+				45A84C5E21A6EBE100893726 /* ju-icon-star-daa@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1122,6 +1198,7 @@
 				18056A3621A641D500285F26 /* JYSearchResultViewController.m in Sources */,
 				180569E221A6413B00285F26 /* JYAboutHeadTableViewCell.m in Sources */,
 				18FC9E4021A55E1C00FC6544 /* DDRequestManager.m in Sources */,
+				45A84C5C21A6E6CE00893726 /* JYStarView.m in Sources */,
 				18FC9E4121A55E1C00FC6544 /* customLabel.m in Sources */,
 				18056A3721A641D500285F26 /* JYHomeViewController.m in Sources */,
 				180569D021A6413B00285F26 /* DDMyViewModel.m in Sources */,
@@ -1133,6 +1210,7 @@
 				18056AE921A641DE00285F26 /* JYRechargeViewController.m in Sources */,
 				180569F521A6413B00285F26 /* MineViewController.m in Sources */,
 				18056AC021A641DE00285F26 /* JYBuyTitleTableViewCell.m in Sources */,
+				45A84C7421A701B700893726 /* JYOnlineClassInfoView.m in Sources */,
 				180569DD21A6413B00285F26 /* JYOrderInfoTableViewCell.m in Sources */,
 				18056A2F21A641D500285F26 /* JYRecentRecTableViewCell.m in Sources */,
 				180569F221A6413B00285F26 /* JYAboutViewController.m in Sources */,
@@ -1186,6 +1264,7 @@
 				18056ACC21A641DE00285F26 /* JYClassImgTableViewCell.m in Sources */,
 				18056ADA21A641DE00285F26 /* JYVideoTestTableViewCell.m in Sources */,
 				18FC9E4921A55E1C00FC6544 /* UIView+shotMethod.m in Sources */,
+				45A84C6621A6F5F800893726 /* JYClassInfoView.m in Sources */,
 				180569EE21A6413B00285F26 /* JYMyOrderViewController.m in Sources */,
 				180569D321A6413B00285F26 /* JYMsgCenterTableViewCell.m in Sources */,
 				18056ABD21A641DE00285F26 /* JYTrainingInfoViewModel.m in Sources */,
@@ -1219,6 +1298,7 @@
 				180569CD21A6413B00285F26 /* JYMsgInfoViewModel.m in Sources */,
 				18FC9DDB21A55DF300FC6544 /* AppDelegate.m in Sources */,
 				18FC9E5A21A55E1C00FC6544 /* DDExDialogView.m in Sources */,
+				45D97CE721A70559004C3997 /* JYOnlineClassTableViewCell.m in Sources */,
 				18056AE321A641DE00285F26 /* JYFreeClassListViewController.m in Sources */,
 				180569DE21A6413B00285F26 /* JYFeedbackBtnTableViewCell.m in Sources */,
 				180569D421A6413B00285F26 /* JYVideoSetTableViewCell.m in Sources */,
