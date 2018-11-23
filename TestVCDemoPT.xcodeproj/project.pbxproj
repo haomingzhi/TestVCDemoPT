@@ -130,6 +130,180 @@
 		18056AE721A641DE00285F26 /* JYVideoInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18056AAC21A641DE00285F26 /* JYVideoInfoViewController.m */; };
 		18056AE821A641DE00285F26 /* JYTrainingInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18056AAD21A641DE00285F26 /* JYTrainingInfoViewController.m */; };
 		18056AE921A641DE00285F26 /* JYRechargeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18056AAE21A641DE00285F26 /* JYRechargeViewController.m */; };
+		1807874B21A792D3003F23AB /* QQ@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807873D21A792D3003F23AB /* QQ@2x.png */; };
+		1807874C21A792D3003F23AB /* QQ@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807873E21A792D3003F23AB /* QQ@3x.png */; };
+		1807874D21A792D3003F23AB /* 手机@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807873F21A792D3003F23AB /* 手机@3x.png */; };
+		1807874E21A792D3003F23AB /* 形状1拷贝@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807874021A792D3003F23AB /* 形状1拷贝@2x.png */; };
+		1807874F21A792D3003F23AB /* Path-灰态@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807874121A792D3003F23AB /* Path-灰态@3x.png */; };
+		1807875021A792D3003F23AB /* Path-灰态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807874221A792D3003F23AB /* Path-灰态@2x.png */; };
+		1807875121A792D3003F23AB /* 形状1拷贝@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807874321A792D3003F23AB /* 形状1拷贝@3x.png */; };
+		1807875221A792D3003F23AB /* 手机@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807874421A792D3003F23AB /* 手机@2x.png */; };
+		1807875321A792D3003F23AB /* Path@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807874521A792D3003F23AB /* Path@3x.png */; };
+		1807875421A792D3003F23AB /* Path@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807874621A792D3003F23AB /* Path@2x.png */; };
+		1807875521A792D3003F23AB /* 验证码@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807874721A792D3003F23AB /* 验证码@3x.png */; };
+		1807875621A792D3003F23AB /* 微信2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807874821A792D3003F23AB /* 微信2@3x.png */; };
+		1807875721A792D3003F23AB /* 微信2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807874921A792D3003F23AB /* 微信2@2x.png */; };
+		1807875821A792D3003F23AB /* 验证码@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807874A21A792D3003F23AB /* 验证码@2x.png */; };
+		1807876021A792E7003F23AB /* 限制拷贝2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807875A21A792E7003F23AB /* 限制拷贝2@2x.png */; };
+		1807876121A792E7003F23AB /* 放大镜@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807875B21A792E7003F23AB /* 放大镜@2x.png */; };
+		1807876221A792E7003F23AB /* 放大镜@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807875C21A792E7003F23AB /* 放大镜@3x.png */; };
+		1807876321A792E7003F23AB /* 限制拷贝2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807875D21A792E7003F23AB /* 限制拷贝2@3x.png */; };
+		1807876421A792E7003F23AB /* 满2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807875E21A792E7003F23AB /* 满2@2x.png */; };
+		1807876521A792E7003F23AB /* 满2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807875F21A792E7003F23AB /* 满2@3x.png */; };
+		180787E321A79309003F23AB /* 下载-白@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807876721A79308003F23AB /* 下载-白@2x.png */; };
+		180787E421A79309003F23AB /* 点赞-拷贝@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807876821A79308003F23AB /* 点赞-拷贝@2x.png */; };
+		180787E521A79309003F23AB /* 搜索结果为空(1)@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807876921A79308003F23AB /* 搜索结果为空(1)@2x.png */; };
+		180787E621A79309003F23AB /* 学习-@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807876A21A79308003F23AB /* 学习-@3x.png */; };
+		180787E721A79309003F23AB /* 差2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807876B21A79308003F23AB /* 差2@3x.png */; };
+		180787E821A79309003F23AB /* ju-icon-star课程-@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807876C21A79308003F23AB /* ju-icon-star课程-@2x.png */; };
+		180787E921A79309003F23AB /* 上@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807876D21A79308003F23AB /* 上@2x.png */; };
+		180787EB21A79309003F23AB /* ju-icon-star-da@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807876F21A79308003F23AB /* ju-icon-star-da@2x.png */; };
+		180787EC21A79309003F23AB /* 评价(1)@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807877021A79308003F23AB /* 评价(1)@2x.png */; };
+		180787ED21A79309003F23AB /* 课程@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807877121A79308003F23AB /* 课程@3x.png */; };
+		180787EE21A79309003F23AB /* 课程@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807877221A79308003F23AB /* 课程@2x.png */; };
+		180787EF21A79309003F23AB /* 评价(1)@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807877321A79308003F23AB /* 评价(1)@3x.png */; };
+		180787F021A79309003F23AB /* ju-icon-star-da@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807877421A79308003F23AB /* ju-icon-star-da@3x.png */; };
+		180787F121A79309003F23AB /* 上@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807877521A79308003F23AB /* 上@3x.png */; };
+		180787F321A79309003F23AB /* ju-icon-star课程-@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807877721A79308003F23AB /* ju-icon-star课程-@3x.png */; };
+		180787F421A79309003F23AB /* 差2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807877821A79308003F23AB /* 差2@2x.png */; };
+		180787F521A79309003F23AB /* 学习-@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807877921A79308003F23AB /* 学习-@2x.png */; };
+		180787F621A79309003F23AB /* 点赞-拷贝@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807877A21A79308003F23AB /* 点赞-拷贝@3x.png */; };
+		180787F721A79309003F23AB /* 搜索结果为空(1)@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807877B21A79308003F23AB /* 搜索结果为空(1)@3x.png */; };
+		180787F821A79309003F23AB /* 下载-白@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807877C21A79308003F23AB /* 下载-白@3x.png */; };
+		180787F921A79309003F23AB /* 限制@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807877D21A79308003F23AB /* 限制@2x.png */; };
+		180787FA21A79309003F23AB /* 锁@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807877E21A79308003F23AB /* 锁@3x.png */; };
+		180787FB21A79309003F23AB /* 驾车@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807877F21A79308003F23AB /* 驾车@2x.png */; };
+		180787FC21A79309003F23AB /* 首页@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807878021A79308003F23AB /* 首页@3x.png */; };
+		180787FD21A79309003F23AB /* ju-icon-star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807878121A79308003F23AB /* ju-icon-star@2x.png */; };
+		180787FE21A79309003F23AB /* 课程2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807878221A79308003F23AB /* 课程2@3x.png */; };
+		180787FF21A79309003F23AB /* 扫描@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807878321A79308003F23AB /* 扫描@3x.png */; };
+		1807880021A79309003F23AB /* 视频@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807878421A79308003F23AB /* 视频@3x.png */; };
+		1807880121A79309003F23AB /* banner1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807878521A79308003F23AB /* banner1@3x.png */; };
+		1807880221A79309003F23AB /* 下载@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807878621A79308003F23AB /* 下载@3x.png */; };
+		1807880321A79309003F23AB /* ju-icon-star-daa@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807878721A79308003F23AB /* ju-icon-star-daa@3x.png */; };
+		1807880421A79309003F23AB /* 视频(1)@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807878821A79308003F23AB /* 视频(1)@3x.png */; };
+		1807880621A79309003F23AB /* ju-icon-stardaa@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807878A21A79308003F23AB /* ju-icon-stardaa@3x.png */; };
+		1807880721A79309003F23AB /* ju-icon-stardaa@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807878B21A79308003F23AB /* ju-icon-stardaa@2x.png */; };
+		1807880921A79309003F23AB /* 视频(1)@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807878D21A79308003F23AB /* 视频(1)@2x.png */; };
+		1807880A21A79309003F23AB /* ju-icon-star-daa@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807878E21A79308003F23AB /* ju-icon-star-daa@2x.png */; };
+		1807880B21A79309003F23AB /* banner1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807878F21A79308003F23AB /* banner1@2x.png */; };
+		1807880C21A79309003F23AB /* 下载@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807879021A79308003F23AB /* 下载@2x.png */; };
+		1807880D21A79309003F23AB /* 视频@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807879121A79308003F23AB /* 视频@2x.png */; };
+		1807880E21A79309003F23AB /* 扫描@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807879221A79308003F23AB /* 扫描@2x.png */; };
+		1807880F21A79309003F23AB /* ju-icon-star@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807879321A79308003F23AB /* ju-icon-star@3x.png */; };
+		1807881021A79309003F23AB /* 课程2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807879421A79308003F23AB /* 课程2@2x.png */; };
+		1807881121A79309003F23AB /* 首页@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807879521A79308003F23AB /* 首页@2x.png */; };
+		1807881221A79309003F23AB /* 驾车@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807879621A79308003F23AB /* 驾车@3x.png */; };
+		1807881321A79309003F23AB /* 锁@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807879721A79308003F23AB /* 锁@2x.png */; };
+		1807881421A79309003F23AB /* 限制@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807879821A79308003F23AB /* 限制@3x.png */; };
+		1807881521A79309003F23AB /* 头像@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807879921A79308003F23AB /* 头像@2x.png */; };
+		1807881621A79309003F23AB /* Path2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807879A21A79308003F23AB /* Path2@3x.png */; };
+		1807881721A79309003F23AB /* 微信(1)拷贝@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807879B21A79308003F23AB /* 微信(1)拷贝@2x.png */; };
+		1807881821A79309003F23AB /* 课程-@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807879C21A79308003F23AB /* 课程-@3x.png */; };
+		1807881921A79309003F23AB /* 分享-白@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807879D21A79308003F23AB /* 分享-白@3x.png */; };
+		1807881A21A79309003F23AB /* ju-icon-star课程@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807879E21A79308003F23AB /* ju-icon-star课程@3x.png */; };
+		1807881B21A79309003F23AB /* Path-白@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807879F21A79308003F23AB /* Path-白@3x.png */; };
+		1807881C21A79309003F23AB /* 支付宝拷贝@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787A021A79308003F23AB /* 支付宝拷贝@2x.png */; };
+		1807881D21A79309003F23AB /* 选择-@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787A121A79308003F23AB /* 选择-@3x.png */; };
+		1807881E21A79309003F23AB /* 公交车@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787A221A79308003F23AB /* 公交车@3x.png */; };
+		1807881F21A79309003F23AB /* 右@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787A321A79308003F23AB /* 右@2x.png */; };
+		1807882021A79309003F23AB /* 首页-@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787A421A79308003F23AB /* 首页-@2x.png */; };
+		1807882121A79309003F23AB /* 学习@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787A521A79308003F23AB /* 学习@2x.png */; };
+		1807882221A79309003F23AB /* 选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787A621A79308003F23AB /* 选中@2x.png */; };
+		1807882321A79309003F23AB /* ju-icon-star5@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787A721A79308003F23AB /* ju-icon-star5@3x.png */; };
+		1807882421A79309003F23AB /* 导航(1)@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787A821A79308003F23AB /* 导航(1)@2x.png */; };
+		1807882521A79309003F23AB /* ju-icon-star名师-@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787A921A79308003F23AB /* ju-icon-star名师-@2x.png */; };
+		1807882621A79309003F23AB /* 定位@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787AA21A79308003F23AB /* 定位@3x.png */; };
+		1807882721A79309003F23AB /* 定位@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787AB21A79308003F23AB /* 定位@2x.png */; };
+		1807882821A79309003F23AB /* ju-icon-star名师-@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787AC21A79308003F23AB /* ju-icon-star名师-@3x.png */; };
+		1807882921A79309003F23AB /* ju-icon-star5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787AD21A79308003F23AB /* ju-icon-star5@2x.png */; };
+		1807882A21A79309003F23AB /* 导航(1)@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787AE21A79308003F23AB /* 导航(1)@3x.png */; };
+		1807882B21A79309003F23AB /* 选中@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787AF21A79308003F23AB /* 选中@3x.png */; };
+		1807882C21A79309003F23AB /* 学习@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787B021A79308003F23AB /* 学习@3x.png */; };
+		1807882D21A79309003F23AB /* 首页-@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787B121A79308003F23AB /* 首页-@3x.png */; };
+		1807882E21A79309003F23AB /* 右@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787B221A79308003F23AB /* 右@3x.png */; };
+		1807882F21A79309003F23AB /* 公交车@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787B321A79308003F23AB /* 公交车@2x.png */; };
+		1807883021A79309003F23AB /* 选择-@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787B421A79308003F23AB /* 选择-@2x.png */; };
+		1807883121A79309003F23AB /* 支付宝拷贝@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787B521A79308003F23AB /* 支付宝拷贝@3x.png */; };
+		1807883221A79309003F23AB /* Path-白@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787B621A79308003F23AB /* Path-白@2x.png */; };
+		1807883321A79309003F23AB /* 课程-@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787B721A79308003F23AB /* 课程-@2x.png */; };
+		1807883421A79309003F23AB /* 分享-白@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787B821A79308003F23AB /* 分享-白@2x.png */; };
+		1807883521A79309003F23AB /* ju-icon-star课程@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787B921A79309003F23AB /* ju-icon-star课程@2x.png */; };
+		1807883621A79309003F23AB /* 微信(1)拷贝@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787BA21A79309003F23AB /* 微信(1)拷贝@3x.png */; };
+		1807883721A79309003F23AB /* Path2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787BB21A79309003F23AB /* Path2@2x.png */; };
+		1807883821A79309003F23AB /* 头像@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787BC21A79309003F23AB /* 头像@3x.png */; };
+		1807883921A79309003F23AB /* 搜索(1)@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787BD21A79309003F23AB /* 搜索(1)@3x.png */; };
+		1807883A21A79309003F23AB /* banner2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787BE21A79309003F23AB /* banner2@2x.png */; };
+		1807883B21A79309003F23AB /* 点赞@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787BF21A79309003F23AB /* 点赞@2x.png */; };
+		1807883C21A79309003F23AB /* 分享@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787C021A79309003F23AB /* 分享@3x.png */; };
+		1807883D21A79309003F23AB /* ju-icon-star名师@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787C121A79309003F23AB /* ju-icon-star名师@2x.png */; };
+		1807883E21A79309003F23AB /* 已购买@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787C221A79309003F23AB /* 已购买@3x.png */; };
+		1807883F21A79309003F23AB /* 步行@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787C321A79309003F23AB /* 步行@3x.png */; };
+		1807884021A79309003F23AB /* 选择@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787C421A79309003F23AB /* 选择@3x.png */; };
+		1807884121A79309003F23AB /* ju-icon-starda@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787C521A79309003F23AB /* ju-icon-starda@3x.png */; };
+		1807884221A79309003F23AB /* 删除@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787C621A79309003F23AB /* 删除@2x.png */; };
+		1807884321A79309003F23AB /* 放大@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787C721A79309003F23AB /* 放大@3x.png */; };
+		1807884421A79309003F23AB /* 点赞拷贝@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787C821A79309003F23AB /* 点赞拷贝@2x.png */; };
+		1807884521A79309003F23AB /* 我的-@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787C921A79309003F23AB /* 我的-@2x.png */; };
+		1807884621A79309003F23AB /* 微信@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787CA21A79309003F23AB /* 微信@3x.png */; };
+		1807884721A79309003F23AB /* 到这去@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787CB21A79309003F23AB /* 到这去@3x.png */; };
+		1807884821A79309003F23AB /* 点赞-@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787CC21A79309003F23AB /* 点赞-@3x.png */; };
+		1807884921A79309003F23AB /* 骑行@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787CD21A79309003F23AB /* 骑行@3x.png */; };
+		1807884A21A79309003F23AB /* 朋友圈@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787CE21A79309003F23AB /* 朋友圈@3x.png */; };
+		1807884B21A79309003F23AB /* 我的@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787CF21A79309003F23AB /* 我的@2x.png */; };
+		1807884C21A79309003F23AB /* 朋友圈@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787D021A79309003F23AB /* 朋友圈@2x.png */; };
+		1807884D21A79309003F23AB /* 我的@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787D121A79309003F23AB /* 我的@3x.png */; };
+		1807884E21A79309003F23AB /* 点赞-@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787D221A79309003F23AB /* 点赞-@2x.png */; };
+		1807884F21A79309003F23AB /* 骑行@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787D321A79309003F23AB /* 骑行@2x.png */; };
+		1807885021A79309003F23AB /* 到这去@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787D421A79309003F23AB /* 到这去@2x.png */; };
+		1807885121A79309003F23AB /* 我的-@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787D521A79309003F23AB /* 我的-@3x.png */; };
+		1807885221A79309003F23AB /* 微信@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787D621A79309003F23AB /* 微信@2x.png */; };
+		1807885321A79309003F23AB /* 放大@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787D721A79309003F23AB /* 放大@2x.png */; };
+		1807885421A79309003F23AB /* 点赞拷贝@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787D821A79309003F23AB /* 点赞拷贝@3x.png */; };
+		1807885521A79309003F23AB /* 删除@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787D921A79309003F23AB /* 删除@3x.png */; };
+		1807885621A79309003F23AB /* ju-icon-starda@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787DA21A79309003F23AB /* ju-icon-starda@2x.png */; };
+		1807885721A79309003F23AB /* 选择@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787DB21A79309003F23AB /* 选择@2x.png */; };
+		1807885821A79309003F23AB /* 步行@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787DC21A79309003F23AB /* 步行@2x.png */; };
+		1807885921A79309003F23AB /* 分享@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787DD21A79309003F23AB /* 分享@2x.png */; };
+		1807885A21A79309003F23AB /* ju-icon-star名师@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787DE21A79309003F23AB /* ju-icon-star名师@3x.png */; };
+		1807885B21A79309003F23AB /* 已购买@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787DF21A79309003F23AB /* 已购买@2x.png */; };
+		1807885C21A79309003F23AB /* 点赞@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787E021A79309003F23AB /* 点赞@3x.png */; };
+		1807885D21A79309003F23AB /* banner2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787E121A79309003F23AB /* banner2@3x.png */; };
+		1807885E21A79309003F23AB /* 搜索(1)@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180787E221A79309003F23AB /* 搜索(1)@2x.png */; };
+		1807887E21A79328003F23AB /* 我的课程@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807886021A79328003F23AB /* 我的课程@3x.png */; };
+		1807887F21A79328003F23AB /* 设置@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807886121A79328003F23AB /* 设置@2x.png */; };
+		1807888021A79328003F23AB /* 充值@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807886221A79328003F23AB /* 充值@2x.png */; };
+		1807888121A79328003F23AB /* 我的消息@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807886321A79328003F23AB /* 我的消息@2x.png */; };
+		1807888221A79328003F23AB /* 系统消息@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807886421A79328003F23AB /* 系统消息@3x.png */; };
+		1807888321A79328003F23AB /* 系统消息@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807886521A79328003F23AB /* 系统消息@2x.png */; };
+		1807888421A79328003F23AB /* 我的消息@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807886621A79328003F23AB /* 我的消息@3x.png */; };
+		1807888521A79328003F23AB /* 充值@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807886721A79328003F23AB /* 充值@3x.png */; };
+		1807888621A79328003F23AB /* 设置@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807886821A79328003F23AB /* 设置@3x.png */; };
+		1807888721A79328003F23AB /* 我的课程@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807886921A79328003F23AB /* 我的课程@2x.png */; };
+		1807888821A79328003F23AB /* 左拷贝2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807886A21A79328003F23AB /* 左拷贝2@3x.png */; };
+		1807888921A79328003F23AB /* 我的订阅@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807886B21A79328003F23AB /* 我的订阅@2x.png */; };
+		1807888A21A79328003F23AB /* 我的评论@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807886C21A79328003F23AB /* 我的评论@3x.png */; };
+		1807888B21A79328003F23AB /* 按钮2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807886D21A79328003F23AB /* 按钮2@2x.png */; };
+		1807888C21A79328003F23AB /* 课程表@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807886E21A79328003F23AB /* 课程表@2x.png */; };
+		1807888D21A79328003F23AB /* 课程表@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807886F21A79328003F23AB /* 课程表@3x.png */; };
+		1807888E21A79328003F23AB /* 按钮2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807887021A79328003F23AB /* 按钮2@3x.png */; };
+		1807888F21A79328003F23AB /* 我的评论@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807887121A79328003F23AB /* 我的评论@2x.png */; };
+		1807889021A79328003F23AB /* 我的订阅@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807887221A79328003F23AB /* 我的订阅@3x.png */; };
+		1807889121A79328003F23AB /* 左拷贝2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807887321A79328003F23AB /* 左拷贝2@2x.png */; };
+		1807889221A79328003F23AB /* layer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807887421A79328003F23AB /* layer@2x.png */; };
+		1807889321A79328003F23AB /* 按钮2拷贝@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807887521A79328003F23AB /* 按钮2拷贝@3x.png */; };
+		1807889421A79328003F23AB /* 积分(1)@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807887621A79328003F23AB /* 积分(1)@3x.png */; };
+		1807889521A79328003F23AB /* 通用设置@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807887721A79328003F23AB /* 通用设置@3x.png */; };
+		1807889621A79328003F23AB /* 我的头像@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807887821A79328003F23AB /* 我的头像@2x.png */; };
+		1807889721A79328003F23AB /* 我的头像@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807887921A79328003F23AB /* 我的头像@3x.png */; };
+		1807889821A79328003F23AB /* 通用设置@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807887A21A79328003F23AB /* 通用设置@2x.png */; };
+		1807889921A79328003F23AB /* 积分(1)@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807887B21A79328003F23AB /* 积分(1)@2x.png */; };
+		1807889A21A79328003F23AB /* 按钮2拷贝@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807887C21A79328003F23AB /* 按钮2拷贝@2x.png */; };
+		1807889B21A79328003F23AB /* layer@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807887D21A79328003F23AB /* layer@3x.png */; };
+		180788A021A795B6003F23AB /* 放大镜@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807889C21A795B4003F23AB /* 放大镜@2x.png */; };
+		180788A121A795B6003F23AB /* 满@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807889D21A795B4003F23AB /* 满@2x.png */; };
+		180788A221A795B7003F23AB /* 放大镜@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807889E21A795B5003F23AB /* 放大镜@3x.png */; };
+		180788A321A795B7003F23AB /* 满@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1807889F21A795B6003F23AB /* 满@3x.png */; };
 		18FC9DDB21A55DF300FC6544 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC9DDA21A55DF300FC6544 /* AppDelegate.m */; };
 		18FC9DDE21A55DF300FC6544 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC9DDD21A55DF300FC6544 /* ViewController.m */; };
 		18FC9DE121A55DF300FC6544 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FC9DDF21A55DF300FC6544 /* Main.storyboard */; };
@@ -157,20 +331,8 @@
 		18FC9E5B21A55E1C00FC6544 /* JYAbstractTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC9E3B21A55E1C00FC6544 /* JYAbstractTableViewCell.m */; };
 		18FC9E5F21A55FC300FC6544 /* VCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC9E5E21A55FC300FC6544 /* VCManager.m */; };
 		18FC9E8F21A567FF00FC6544 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FC9E8E21A567FF00FC6544 /* Images.xcassets */; };
-		45A84AEA21A6E1B600893726 /* banner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45A84AE621A6E1B500893726 /* banner@2x.png */; };
-		45A84AEB21A6E1B600893726 /* banner@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45A84AE721A6E1B500893726 /* banner@3x.png */; };
-		45A84AEC21A6E1B600893726 /* dwei@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45A84AE821A6E1B500893726 /* dwei@2x.png */; };
-		45A84AED21A6E1B600893726 /* dwei@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45A84AE921A6E1B600893726 /* dwei@3x.png */; };
-		45A84AF021A6E1DA00893726 /* 限制@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45A84AEE21A6E1D900893726 /* 限制@3x.png */; };
-		45A84AF121A6E1DA00893726 /* 限制@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45A84AEF21A6E1D900893726 /* 限制@2x.png */; };
 		45A84C5C21A6E6CE00893726 /* JYStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A84C5B21A6E6CE00893726 /* JYStarView.m */; };
-		45A84C5E21A6EBE100893726 /* ju-icon-star-daa@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45A84C5D21A6EBE100893726 /* ju-icon-star-daa@2x.png */; };
-		45A84C6021A6EBEA00893726 /* ju-icon-star-da@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45A84C5F21A6EBEA00893726 /* ju-icon-star-da@2x.png */; };
 		45A84C6621A6F5F800893726 /* JYClassInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A84C6521A6F5F800893726 /* JYClassInfoView.m */; };
-		45A84C6921A6FDDB00893726 /* 课程2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45A84C6721A6FDDB00893726 /* 课程2@2x.png */; };
-		45A84C6A21A6FDDB00893726 /* 课程2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45A84C6821A6FDDB00893726 /* 课程2@3x.png */; };
-		45A84C6D21A6FDE700893726 /* 满@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45A84C6B21A6FDE600893726 /* 满@3x.png */; };
-		45A84C6E21A6FDE700893726 /* 满@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45A84C6C21A6FDE600893726 /* 满@2x.png */; };
 		45A84C7421A701B700893726 /* JYOnlineClassInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A84C7321A701B700893726 /* JYOnlineClassInfoView.m */; };
 		45D97CE721A70559004C3997 /* JYOnlineClassTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D97CE521A70558004C3997 /* JYOnlineClassTableViewCell.m */; };
 /* End PBXBuildFile section */
@@ -421,6 +583,180 @@
 		18056AAD21A641DE00285F26 /* JYTrainingInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTrainingInfoViewController.m; sourceTree = "<group>"; };
 		18056AAE21A641DE00285F26 /* JYRechargeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYRechargeViewController.m; sourceTree = "<group>"; };
 		18056AAF21A641DE00285F26 /* JYTeacherDonListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTeacherDonListViewController.h; sourceTree = "<group>"; };
+		1807873D21A792D3003F23AB /* QQ@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QQ@2x.png"; sourceTree = "<group>"; };
+		1807873E21A792D3003F23AB /* QQ@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QQ@3x.png"; sourceTree = "<group>"; };
+		1807873F21A792D3003F23AB /* 手机@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "手机@3x.png"; sourceTree = "<group>"; };
+		1807874021A792D3003F23AB /* 形状1拷贝@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "形状1拷贝@2x.png"; sourceTree = "<group>"; };
+		1807874121A792D3003F23AB /* Path-灰态@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Path-灰态@3x.png"; sourceTree = "<group>"; };
+		1807874221A792D3003F23AB /* Path-灰态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Path-灰态@2x.png"; sourceTree = "<group>"; };
+		1807874321A792D3003F23AB /* 形状1拷贝@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "形状1拷贝@3x.png"; sourceTree = "<group>"; };
+		1807874421A792D3003F23AB /* 手机@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "手机@2x.png"; sourceTree = "<group>"; };
+		1807874521A792D3003F23AB /* Path@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Path@3x.png"; sourceTree = "<group>"; };
+		1807874621A792D3003F23AB /* Path@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Path@2x.png"; sourceTree = "<group>"; };
+		1807874721A792D3003F23AB /* 验证码@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "验证码@3x.png"; sourceTree = "<group>"; };
+		1807874821A792D3003F23AB /* 微信2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "微信2@3x.png"; sourceTree = "<group>"; };
+		1807874921A792D3003F23AB /* 微信2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "微信2@2x.png"; sourceTree = "<group>"; };
+		1807874A21A792D3003F23AB /* 验证码@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "验证码@2x.png"; sourceTree = "<group>"; };
+		1807875A21A792E7003F23AB /* 限制拷贝2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "限制拷贝2@2x.png"; sourceTree = "<group>"; };
+		1807875B21A792E7003F23AB /* 放大镜@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "放大镜@2x.png"; sourceTree = "<group>"; };
+		1807875C21A792E7003F23AB /* 放大镜@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "放大镜@3x.png"; sourceTree = "<group>"; };
+		1807875D21A792E7003F23AB /* 限制拷贝2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "限制拷贝2@3x.png"; sourceTree = "<group>"; };
+		1807875E21A792E7003F23AB /* 满2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "满2@2x.png"; sourceTree = "<group>"; };
+		1807875F21A792E7003F23AB /* 满2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "满2@3x.png"; sourceTree = "<group>"; };
+		1807876721A79308003F23AB /* 下载-白@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下载-白@2x.png"; sourceTree = "<group>"; };
+		1807876821A79308003F23AB /* 点赞-拷贝@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "点赞-拷贝@2x.png"; sourceTree = "<group>"; };
+		1807876921A79308003F23AB /* 搜索结果为空(1)@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索结果为空(1)@2x.png"; sourceTree = "<group>"; };
+		1807876A21A79308003F23AB /* 学习-@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "学习-@3x.png"; sourceTree = "<group>"; };
+		1807876B21A79308003F23AB /* 差2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "差2@3x.png"; sourceTree = "<group>"; };
+		1807876C21A79308003F23AB /* ju-icon-star课程-@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ju-icon-star课程-@2x.png"; sourceTree = "<group>"; };
+		1807876D21A79308003F23AB /* 上@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "上@2x.png"; sourceTree = "<group>"; };
+		1807876F21A79308003F23AB /* ju-icon-star-da@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ju-icon-star-da@2x.png"; sourceTree = "<group>"; };
+		1807877021A79308003F23AB /* 评价(1)@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "评价(1)@2x.png"; sourceTree = "<group>"; };
+		1807877121A79308003F23AB /* 课程@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "课程@3x.png"; sourceTree = "<group>"; };
+		1807877221A79308003F23AB /* 课程@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "课程@2x.png"; sourceTree = "<group>"; };
+		1807877321A79308003F23AB /* 评价(1)@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "评价(1)@3x.png"; sourceTree = "<group>"; };
+		1807877421A79308003F23AB /* ju-icon-star-da@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ju-icon-star-da@3x.png"; sourceTree = "<group>"; };
+		1807877521A79308003F23AB /* 上@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "上@3x.png"; sourceTree = "<group>"; };
+		1807877721A79308003F23AB /* ju-icon-star课程-@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ju-icon-star课程-@3x.png"; sourceTree = "<group>"; };
+		1807877821A79308003F23AB /* 差2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "差2@2x.png"; sourceTree = "<group>"; };
+		1807877921A79308003F23AB /* 学习-@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "学习-@2x.png"; sourceTree = "<group>"; };
+		1807877A21A79308003F23AB /* 点赞-拷贝@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "点赞-拷贝@3x.png"; sourceTree = "<group>"; };
+		1807877B21A79308003F23AB /* 搜索结果为空(1)@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索结果为空(1)@3x.png"; sourceTree = "<group>"; };
+		1807877C21A79308003F23AB /* 下载-白@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下载-白@3x.png"; sourceTree = "<group>"; };
+		1807877D21A79308003F23AB /* 限制@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "限制@2x.png"; sourceTree = "<group>"; };
+		1807877E21A79308003F23AB /* 锁@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "锁@3x.png"; sourceTree = "<group>"; };
+		1807877F21A79308003F23AB /* 驾车@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "驾车@2x.png"; sourceTree = "<group>"; };
+		1807878021A79308003F23AB /* 首页@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页@3x.png"; sourceTree = "<group>"; };
+		1807878121A79308003F23AB /* ju-icon-star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ju-icon-star@2x.png"; sourceTree = "<group>"; };
+		1807878221A79308003F23AB /* 课程2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "课程2@3x.png"; sourceTree = "<group>"; };
+		1807878321A79308003F23AB /* 扫描@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "扫描@3x.png"; sourceTree = "<group>"; };
+		1807878421A79308003F23AB /* 视频@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "视频@3x.png"; sourceTree = "<group>"; };
+		1807878521A79308003F23AB /* banner1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner1@3x.png"; sourceTree = "<group>"; };
+		1807878621A79308003F23AB /* 下载@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下载@3x.png"; sourceTree = "<group>"; };
+		1807878721A79308003F23AB /* ju-icon-star-daa@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ju-icon-star-daa@3x.png"; sourceTree = "<group>"; };
+		1807878821A79308003F23AB /* 视频(1)@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "视频(1)@3x.png"; sourceTree = "<group>"; };
+		1807878A21A79308003F23AB /* ju-icon-stardaa@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ju-icon-stardaa@3x.png"; sourceTree = "<group>"; };
+		1807878B21A79308003F23AB /* ju-icon-stardaa@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ju-icon-stardaa@2x.png"; sourceTree = "<group>"; };
+		1807878D21A79308003F23AB /* 视频(1)@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "视频(1)@2x.png"; sourceTree = "<group>"; };
+		1807878E21A79308003F23AB /* ju-icon-star-daa@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ju-icon-star-daa@2x.png"; sourceTree = "<group>"; };
+		1807878F21A79308003F23AB /* banner1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner1@2x.png"; sourceTree = "<group>"; };
+		1807879021A79308003F23AB /* 下载@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下载@2x.png"; sourceTree = "<group>"; };
+		1807879121A79308003F23AB /* 视频@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "视频@2x.png"; sourceTree = "<group>"; };
+		1807879221A79308003F23AB /* 扫描@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "扫描@2x.png"; sourceTree = "<group>"; };
+		1807879321A79308003F23AB /* ju-icon-star@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ju-icon-star@3x.png"; sourceTree = "<group>"; };
+		1807879421A79308003F23AB /* 课程2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "课程2@2x.png"; sourceTree = "<group>"; };
+		1807879521A79308003F23AB /* 首页@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页@2x.png"; sourceTree = "<group>"; };
+		1807879621A79308003F23AB /* 驾车@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "驾车@3x.png"; sourceTree = "<group>"; };
+		1807879721A79308003F23AB /* 锁@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "锁@2x.png"; sourceTree = "<group>"; };
+		1807879821A79308003F23AB /* 限制@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "限制@3x.png"; sourceTree = "<group>"; };
+		1807879921A79308003F23AB /* 头像@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "头像@2x.png"; sourceTree = "<group>"; };
+		1807879A21A79308003F23AB /* Path2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Path2@3x.png"; sourceTree = "<group>"; };
+		1807879B21A79308003F23AB /* 微信(1)拷贝@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "微信(1)拷贝@2x.png"; sourceTree = "<group>"; };
+		1807879C21A79308003F23AB /* 课程-@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "课程-@3x.png"; sourceTree = "<group>"; };
+		1807879D21A79308003F23AB /* 分享-白@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分享-白@3x.png"; sourceTree = "<group>"; };
+		1807879E21A79308003F23AB /* ju-icon-star课程@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ju-icon-star课程@3x.png"; sourceTree = "<group>"; };
+		1807879F21A79308003F23AB /* Path-白@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Path-白@3x.png"; sourceTree = "<group>"; };
+		180787A021A79308003F23AB /* 支付宝拷贝@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "支付宝拷贝@2x.png"; sourceTree = "<group>"; };
+		180787A121A79308003F23AB /* 选择-@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选择-@3x.png"; sourceTree = "<group>"; };
+		180787A221A79308003F23AB /* 公交车@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "公交车@3x.png"; sourceTree = "<group>"; };
+		180787A321A79308003F23AB /* 右@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "右@2x.png"; sourceTree = "<group>"; };
+		180787A421A79308003F23AB /* 首页-@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-@2x.png"; sourceTree = "<group>"; };
+		180787A521A79308003F23AB /* 学习@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "学习@2x.png"; sourceTree = "<group>"; };
+		180787A621A79308003F23AB /* 选中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选中@2x.png"; sourceTree = "<group>"; };
+		180787A721A79308003F23AB /* ju-icon-star5@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ju-icon-star5@3x.png"; sourceTree = "<group>"; };
+		180787A821A79308003F23AB /* 导航(1)@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "导航(1)@2x.png"; sourceTree = "<group>"; };
+		180787A921A79308003F23AB /* ju-icon-star名师-@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ju-icon-star名师-@2x.png"; sourceTree = "<group>"; };
+		180787AA21A79308003F23AB /* 定位@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "定位@3x.png"; sourceTree = "<group>"; };
+		180787AB21A79308003F23AB /* 定位@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "定位@2x.png"; sourceTree = "<group>"; };
+		180787AC21A79308003F23AB /* ju-icon-star名师-@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ju-icon-star名师-@3x.png"; sourceTree = "<group>"; };
+		180787AD21A79308003F23AB /* ju-icon-star5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ju-icon-star5@2x.png"; sourceTree = "<group>"; };
+		180787AE21A79308003F23AB /* 导航(1)@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "导航(1)@3x.png"; sourceTree = "<group>"; };
+		180787AF21A79308003F23AB /* 选中@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选中@3x.png"; sourceTree = "<group>"; };
+		180787B021A79308003F23AB /* 学习@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "学习@3x.png"; sourceTree = "<group>"; };
+		180787B121A79308003F23AB /* 首页-@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-@3x.png"; sourceTree = "<group>"; };
+		180787B221A79308003F23AB /* 右@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "右@3x.png"; sourceTree = "<group>"; };
+		180787B321A79308003F23AB /* 公交车@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "公交车@2x.png"; sourceTree = "<group>"; };
+		180787B421A79308003F23AB /* 选择-@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选择-@2x.png"; sourceTree = "<group>"; };
+		180787B521A79308003F23AB /* 支付宝拷贝@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "支付宝拷贝@3x.png"; sourceTree = "<group>"; };
+		180787B621A79308003F23AB /* Path-白@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Path-白@2x.png"; sourceTree = "<group>"; };
+		180787B721A79308003F23AB /* 课程-@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "课程-@2x.png"; sourceTree = "<group>"; };
+		180787B821A79308003F23AB /* 分享-白@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分享-白@2x.png"; sourceTree = "<group>"; };
+		180787B921A79309003F23AB /* ju-icon-star课程@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ju-icon-star课程@2x.png"; sourceTree = "<group>"; };
+		180787BA21A79309003F23AB /* 微信(1)拷贝@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "微信(1)拷贝@3x.png"; sourceTree = "<group>"; };
+		180787BB21A79309003F23AB /* Path2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Path2@2x.png"; sourceTree = "<group>"; };
+		180787BC21A79309003F23AB /* 头像@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "头像@3x.png"; sourceTree = "<group>"; };
+		180787BD21A79309003F23AB /* 搜索(1)@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索(1)@3x.png"; sourceTree = "<group>"; };
+		180787BE21A79309003F23AB /* banner2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner2@2x.png"; sourceTree = "<group>"; };
+		180787BF21A79309003F23AB /* 点赞@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "点赞@2x.png"; sourceTree = "<group>"; };
+		180787C021A79309003F23AB /* 分享@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分享@3x.png"; sourceTree = "<group>"; };
+		180787C121A79309003F23AB /* ju-icon-star名师@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ju-icon-star名师@2x.png"; sourceTree = "<group>"; };
+		180787C221A79309003F23AB /* 已购买@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "已购买@3x.png"; sourceTree = "<group>"; };
+		180787C321A79309003F23AB /* 步行@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "步行@3x.png"; sourceTree = "<group>"; };
+		180787C421A79309003F23AB /* 选择@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选择@3x.png"; sourceTree = "<group>"; };
+		180787C521A79309003F23AB /* ju-icon-starda@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ju-icon-starda@3x.png"; sourceTree = "<group>"; };
+		180787C621A79309003F23AB /* 删除@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除@2x.png"; sourceTree = "<group>"; };
+		180787C721A79309003F23AB /* 放大@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "放大@3x.png"; sourceTree = "<group>"; };
+		180787C821A79309003F23AB /* 点赞拷贝@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "点赞拷贝@2x.png"; sourceTree = "<group>"; };
+		180787C921A79309003F23AB /* 我的-@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-@2x.png"; sourceTree = "<group>"; };
+		180787CA21A79309003F23AB /* 微信@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "微信@3x.png"; sourceTree = "<group>"; };
+		180787CB21A79309003F23AB /* 到这去@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "到这去@3x.png"; sourceTree = "<group>"; };
+		180787CC21A79309003F23AB /* 点赞-@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "点赞-@3x.png"; sourceTree = "<group>"; };
+		180787CD21A79309003F23AB /* 骑行@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "骑行@3x.png"; sourceTree = "<group>"; };
+		180787CE21A79309003F23AB /* 朋友圈@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "朋友圈@3x.png"; sourceTree = "<group>"; };
+		180787CF21A79309003F23AB /* 我的@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的@2x.png"; sourceTree = "<group>"; };
+		180787D021A79309003F23AB /* 朋友圈@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "朋友圈@2x.png"; sourceTree = "<group>"; };
+		180787D121A79309003F23AB /* 我的@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的@3x.png"; sourceTree = "<group>"; };
+		180787D221A79309003F23AB /* 点赞-@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "点赞-@2x.png"; sourceTree = "<group>"; };
+		180787D321A79309003F23AB /* 骑行@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "骑行@2x.png"; sourceTree = "<group>"; };
+		180787D421A79309003F23AB /* 到这去@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "到这去@2x.png"; sourceTree = "<group>"; };
+		180787D521A79309003F23AB /* 我的-@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-@3x.png"; sourceTree = "<group>"; };
+		180787D621A79309003F23AB /* 微信@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "微信@2x.png"; sourceTree = "<group>"; };
+		180787D721A79309003F23AB /* 放大@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "放大@2x.png"; sourceTree = "<group>"; };
+		180787D821A79309003F23AB /* 点赞拷贝@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "点赞拷贝@3x.png"; sourceTree = "<group>"; };
+		180787D921A79309003F23AB /* 删除@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除@3x.png"; sourceTree = "<group>"; };
+		180787DA21A79309003F23AB /* ju-icon-starda@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ju-icon-starda@2x.png"; sourceTree = "<group>"; };
+		180787DB21A79309003F23AB /* 选择@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选择@2x.png"; sourceTree = "<group>"; };
+		180787DC21A79309003F23AB /* 步行@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "步行@2x.png"; sourceTree = "<group>"; };
+		180787DD21A79309003F23AB /* 分享@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分享@2x.png"; sourceTree = "<group>"; };
+		180787DE21A79309003F23AB /* ju-icon-star名师@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ju-icon-star名师@3x.png"; sourceTree = "<group>"; };
+		180787DF21A79309003F23AB /* 已购买@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "已购买@2x.png"; sourceTree = "<group>"; };
+		180787E021A79309003F23AB /* 点赞@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "点赞@3x.png"; sourceTree = "<group>"; };
+		180787E121A79309003F23AB /* banner2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner2@3x.png"; sourceTree = "<group>"; };
+		180787E221A79309003F23AB /* 搜索(1)@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索(1)@2x.png"; sourceTree = "<group>"; };
+		1807886021A79328003F23AB /* 我的课程@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的课程@3x.png"; sourceTree = "<group>"; };
+		1807886121A79328003F23AB /* 设置@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设置@2x.png"; sourceTree = "<group>"; };
+		1807886221A79328003F23AB /* 充值@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "充值@2x.png"; sourceTree = "<group>"; };
+		1807886321A79328003F23AB /* 我的消息@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的消息@2x.png"; sourceTree = "<group>"; };
+		1807886421A79328003F23AB /* 系统消息@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "系统消息@3x.png"; sourceTree = "<group>"; };
+		1807886521A79328003F23AB /* 系统消息@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "系统消息@2x.png"; sourceTree = "<group>"; };
+		1807886621A79328003F23AB /* 我的消息@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的消息@3x.png"; sourceTree = "<group>"; };
+		1807886721A79328003F23AB /* 充值@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "充值@3x.png"; sourceTree = "<group>"; };
+		1807886821A79328003F23AB /* 设置@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设置@3x.png"; sourceTree = "<group>"; };
+		1807886921A79328003F23AB /* 我的课程@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的课程@2x.png"; sourceTree = "<group>"; };
+		1807886A21A79328003F23AB /* 左拷贝2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "左拷贝2@3x.png"; sourceTree = "<group>"; };
+		1807886B21A79328003F23AB /* 我的订阅@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的订阅@2x.png"; sourceTree = "<group>"; };
+		1807886C21A79328003F23AB /* 我的评论@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的评论@3x.png"; sourceTree = "<group>"; };
+		1807886D21A79328003F23AB /* 按钮2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮2@2x.png"; sourceTree = "<group>"; };
+		1807886E21A79328003F23AB /* 课程表@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "课程表@2x.png"; sourceTree = "<group>"; };
+		1807886F21A79328003F23AB /* 课程表@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "课程表@3x.png"; sourceTree = "<group>"; };
+		1807887021A79328003F23AB /* 按钮2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮2@3x.png"; sourceTree = "<group>"; };
+		1807887121A79328003F23AB /* 我的评论@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的评论@2x.png"; sourceTree = "<group>"; };
+		1807887221A79328003F23AB /* 我的订阅@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的订阅@3x.png"; sourceTree = "<group>"; };
+		1807887321A79328003F23AB /* 左拷贝2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "左拷贝2@2x.png"; sourceTree = "<group>"; };
+		1807887421A79328003F23AB /* layer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "layer@2x.png"; sourceTree = "<group>"; };
+		1807887521A79328003F23AB /* 按钮2拷贝@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮2拷贝@3x.png"; sourceTree = "<group>"; };
+		1807887621A79328003F23AB /* 积分(1)@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "积分(1)@3x.png"; sourceTree = "<group>"; };
+		1807887721A79328003F23AB /* 通用设置@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "通用设置@3x.png"; sourceTree = "<group>"; };
+		1807887821A79328003F23AB /* 我的头像@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的头像@2x.png"; sourceTree = "<group>"; };
+		1807887921A79328003F23AB /* 我的头像@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的头像@3x.png"; sourceTree = "<group>"; };
+		1807887A21A79328003F23AB /* 通用设置@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "通用设置@2x.png"; sourceTree = "<group>"; };
+		1807887B21A79328003F23AB /* 积分(1)@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "积分(1)@2x.png"; sourceTree = "<group>"; };
+		1807887C21A79328003F23AB /* 按钮2拷贝@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮2拷贝@2x.png"; sourceTree = "<group>"; };
+		1807887D21A79328003F23AB /* layer@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "layer@3x.png"; sourceTree = "<group>"; };
+		1807889C21A795B4003F23AB /* 放大镜@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "放大镜@2x.png"; sourceTree = "<group>"; };
+		1807889D21A795B4003F23AB /* 满@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "满@2x.png"; sourceTree = "<group>"; };
+		1807889E21A795B5003F23AB /* 放大镜@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "放大镜@3x.png"; sourceTree = "<group>"; };
+		1807889F21A795B6003F23AB /* 满@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "满@3x.png"; sourceTree = "<group>"; };
 		18FC9DD621A55DF300FC6544 /* TestVCDemoPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestVCDemoPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18FC9DD921A55DF300FC6544 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18FC9DDA21A55DF300FC6544 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -478,22 +814,10 @@
 		18FC9E5D21A55FC300FC6544 /* VCManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCManager.h; sourceTree = "<group>"; };
 		18FC9E5E21A55FC300FC6544 /* VCManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCManager.m; sourceTree = "<group>"; };
 		18FC9E8E21A567FF00FC6544 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		45A84AE621A6E1B500893726 /* banner@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "banner@2x.png"; path = "../../../../Documents/jnjy/edusvn/trunk/ui/拼课空间/学习/banner@2x.png"; sourceTree = "<group>"; };
-		45A84AE721A6E1B500893726 /* banner@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "banner@3x.png"; path = "../../../../Documents/jnjy/edusvn/trunk/ui/拼课空间/学习/banner@3x.png"; sourceTree = "<group>"; };
-		45A84AE821A6E1B500893726 /* dwei@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dwei@2x.png"; path = "../../../../Documents/jnjy/edusvn/trunk/ui/拼课空间/学习/dwei@2x.png"; sourceTree = "<group>"; };
-		45A84AE921A6E1B600893726 /* dwei@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dwei@3x.png"; path = "../../../../Documents/jnjy/edusvn/trunk/ui/拼课空间/学习/dwei@3x.png"; sourceTree = "<group>"; };
-		45A84AEE21A6E1D900893726 /* 限制@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "限制@3x.png"; path = "../../../../Documents/jnjy/edusvn/trunk/ui/拼课空间/首页/限制@3x.png"; sourceTree = "<group>"; };
-		45A84AEF21A6E1D900893726 /* 限制@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "限制@2x.png"; path = "../../../../Documents/jnjy/edusvn/trunk/ui/拼课空间/首页/限制@2x.png"; sourceTree = "<group>"; };
 		45A84C5A21A6E6CD00893726 /* JYStarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYStarView.h; sourceTree = "<group>"; };
 		45A84C5B21A6E6CE00893726 /* JYStarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYStarView.m; sourceTree = "<group>"; };
-		45A84C5D21A6EBE100893726 /* ju-icon-star-daa@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ju-icon-star-daa@2x.png"; path = "../../../../Documents/jnjy/edusvn/trunk/ui/拼课空间/首页/ju-icon-star-daa@2x.png"; sourceTree = "<group>"; };
-		45A84C5F21A6EBEA00893726 /* ju-icon-star-da@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ju-icon-star-da@2x.png"; path = "../../../../Documents/jnjy/edusvn/trunk/ui/拼课空间/首页/ju-icon-star-da@2x.png"; sourceTree = "<group>"; };
 		45A84C6421A6F5F700893726 /* JYClassInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYClassInfoView.h; sourceTree = "<group>"; };
 		45A84C6521A6F5F800893726 /* JYClassInfoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYClassInfoView.m; sourceTree = "<group>"; };
-		45A84C6721A6FDDB00893726 /* 课程2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "课程2@2x.png"; path = "../../../../Documents/jnjy/edusvn/trunk/ui/拼课空间/首页/课程2@2x.png"; sourceTree = "<group>"; };
-		45A84C6821A6FDDB00893726 /* 课程2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "课程2@3x.png"; path = "../../../../Documents/jnjy/edusvn/trunk/ui/拼课空间/首页/课程2@3x.png"; sourceTree = "<group>"; };
-		45A84C6B21A6FDE600893726 /* 满@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "满@3x.png"; path = "../../../../Documents/jnjy/edusvn/trunk/ui/拼课空间/首页/满@3x.png"; sourceTree = "<group>"; };
-		45A84C6C21A6FDE600893726 /* 满@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "满@2x.png"; path = "../../../../Documents/jnjy/edusvn/trunk/ui/拼课空间/首页/满@2x.png"; sourceTree = "<group>"; };
 		45A84C7221A701B700893726 /* JYOnlineClassInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYOnlineClassInfoView.h; sourceTree = "<group>"; };
 		45A84C7321A701B700893726 /* JYOnlineClassInfoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYOnlineClassInfoView.m; sourceTree = "<group>"; };
 		45D97CE521A70558004C3997 /* JYOnlineClassTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYOnlineClassTableViewCell.m; sourceTree = "<group>"; };
@@ -514,6 +838,7 @@
 		1805696A21A6413A00285F26 /* Mine */ = {
 			isa = PBXGroup;
 			children = (
+				1807885F21A79328003F23AB /* Image */,
 				1805696B21A6413A00285F26 /* ViewModel */,
 				1805697E21A6413B00285F26 /* View */,
 				180569B621A6413B00285F26 /* ViewController */,
@@ -683,6 +1008,7 @@
 		18056A0D21A641D500285F26 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				1807876621A79308003F23AB /* Image */,
 				18056A0E21A641D500285F26 /* ViewModel */,
 				18056A1521A641D500285F26 /* View */,
 				18056A2421A641D500285F26 /* ViewController */,
@@ -741,6 +1067,7 @@
 		18056A3821A641DD00285F26 /* Course */ = {
 			isa = PBXGroup;
 			children = (
+				1807875921A792E7003F23AB /* Image */,
 				18056A3921A641DD00285F26 /* ViewModel */,
 				18056A5621A641DE00285F26 /* View */,
 				18056A9321A641DE00285F26 /* ViewController */,
@@ -890,6 +1217,217 @@
 				18056AAF21A641DE00285F26 /* JYTeacherDonListViewController.h */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1807873B21A792D3003F23AB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				1807873C21A792D3003F23AB /* Image */,
+			);
+			name = Login;
+			path = ../../../jnjy/jnjy/Login;
+			sourceTree = "<group>";
+		};
+		1807873C21A792D3003F23AB /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				1807873D21A792D3003F23AB /* QQ@2x.png */,
+				1807873E21A792D3003F23AB /* QQ@3x.png */,
+				1807873F21A792D3003F23AB /* 手机@3x.png */,
+				1807874021A792D3003F23AB /* 形状1拷贝@2x.png */,
+				1807874121A792D3003F23AB /* Path-灰态@3x.png */,
+				1807874221A792D3003F23AB /* Path-灰态@2x.png */,
+				1807874321A792D3003F23AB /* 形状1拷贝@3x.png */,
+				1807874421A792D3003F23AB /* 手机@2x.png */,
+				1807874521A792D3003F23AB /* Path@3x.png */,
+				1807874621A792D3003F23AB /* Path@2x.png */,
+				1807874721A792D3003F23AB /* 验证码@3x.png */,
+				1807874821A792D3003F23AB /* 微信2@3x.png */,
+				1807874921A792D3003F23AB /* 微信2@2x.png */,
+				1807874A21A792D3003F23AB /* 验证码@2x.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		1807875921A792E7003F23AB /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				1807875A21A792E7003F23AB /* 限制拷贝2@2x.png */,
+				1807875B21A792E7003F23AB /* 放大镜@2x.png */,
+				1807875C21A792E7003F23AB /* 放大镜@3x.png */,
+				1807875D21A792E7003F23AB /* 限制拷贝2@3x.png */,
+				1807875E21A792E7003F23AB /* 满2@2x.png */,
+				1807875F21A792E7003F23AB /* 满2@3x.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		1807876621A79308003F23AB /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				1807889C21A795B4003F23AB /* 放大镜@2x.png */,
+				1807889E21A795B5003F23AB /* 放大镜@3x.png */,
+				1807889D21A795B4003F23AB /* 满@2x.png */,
+				1807889F21A795B6003F23AB /* 满@3x.png */,
+				1807876721A79308003F23AB /* 下载-白@2x.png */,
+				1807876821A79308003F23AB /* 点赞-拷贝@2x.png */,
+				1807876921A79308003F23AB /* 搜索结果为空(1)@2x.png */,
+				1807876A21A79308003F23AB /* 学习-@3x.png */,
+				1807876B21A79308003F23AB /* 差2@3x.png */,
+				1807876C21A79308003F23AB /* ju-icon-star课程-@2x.png */,
+				1807876D21A79308003F23AB /* 上@2x.png */,
+				1807876F21A79308003F23AB /* ju-icon-star-da@2x.png */,
+				1807877021A79308003F23AB /* 评价(1)@2x.png */,
+				1807877121A79308003F23AB /* 课程@3x.png */,
+				1807877221A79308003F23AB /* 课程@2x.png */,
+				1807877321A79308003F23AB /* 评价(1)@3x.png */,
+				1807877421A79308003F23AB /* ju-icon-star-da@3x.png */,
+				1807877521A79308003F23AB /* 上@3x.png */,
+				1807877721A79308003F23AB /* ju-icon-star课程-@3x.png */,
+				1807877821A79308003F23AB /* 差2@2x.png */,
+				1807877921A79308003F23AB /* 学习-@2x.png */,
+				1807877A21A79308003F23AB /* 点赞-拷贝@3x.png */,
+				1807877B21A79308003F23AB /* 搜索结果为空(1)@3x.png */,
+				1807877C21A79308003F23AB /* 下载-白@3x.png */,
+				1807877D21A79308003F23AB /* 限制@2x.png */,
+				1807877E21A79308003F23AB /* 锁@3x.png */,
+				1807877F21A79308003F23AB /* 驾车@2x.png */,
+				1807878021A79308003F23AB /* 首页@3x.png */,
+				1807878121A79308003F23AB /* ju-icon-star@2x.png */,
+				1807878221A79308003F23AB /* 课程2@3x.png */,
+				1807878321A79308003F23AB /* 扫描@3x.png */,
+				1807878421A79308003F23AB /* 视频@3x.png */,
+				1807878521A79308003F23AB /* banner1@3x.png */,
+				1807878621A79308003F23AB /* 下载@3x.png */,
+				1807878721A79308003F23AB /* ju-icon-star-daa@3x.png */,
+				1807878821A79308003F23AB /* 视频(1)@3x.png */,
+				1807878A21A79308003F23AB /* ju-icon-stardaa@3x.png */,
+				1807878B21A79308003F23AB /* ju-icon-stardaa@2x.png */,
+				1807878D21A79308003F23AB /* 视频(1)@2x.png */,
+				1807878E21A79308003F23AB /* ju-icon-star-daa@2x.png */,
+				1807878F21A79308003F23AB /* banner1@2x.png */,
+				1807879021A79308003F23AB /* 下载@2x.png */,
+				1807879121A79308003F23AB /* 视频@2x.png */,
+				1807879221A79308003F23AB /* 扫描@2x.png */,
+				1807879321A79308003F23AB /* ju-icon-star@3x.png */,
+				1807879421A79308003F23AB /* 课程2@2x.png */,
+				1807879521A79308003F23AB /* 首页@2x.png */,
+				1807879621A79308003F23AB /* 驾车@3x.png */,
+				1807879721A79308003F23AB /* 锁@2x.png */,
+				1807879821A79308003F23AB /* 限制@3x.png */,
+				1807879921A79308003F23AB /* 头像@2x.png */,
+				1807879A21A79308003F23AB /* Path2@3x.png */,
+				1807879B21A79308003F23AB /* 微信(1)拷贝@2x.png */,
+				1807879C21A79308003F23AB /* 课程-@3x.png */,
+				1807879D21A79308003F23AB /* 分享-白@3x.png */,
+				1807879E21A79308003F23AB /* ju-icon-star课程@3x.png */,
+				1807879F21A79308003F23AB /* Path-白@3x.png */,
+				180787A021A79308003F23AB /* 支付宝拷贝@2x.png */,
+				180787A121A79308003F23AB /* 选择-@3x.png */,
+				180787A221A79308003F23AB /* 公交车@3x.png */,
+				180787A321A79308003F23AB /* 右@2x.png */,
+				180787A421A79308003F23AB /* 首页-@2x.png */,
+				180787A521A79308003F23AB /* 学习@2x.png */,
+				180787A621A79308003F23AB /* 选中@2x.png */,
+				180787A721A79308003F23AB /* ju-icon-star5@3x.png */,
+				180787A821A79308003F23AB /* 导航(1)@2x.png */,
+				180787A921A79308003F23AB /* ju-icon-star名师-@2x.png */,
+				180787AA21A79308003F23AB /* 定位@3x.png */,
+				180787AB21A79308003F23AB /* 定位@2x.png */,
+				180787AC21A79308003F23AB /* ju-icon-star名师-@3x.png */,
+				180787AD21A79308003F23AB /* ju-icon-star5@2x.png */,
+				180787AE21A79308003F23AB /* 导航(1)@3x.png */,
+				180787AF21A79308003F23AB /* 选中@3x.png */,
+				180787B021A79308003F23AB /* 学习@3x.png */,
+				180787B121A79308003F23AB /* 首页-@3x.png */,
+				180787B221A79308003F23AB /* 右@3x.png */,
+				180787B321A79308003F23AB /* 公交车@2x.png */,
+				180787B421A79308003F23AB /* 选择-@2x.png */,
+				180787B521A79308003F23AB /* 支付宝拷贝@3x.png */,
+				180787B621A79308003F23AB /* Path-白@2x.png */,
+				180787B721A79308003F23AB /* 课程-@2x.png */,
+				180787B821A79308003F23AB /* 分享-白@2x.png */,
+				180787B921A79309003F23AB /* ju-icon-star课程@2x.png */,
+				180787BA21A79309003F23AB /* 微信(1)拷贝@3x.png */,
+				180787BB21A79309003F23AB /* Path2@2x.png */,
+				180787BC21A79309003F23AB /* 头像@3x.png */,
+				180787BD21A79309003F23AB /* 搜索(1)@3x.png */,
+				180787BE21A79309003F23AB /* banner2@2x.png */,
+				180787BF21A79309003F23AB /* 点赞@2x.png */,
+				180787C021A79309003F23AB /* 分享@3x.png */,
+				180787C121A79309003F23AB /* ju-icon-star名师@2x.png */,
+				180787C221A79309003F23AB /* 已购买@3x.png */,
+				180787C321A79309003F23AB /* 步行@3x.png */,
+				180787C421A79309003F23AB /* 选择@3x.png */,
+				180787C521A79309003F23AB /* ju-icon-starda@3x.png */,
+				180787C621A79309003F23AB /* 删除@2x.png */,
+				180787C721A79309003F23AB /* 放大@3x.png */,
+				180787C821A79309003F23AB /* 点赞拷贝@2x.png */,
+				180787C921A79309003F23AB /* 我的-@2x.png */,
+				180787CA21A79309003F23AB /* 微信@3x.png */,
+				180787CB21A79309003F23AB /* 到这去@3x.png */,
+				180787CC21A79309003F23AB /* 点赞-@3x.png */,
+				180787CD21A79309003F23AB /* 骑行@3x.png */,
+				180787CE21A79309003F23AB /* 朋友圈@3x.png */,
+				180787CF21A79309003F23AB /* 我的@2x.png */,
+				180787D021A79309003F23AB /* 朋友圈@2x.png */,
+				180787D121A79309003F23AB /* 我的@3x.png */,
+				180787D221A79309003F23AB /* 点赞-@2x.png */,
+				180787D321A79309003F23AB /* 骑行@2x.png */,
+				180787D421A79309003F23AB /* 到这去@2x.png */,
+				180787D521A79309003F23AB /* 我的-@3x.png */,
+				180787D621A79309003F23AB /* 微信@2x.png */,
+				180787D721A79309003F23AB /* 放大@2x.png */,
+				180787D821A79309003F23AB /* 点赞拷贝@3x.png */,
+				180787D921A79309003F23AB /* 删除@3x.png */,
+				180787DA21A79309003F23AB /* ju-icon-starda@2x.png */,
+				180787DB21A79309003F23AB /* 选择@2x.png */,
+				180787DC21A79309003F23AB /* 步行@2x.png */,
+				180787DD21A79309003F23AB /* 分享@2x.png */,
+				180787DE21A79309003F23AB /* ju-icon-star名师@3x.png */,
+				180787DF21A79309003F23AB /* 已购买@2x.png */,
+				180787E021A79309003F23AB /* 点赞@3x.png */,
+				180787E121A79309003F23AB /* banner2@3x.png */,
+				180787E221A79309003F23AB /* 搜索(1)@2x.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		1807885F21A79328003F23AB /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				1807886021A79328003F23AB /* 我的课程@3x.png */,
+				1807886121A79328003F23AB /* 设置@2x.png */,
+				1807886221A79328003F23AB /* 充值@2x.png */,
+				1807886321A79328003F23AB /* 我的消息@2x.png */,
+				1807886421A79328003F23AB /* 系统消息@3x.png */,
+				1807886521A79328003F23AB /* 系统消息@2x.png */,
+				1807886621A79328003F23AB /* 我的消息@3x.png */,
+				1807886721A79328003F23AB /* 充值@3x.png */,
+				1807886821A79328003F23AB /* 设置@3x.png */,
+				1807886921A79328003F23AB /* 我的课程@2x.png */,
+				1807886A21A79328003F23AB /* 左拷贝2@3x.png */,
+				1807886B21A79328003F23AB /* 我的订阅@2x.png */,
+				1807886C21A79328003F23AB /* 我的评论@3x.png */,
+				1807886D21A79328003F23AB /* 按钮2@2x.png */,
+				1807886E21A79328003F23AB /* 课程表@2x.png */,
+				1807886F21A79328003F23AB /* 课程表@3x.png */,
+				1807887021A79328003F23AB /* 按钮2@3x.png */,
+				1807887121A79328003F23AB /* 我的评论@2x.png */,
+				1807887221A79328003F23AB /* 我的订阅@3x.png */,
+				1807887321A79328003F23AB /* 左拷贝2@2x.png */,
+				1807887421A79328003F23AB /* layer@2x.png */,
+				1807887521A79328003F23AB /* 按钮2拷贝@3x.png */,
+				1807887621A79328003F23AB /* 积分(1)@3x.png */,
+				1807887721A79328003F23AB /* 通用设置@3x.png */,
+				1807887821A79328003F23AB /* 我的头像@2x.png */,
+				1807887921A79328003F23AB /* 我的头像@3x.png */,
+				1807887A21A79328003F23AB /* 通用设置@2x.png */,
+				1807887B21A79328003F23AB /* 积分(1)@2x.png */,
+				1807887C21A79328003F23AB /* 按钮2拷贝@2x.png */,
+				1807887D21A79328003F23AB /* layer@3x.png */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 		18FC9DCD21A55DF300FC6544 = {
@@ -1055,32 +1593,13 @@
 		18FC9E8D21A5659000FC6544 /* TestVC */ = {
 			isa = PBXGroup;
 			children = (
-				45A84AE521A6E1AC00893726 /* New Group */,
+				1807873B21A792D3003F23AB /* Login */,
 				18056A3821A641DD00285F26 /* Course */,
 				18056A0D21A641D500285F26 /* Home */,
 				180569F721A641CB00285F26 /* Study */,
 				1805696A21A6413A00285F26 /* Mine */,
 			);
 			path = TestVC;
-			sourceTree = "<group>";
-		};
-		45A84AE521A6E1AC00893726 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-				45A84C6C21A6FDE600893726 /* 满@2x.png */,
-				45A84C6B21A6FDE600893726 /* 满@3x.png */,
-				45A84C6721A6FDDB00893726 /* 课程2@2x.png */,
-				45A84C6821A6FDDB00893726 /* 课程2@3x.png */,
-				45A84AEF21A6E1D900893726 /* 限制@2x.png */,
-				45A84C5F21A6EBEA00893726 /* ju-icon-star-da@2x.png */,
-				45A84C5D21A6EBE100893726 /* ju-icon-star-daa@2x.png */,
-				45A84AEE21A6E1D900893726 /* 限制@3x.png */,
-				45A84AE621A6E1B500893726 /* banner@2x.png */,
-				45A84AE721A6E1B500893726 /* banner@3x.png */,
-				45A84AE821A6E1B500893726 /* dwei@2x.png */,
-				45A84AE921A6E1B600893726 /* dwei@3x.png */,
-			);
-			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1140,23 +1659,185 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45A84AF121A6E1DA00893726 /* 限制@2x.png in Resources */,
+				1807881F21A79309003F23AB /* 右@2x.png in Resources */,
+				1807882721A79309003F23AB /* 定位@2x.png in Resources */,
+				180787F821A79309003F23AB /* 下载-白@3x.png in Resources */,
+				1807885821A79309003F23AB /* 步行@2x.png in Resources */,
+				1807885B21A79309003F23AB /* 已购买@2x.png in Resources */,
+				1807889021A79328003F23AB /* 我的订阅@3x.png in Resources */,
+				180787ED21A79309003F23AB /* 课程@3x.png in Resources */,
+				1807880921A79309003F23AB /* 视频(1)@2x.png in Resources */,
+				1807882B21A79309003F23AB /* 选中@3x.png in Resources */,
+				1807875021A792D3003F23AB /* Path-灰态@2x.png in Resources */,
+				1807883C21A79309003F23AB /* 分享@3x.png in Resources */,
+				1807885221A79309003F23AB /* 微信@2x.png in Resources */,
+				180787F321A79309003F23AB /* ju-icon-star课程-@3x.png in Resources */,
+				1807881521A79309003F23AB /* 头像@2x.png in Resources */,
+				1807888121A79328003F23AB /* 我的消息@2x.png in Resources */,
 				18FC9DE621A55DF600FC6544 /* LaunchScreen.storyboard in Resources */,
-				45A84AF021A6E1DA00893726 /* 限制@3x.png in Resources */,
-				45A84AEC21A6E1B600893726 /* dwei@2x.png in Resources */,
-				45A84C6921A6FDDB00893726 /* 课程2@2x.png in Resources */,
+				1807885021A79309003F23AB /* 到这去@2x.png in Resources */,
+				1807881821A79309003F23AB /* 课程-@3x.png in Resources */,
+				1807889321A79328003F23AB /* 按钮2拷贝@3x.png in Resources */,
+				1807889521A79328003F23AB /* 通用设置@3x.png in Resources */,
+				1807888921A79328003F23AB /* 我的订阅@2x.png in Resources */,
+				1807887F21A79328003F23AB /* 设置@2x.png in Resources */,
+				1807880321A79309003F23AB /* ju-icon-star-daa@3x.png in Resources */,
+				1807875421A792D3003F23AB /* Path@2x.png in Resources */,
+				1807884E21A79309003F23AB /* 点赞-@2x.png in Resources */,
+				1807874E21A792D3003F23AB /* 形状1拷贝@2x.png in Resources */,
+				1807882421A79309003F23AB /* 导航(1)@2x.png in Resources */,
+				1807884C21A79309003F23AB /* 朋友圈@2x.png in Resources */,
+				180787E521A79309003F23AB /* 搜索结果为空(1)@2x.png in Resources */,
+				1807874C21A792D3003F23AB /* QQ@3x.png in Resources */,
+				1807885621A79309003F23AB /* ju-icon-starda@2x.png in Resources */,
+				1807882E21A79309003F23AB /* 右@3x.png in Resources */,
+				180787F621A79309003F23AB /* 点赞-拷贝@3x.png in Resources */,
+				1807888521A79328003F23AB /* 充值@3x.png in Resources */,
+				180787EF21A79309003F23AB /* 评价(1)@3x.png in Resources */,
+				1807883E21A79309003F23AB /* 已购买@3x.png in Resources */,
+				1807881221A79309003F23AB /* 驾车@3x.png in Resources */,
+				1807887E21A79328003F23AB /* 我的课程@3x.png in Resources */,
+				1807888221A79328003F23AB /* 系统消息@3x.png in Resources */,
+				1807880621A79309003F23AB /* ju-icon-stardaa@3x.png in Resources */,
+				180788A021A795B6003F23AB /* 放大镜@2x.png in Resources */,
+				180787F921A79309003F23AB /* 限制@2x.png in Resources */,
 				18FC9E8F21A567FF00FC6544 /* Images.xcassets in Resources */,
-				45A84C6021A6EBEA00893726 /* ju-icon-star-da@2x.png in Resources */,
-				45A84C6D21A6FDE700893726 /* 满@3x.png in Resources */,
-				45A84C6E21A6FDE700893726 /* 满@2x.png in Resources */,
-				45A84AEA21A6E1B600893726 /* banner@2x.png in Resources */,
-				45A84C6A21A6FDDB00893726 /* 课程2@3x.png in Resources */,
-				45A84AEB21A6E1B600893726 /* banner@3x.png in Resources */,
+				1807881A21A79309003F23AB /* ju-icon-star课程@3x.png in Resources */,
+				180787F421A79309003F23AB /* 差2@2x.png in Resources */,
+				1807883421A79309003F23AB /* 分享-白@2x.png in Resources */,
+				1807880721A79309003F23AB /* ju-icon-stardaa@2x.png in Resources */,
+				180788A221A795B7003F23AB /* 放大镜@3x.png in Resources */,
+				180787FA21A79309003F23AB /* 锁@3x.png in Resources */,
+				1807889721A79328003F23AB /* 我的头像@3x.png in Resources */,
+				1807876421A792E7003F23AB /* 满2@2x.png in Resources */,
+				1807884521A79309003F23AB /* 我的-@2x.png in Resources */,
+				1807875521A792D3003F23AB /* 验证码@3x.png in Resources */,
+				1807885521A79309003F23AB /* 删除@3x.png in Resources */,
+				1807882C21A79309003F23AB /* 学习@3x.png in Resources */,
+				180787E821A79309003F23AB /* ju-icon-star课程-@2x.png in Resources */,
+				1807884F21A79309003F23AB /* 骑行@2x.png in Resources */,
+				1807889A21A79328003F23AB /* 按钮2拷贝@2x.png in Resources */,
+				1807883321A79309003F23AB /* 课程-@2x.png in Resources */,
+				1807875621A792D3003F23AB /* 微信2@3x.png in Resources */,
+				1807888821A79328003F23AB /* 左拷贝2@3x.png in Resources */,
+				1807881C21A79309003F23AB /* 支付宝拷贝@2x.png in Resources */,
+				1807883721A79309003F23AB /* Path2@2x.png in Resources */,
+				180787E421A79309003F23AB /* 点赞-拷贝@2x.png in Resources */,
+				1807888D21A79328003F23AB /* 课程表@3x.png in Resources */,
+				1807876321A792E7003F23AB /* 限制拷贝2@3x.png in Resources */,
+				1807889B21A79328003F23AB /* layer@3x.png in Resources */,
+				180787F521A79309003F23AB /* 学习-@2x.png in Resources */,
+				1807881321A79309003F23AB /* 锁@2x.png in Resources */,
+				1807875221A792D3003F23AB /* 手机@2x.png in Resources */,
+				1807884721A79309003F23AB /* 到这去@3x.png in Resources */,
+				1807883821A79309003F23AB /* 头像@3x.png in Resources */,
+				1807876221A792E7003F23AB /* 放大镜@3x.png in Resources */,
+				1807882121A79309003F23AB /* 学习@2x.png in Resources */,
+				1807883D21A79309003F23AB /* ju-icon-star名师@2x.png in Resources */,
+				1807880F21A79309003F23AB /* ju-icon-star@3x.png in Resources */,
+				180787E921A79309003F23AB /* 上@2x.png in Resources */,
+				180787EC21A79309003F23AB /* 评价(1)@2x.png in Resources */,
+				1807888E21A79328003F23AB /* 按钮2@3x.png in Resources */,
+				1807883521A79309003F23AB /* ju-icon-star课程@2x.png in Resources */,
+				1807882521A79309003F23AB /* ju-icon-star名师-@2x.png in Resources */,
+				1807882A21A79309003F23AB /* 导航(1)@3x.png in Resources */,
+				1807881921A79309003F23AB /* 分享-白@3x.png in Resources */,
 				18FC9DE321A55DF600FC6544 /* Assets.xcassets in Resources */,
-				45A84AED21A6E1B600893726 /* dwei@3x.png in Resources */,
+				1807889221A79328003F23AB /* layer@2x.png in Resources */,
+				1807875821A792D3003F23AB /* 验证码@2x.png in Resources */,
+				1807888F21A79328003F23AB /* 我的评论@2x.png in Resources */,
+				1807880221A79309003F23AB /* 下载@3x.png in Resources */,
+				1807884321A79309003F23AB /* 放大@3x.png in Resources */,
+				1807884221A79309003F23AB /* 删除@2x.png in Resources */,
+				1807888C21A79328003F23AB /* 课程表@2x.png in Resources */,
+				1807874F21A792D3003F23AB /* Path-灰态@3x.png in Resources */,
+				180787FE21A79309003F23AB /* 课程2@3x.png in Resources */,
+				1807880D21A79309003F23AB /* 视频@2x.png in Resources */,
+				1807876121A792E7003F23AB /* 放大镜@2x.png in Resources */,
+				1807888721A79328003F23AB /* 我的课程@2x.png in Resources */,
+				1807884921A79309003F23AB /* 骑行@3x.png in Resources */,
+				180787F121A79309003F23AB /* 上@3x.png in Resources */,
+				1807885121A79309003F23AB /* 我的-@3x.png in Resources */,
+				1807875721A792D3003F23AB /* 微信2@2x.png in Resources */,
+				1807884A21A79309003F23AB /* 朋友圈@3x.png in Resources */,
+				1807876521A792E7003F23AB /* 满2@3x.png in Resources */,
+				1807888B21A79328003F23AB /* 按钮2@2x.png in Resources */,
+				1807889921A79328003F23AB /* 积分(1)@2x.png in Resources */,
+				1807885421A79309003F23AB /* 点赞拷贝@3x.png in Resources */,
+				1807884021A79309003F23AB /* 选择@3x.png in Resources */,
+				180788A121A795B6003F23AB /* 满@2x.png in Resources */,
+				1807876021A792E7003F23AB /* 限制拷贝2@2x.png in Resources */,
+				180787FF21A79309003F23AB /* 扫描@3x.png in Resources */,
+				1807880021A79309003F23AB /* 视频@3x.png in Resources */,
+				1807882021A79309003F23AB /* 首页-@2x.png in Resources */,
+				1807883621A79309003F23AB /* 微信(1)拷贝@3x.png in Resources */,
+				180787EE21A79309003F23AB /* 课程@2x.png in Resources */,
+				1807880C21A79309003F23AB /* 下载@2x.png in Resources */,
+				1807883121A79309003F23AB /* 支付宝拷贝@3x.png in Resources */,
+				1807883B21A79309003F23AB /* 点赞@2x.png in Resources */,
+				1807881421A79309003F23AB /* 限制@3x.png in Resources */,
+				180787E721A79309003F23AB /* 差2@3x.png in Resources */,
+				180787FB21A79309003F23AB /* 驾车@2x.png in Resources */,
+				180787F721A79309003F23AB /* 搜索结果为空(1)@3x.png in Resources */,
+				1807882921A79309003F23AB /* ju-icon-star5@2x.png in Resources */,
+				1807889821A79328003F23AB /* 通用设置@2x.png in Resources */,
+				1807880421A79309003F23AB /* 视频(1)@3x.png in Resources */,
+				1807875121A792D3003F23AB /* 形状1拷贝@3x.png in Resources */,
+				1807883221A79309003F23AB /* Path-白@2x.png in Resources */,
+				1807874D21A792D3003F23AB /* 手机@3x.png in Resources */,
+				1807885D21A79309003F23AB /* banner2@3x.png in Resources */,
+				1807888421A79328003F23AB /* 我的消息@3x.png in Resources */,
+				1807881021A79309003F23AB /* 课程2@2x.png in Resources */,
+				180787EB21A79309003F23AB /* ju-icon-star-da@2x.png in Resources */,
+				1807884D21A79309003F23AB /* 我的@3x.png in Resources */,
+				1807883021A79309003F23AB /* 选择-@2x.png in Resources */,
+				1807875321A792D3003F23AB /* Path@3x.png in Resources */,
+				1807882F21A79309003F23AB /* 公交车@2x.png in Resources */,
+				1807885A21A79309003F23AB /* ju-icon-star名师@3x.png in Resources */,
+				1807884121A79309003F23AB /* ju-icon-starda@3x.png in Resources */,
+				180787F021A79309003F23AB /* ju-icon-star-da@3x.png in Resources */,
+				1807881E21A79309003F23AB /* 公交车@3x.png in Resources */,
+				1807884B21A79309003F23AB /* 我的@2x.png in Resources */,
+				1807889621A79328003F23AB /* 我的头像@2x.png in Resources */,
+				1807883921A79309003F23AB /* 搜索(1)@3x.png in Resources */,
 				180569DA21A6413B00285F26 /* OnlyBottomBtnTableViewCell.xib in Resources */,
+				1807885C21A79309003F23AB /* 点赞@3x.png in Resources */,
+				1807884421A79309003F23AB /* 点赞拷贝@2x.png in Resources */,
+				180787E621A79309003F23AB /* 学习-@3x.png in Resources */,
+				180787FC21A79309003F23AB /* 首页@3x.png in Resources */,
+				180788A321A795B7003F23AB /* 满@3x.png in Resources */,
+				1807885921A79309003F23AB /* 分享@2x.png in Resources */,
+				1807880121A79309003F23AB /* banner1@3x.png in Resources */,
+				180787FD21A79309003F23AB /* ju-icon-star@2x.png in Resources */,
+				1807885E21A79309003F23AB /* 搜索(1)@2x.png in Resources */,
+				1807882D21A79309003F23AB /* 首页-@3x.png in Resources */,
+				1807889421A79328003F23AB /* 积分(1)@3x.png in Resources */,
+				1807881121A79309003F23AB /* 首页@2x.png in Resources */,
+				1807880A21A79309003F23AB /* ju-icon-star-daa@2x.png in Resources */,
+				1807888321A79328003F23AB /* 系统消息@2x.png in Resources */,
+				1807881D21A79309003F23AB /* 选择-@3x.png in Resources */,
+				1807882821A79309003F23AB /* ju-icon-star名师-@3x.png in Resources */,
+				1807888621A79328003F23AB /* 设置@3x.png in Resources */,
+				1807884621A79309003F23AB /* 微信@3x.png in Resources */,
+				1807884821A79309003F23AB /* 点赞-@3x.png in Resources */,
+				1807881B21A79309003F23AB /* Path-白@3x.png in Resources */,
+				1807888A21A79328003F23AB /* 我的评论@3x.png in Resources */,
+				1807880E21A79309003F23AB /* 扫描@2x.png in Resources */,
+				1807880B21A79309003F23AB /* banner1@2x.png in Resources */,
+				1807881621A79309003F23AB /* Path2@3x.png in Resources */,
+				1807874B21A792D3003F23AB /* QQ@2x.png in Resources */,
+				1807882221A79309003F23AB /* 选中@2x.png in Resources */,
+				180787E321A79309003F23AB /* 下载-白@2x.png in Resources */,
+				1807882321A79309003F23AB /* ju-icon-star5@3x.png in Resources */,
+				1807881721A79309003F23AB /* 微信(1)拷贝@2x.png in Resources */,
+				1807883F21A79309003F23AB /* 步行@3x.png in Resources */,
 				18FC9DE121A55DF300FC6544 /* Main.storyboard in Resources */,
-				45A84C5E21A6EBE100893726 /* ju-icon-star-daa@2x.png in Resources */,
+				1807882621A79309003F23AB /* 定位@3x.png in Resources */,
+				1807889121A79328003F23AB /* 左拷贝2@2x.png in Resources */,
+				1807883A21A79309003F23AB /* banner2@2x.png in Resources */,
+				1807885721A79309003F23AB /* 选择@2x.png in Resources */,
+				1807885321A79309003F23AB /* 放大@2x.png in Resources */,
+				1807888021A79328003F23AB /* 充值@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
