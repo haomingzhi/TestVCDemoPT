@@ -17,9 +17,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    NSString *vcName = @"JYSettingViewController";
+//    NSString *vcName = @"JYSettingViewController";
 //   NSString *vcName =  @"JYVideoTestListViewController";
-//    NSString *vcName = @"";
+//    NSString *vcName = @"JYMsgInfoViewController";
+//    NSString *vcName = @"JYFeedbackViewController";
+//    NSString *vcName = @"JYBindPhoneViewController";
+//    NSString *vcName = @"JYBindPhoneNumViewController";
+     NSString *vcName = @"JYEditMineViewController";
      [[VCManager sharedManager] regsisterClass:vcName obj:vcName];
      Class c = [[VCManager sharedManager] getClass:vcName];
     id obj = [[c alloc] init];
