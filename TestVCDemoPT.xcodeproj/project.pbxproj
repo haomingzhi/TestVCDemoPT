@@ -325,6 +325,7 @@
 		180F60F121AD539300BD176B /* JYMsgInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180F609D21AD539300BD176B /* JYMsgInfoViewController.m */; };
 		180F60F221AD539300BD176B /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180F609E21AD539300BD176B /* MineViewController.m */; };
 		180F60F321AD539300BD176B /* JYEditMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180F60A021AD539300BD176B /* JYEditMineViewController.m */; };
+		188C090F21AEA5060019D420 /* DDTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 188C090E21AEA5050019D420 /* DDTextView.m */; };
 		18FC9DDB21A55DF300FC6544 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC9DDA21A55DF300FC6544 /* AppDelegate.m */; };
 		18FC9DDE21A55DF300FC6544 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC9DDD21A55DF300FC6544 /* ViewController.m */; };
 		18FC9DE121A55DF300FC6544 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FC9DDF21A55DF300FC6544 /* Main.storyboard */; };
@@ -820,6 +821,8 @@
 		180F609E21AD539300BD176B /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
 		180F609F21AD539300BD176B /* JYFeedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYFeedbackViewController.h; sourceTree = "<group>"; };
 		180F60A021AD539300BD176B /* JYEditMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYEditMineViewController.m; sourceTree = "<group>"; };
+		188C090D21AEA5050019D420 /* DDTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDTextView.h; path = ../../../jnjy/jnjy/Base/DDTextView.h; sourceTree = "<group>"; };
+		188C090E21AEA5050019D420 /* DDTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDTextView.m; path = ../../../jnjy/jnjy/Base/DDTextView.m; sourceTree = "<group>"; };
 		18FC9DD621A55DF300FC6544 /* TestVCDemoPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestVCDemoPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18FC9DD921A55DF300FC6544 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18FC9DDA21A55DF300FC6544 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1608,28 +1611,30 @@
 		18FC9DEF21A55E1C00FC6544 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				18FC9DF121A55E1C00FC6544 /* JYBaseTabBarController.m */,
-				18FC9DF321A55E1C00FC6544 /* DDExNoDataView.m */,
+				188C090D21AEA5050019D420 /* DDTextView.h */,
+				188C090E21AEA5050019D420 /* DDTextView.m */,
 				18FC9DF521A55E1C00FC6544 /* BSUtility.h */,
-				18FC9DF621A55E1C00FC6544 /* DDRequestManager.m */,
-				18FC9DF721A55E1C00FC6544 /* Util */,
-				18FC9E2A21A55E1C00FC6544 /* DDExDialogView.h */,
-				18FC9E2B21A55E1C00FC6544 /* TabViewControllerManager.h */,
-				18FC9E2C21A55E1C00FC6544 /* DDScrollView.h */,
-				18FC9E2D21A55E1C00FC6544 /* UIView+JYExFrame.m */,
-				18FC9E2E21A55E1C00FC6544 /* JYBaseViewModel.m */,
-				18FC9E2F21A55E1C00FC6544 /* colors.h */,
-				18FC9E3021A55E1C00FC6544 /* JYAbstractTableViewCell.h */,
-				18FC9E3121A55E1C00FC6544 /* DDExNoDataView.h */,
-				18FC9E3421A55E1C00FC6544 /* JYBaseTabBarController.h */,
-				18FC9E3521A55E1C00FC6544 /* DDRequestManager.h */,
 				18FC9E3621A55E1C00FC6544 /* BSUtility.m */,
-				18FC9E3721A55E1C00FC6544 /* UIView+JYExFrame.h */,
-				18FC9E3821A55E1C00FC6544 /* DDScrollView.m */,
-				18FC9E3921A55E1C00FC6544 /* TabViewControllerManager.m */,
+				18FC9E2F21A55E1C00FC6544 /* colors.h */,
+				18FC9E2A21A55E1C00FC6544 /* DDExDialogView.h */,
 				18FC9E3A21A55E1C00FC6544 /* DDExDialogView.m */,
+				18FC9E3121A55E1C00FC6544 /* DDExNoDataView.h */,
+				18FC9DF321A55E1C00FC6544 /* DDExNoDataView.m */,
+				18FC9E3521A55E1C00FC6544 /* DDRequestManager.h */,
+				18FC9DF621A55E1C00FC6544 /* DDRequestManager.m */,
+				18FC9E2C21A55E1C00FC6544 /* DDScrollView.h */,
+				18FC9E3821A55E1C00FC6544 /* DDScrollView.m */,
+				18FC9E3021A55E1C00FC6544 /* JYAbstractTableViewCell.h */,
 				18FC9E3B21A55E1C00FC6544 /* JYAbstractTableViewCell.m */,
+				18FC9E3421A55E1C00FC6544 /* JYBaseTabBarController.h */,
+				18FC9DF121A55E1C00FC6544 /* JYBaseTabBarController.m */,
 				18FC9E3C21A55E1C00FC6544 /* JYBaseViewModel.h */,
+				18FC9E2E21A55E1C00FC6544 /* JYBaseViewModel.m */,
+				18FC9E2B21A55E1C00FC6544 /* TabViewControllerManager.h */,
+				18FC9E3921A55E1C00FC6544 /* TabViewControllerManager.m */,
+				18FC9E3721A55E1C00FC6544 /* UIView+JYExFrame.h */,
+				18FC9E2D21A55E1C00FC6544 /* UIView+JYExFrame.m */,
+				18FC9DF721A55E1C00FC6544 /* Util */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -2136,6 +2141,7 @@
 				18FC9DDB21A55DF300FC6544 /* AppDelegate.m in Sources */,
 				18FC9E5A21A55E1C00FC6544 /* DDExDialogView.m in Sources */,
 				180F5EFD21ACE31B00BD176B /* JYLoginTipTableViewCell.m in Sources */,
+				188C090F21AEA5060019D420 /* DDTextView.m in Sources */,
 				45D97CE721A70559004C3997 /* JYOnlineClassTableViewCell.m in Sources */,
 				18056AE321A641DE00285F26 /* JYFreeClassListViewController.m in Sources */,
 				180F60D821AD539300BD176B /* JYSaveTableViewCell.m in Sources */,
