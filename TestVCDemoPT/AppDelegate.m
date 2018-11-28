@@ -20,10 +20,17 @@
 //    NSString *vcName = @"JYSettingViewController";
 //   NSString *vcName =  @"JYVideoTestListViewController";
 //    NSString *vcName = @"JYMsgInfoViewController";
-    NSString *vcName = @"JYFeedbackViewController";
+//    NSString *vcName = @"JYFeedbackViewController";
 //    NSString *vcName = @"JYBindPhoneViewController";
 //    NSString *vcName = @"JYBindPhoneNumViewController";
 //     NSString *vcName = @"JYEditMineViewController";
+//    NSString *vcName = @"JYCourseViewController";
+//    NSString *vcName = @"JYStudyViewController";
+//    NSString *vcName = @"JYGoodClassListViewController";
+//    NSString *vcName = @"JYClassListViewController";
+//    NSString *vcName = @"JYTeacherDonListViewController";
+//    NSString *vcName = @"JYFreeClassListViewController";
+    NSString *vcName = @"JYHomeViewController";
      [[VCManager sharedManager] regsisterClass:vcName obj:vcName];
      Class c = [[VCManager sharedManager] getClass:vcName];
     id obj = [[c alloc] init];

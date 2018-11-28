@@ -9,13 +9,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "TestVCDemoPT/VCManager.m"
-            timestampString = "564509444.104721"
+            filePath = "../jnjy/jnjy/Course/View/JYTabsView.m"
+            timestampString = "565111958.543764"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
-            landmarkName = "-regsisterClass:obj:"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "-createBtns:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
