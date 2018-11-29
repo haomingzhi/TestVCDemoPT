@@ -354,6 +354,14 @@
 		18FC9E5B21A55E1C00FC6544 /* JYAbstractTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC9E3B21A55E1C00FC6544 /* JYAbstractTableViewCell.m */; };
 		18FC9E5F21A55FC300FC6544 /* VCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC9E5E21A55FC300FC6544 /* VCManager.m */; };
 		18FC9E8F21A567FF00FC6544 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FC9E8E21A567FF00FC6544 /* Images.xcassets */; };
+		454E326721B033BF0044E372 /* JYBuyBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 454E326621B033BF0044E372 /* JYBuyBottomView.m */; };
+		454E327F21B0384D0044E372 /* JYVideoEvaViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 454E327D21B0384D0044E372 /* JYVideoEvaViewModel.m */; };
+		454E328A21B0386C0044E372 /* JYEvaTipTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 454E328221B038670044E372 /* JYEvaTipTableViewCell.m */; };
+		454E328B21B0386C0044E372 /* JYBigStarTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 454E328321B038670044E372 /* JYBigStarTableViewCell.m */; };
+		454E328C21B0386C0044E372 /* JYEvaUpOrDownTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 454E328421B038670044E372 /* JYEvaUpOrDownTableViewCell.m */; };
+		454E328D21B0386C0044E372 /* JYEvaTextViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 454E328721B038680044E372 /* JYEvaTextViewTableViewCell.m */; };
+		454E328E21B0386C0044E372 /* JYEvaBtnTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 454E328921B0386B0044E372 /* JYEvaBtnTableViewCell.m */; };
+		454E329121B0387E0044E372 /* JYVideoEvaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 454E328F21B0387D0044E372 /* JYVideoEvaViewController.m */; };
 		4594F1A421AED764008DA2AC /* JYTabsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4594F1A221AED764008DA2AC /* JYTabsView.m */; };
 		4594F1AA21AEDD50008DA2AC /* JYFourBtnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4594F1A921AEDD4F008DA2AC /* JYFourBtnView.m */; };
 		4594F1B521AEE04B008DA2AC /* JYThreeTabsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4594F1B321AEE04B008DA2AC /* JYThreeTabsView.m */; };
@@ -887,6 +895,22 @@
 		18FC9E5D21A55FC300FC6544 /* VCManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCManager.h; sourceTree = "<group>"; };
 		18FC9E5E21A55FC300FC6544 /* VCManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCManager.m; sourceTree = "<group>"; };
 		18FC9E8E21A567FF00FC6544 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		454E326521B033BE0044E372 /* JYBuyBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYBuyBottomView.h; sourceTree = "<group>"; };
+		454E326621B033BF0044E372 /* JYBuyBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYBuyBottomView.m; sourceTree = "<group>"; };
+		454E327D21B0384D0044E372 /* JYVideoEvaViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYVideoEvaViewModel.m; sourceTree = "<group>"; };
+		454E327E21B0384D0044E372 /* JYVideoEvaViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYVideoEvaViewModel.h; sourceTree = "<group>"; };
+		454E328021B038660044E372 /* JYEvaTipTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYEvaTipTableViewCell.h; sourceTree = "<group>"; };
+		454E328121B038660044E372 /* JYEvaBtnTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYEvaBtnTableViewCell.h; sourceTree = "<group>"; };
+		454E328221B038670044E372 /* JYEvaTipTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYEvaTipTableViewCell.m; sourceTree = "<group>"; };
+		454E328321B038670044E372 /* JYBigStarTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYBigStarTableViewCell.m; sourceTree = "<group>"; };
+		454E328421B038670044E372 /* JYEvaUpOrDownTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYEvaUpOrDownTableViewCell.m; sourceTree = "<group>"; };
+		454E328521B038680044E372 /* JYEvaTextViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYEvaTextViewTableViewCell.h; sourceTree = "<group>"; };
+		454E328621B038680044E372 /* JYBigStarTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYBigStarTableViewCell.h; sourceTree = "<group>"; };
+		454E328721B038680044E372 /* JYEvaTextViewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYEvaTextViewTableViewCell.m; sourceTree = "<group>"; };
+		454E328821B038690044E372 /* JYEvaUpOrDownTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYEvaUpOrDownTableViewCell.h; sourceTree = "<group>"; };
+		454E328921B0386B0044E372 /* JYEvaBtnTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYEvaBtnTableViewCell.m; sourceTree = "<group>"; };
+		454E328F21B0387D0044E372 /* JYVideoEvaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYVideoEvaViewController.m; sourceTree = "<group>"; };
+		454E329021B0387D0044E372 /* JYVideoEvaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYVideoEvaViewController.h; sourceTree = "<group>"; };
 		4594F1A221AED764008DA2AC /* JYTabsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTabsView.m; sourceTree = "<group>"; };
 		4594F1A321AED764008DA2AC /* JYTabsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTabsView.h; sourceTree = "<group>"; };
 		4594F1A821AEDD4F008DA2AC /* JYFourBtnView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYFourBtnView.h; sourceTree = "<group>"; };
@@ -1046,34 +1070,36 @@
 		18056A3921A641DD00285F26 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				18056A3A21A641DD00285F26 /* JYGoodClassListViewModel.m */,
-				18056A3B21A641DE00285F26 /* JYFreeClassListViewModel.m */,
-				18056A3C21A641DE00285F26 /* JYCourseViewModel.m */,
-				18056A3D21A641DE00285F26 /* JYVideoInfoViewModel.h */,
-				18056A3E21A641DE00285F26 /* JYRechargeViewModel.h */,
-				18056A3F21A641DE00285F26 /* JYClassInfoViewModel.m */,
-				18056A4021A641DE00285F26 /* JYClassReadViewModel.m */,
-				18056A4121A641DE00285F26 /* JYClassPlayViewModel.h */,
-				18056A4221A641DE00285F26 /* JYTeacherDonInfoViewModel.m */,
-				18056A4321A641DE00285F26 /* JYTrainingInfoViewModel.h */,
-				18056A4421A641DE00285F26 /* JYClassListViewModel.h */,
 				18056A4521A641DE00285F26 /* JYClassBuyViewModel.h */,
-				18056A4621A641DE00285F26 /* JYVideoTestListViewModel.m */,
-				18056A4721A641DE00285F26 /* JYTeacherDonListViewModel.h */,
-				18056A4821A641DE00285F26 /* JYGoodClassListViewModel.h */,
-				18056A4921A641DE00285F26 /* JYRechargeViewModel.m */,
-				18056A4A21A641DE00285F26 /* JYVideoInfoViewModel.m */,
-				18056A4B21A641DE00285F26 /* JYCourseViewModel.h */,
-				18056A4C21A641DE00285F26 /* JYFreeClassListViewModel.h */,
-				18056A4D21A641DE00285F26 /* JYTeacherDonInfoViewModel.h */,
+				18056A5421A641DE00285F26 /* JYClassBuyViewModel.m */,
+				18056A5021A641DE00285F26 /* JYClassInfoViewModel.h */,
+				18056A3F21A641DE00285F26 /* JYClassInfoViewModel.m */,
+				18056A4421A641DE00285F26 /* JYClassListViewModel.h */,
+				18056A5321A641DE00285F26 /* JYClassListViewModel.m */,
+				18056A4121A641DE00285F26 /* JYClassPlayViewModel.h */,
 				18056A4E21A641DE00285F26 /* JYClassPlayViewModel.m */,
 				18056A4F21A641DE00285F26 /* JYClassReadViewModel.h */,
-				18056A5021A641DE00285F26 /* JYClassInfoViewModel.h */,
+				18056A4021A641DE00285F26 /* JYClassReadViewModel.m */,
+				18056A4B21A641DE00285F26 /* JYCourseViewModel.h */,
+				18056A3C21A641DE00285F26 /* JYCourseViewModel.m */,
+				18056A4C21A641DE00285F26 /* JYFreeClassListViewModel.h */,
+				18056A3B21A641DE00285F26 /* JYFreeClassListViewModel.m */,
+				18056A4821A641DE00285F26 /* JYGoodClassListViewModel.h */,
+				18056A3A21A641DD00285F26 /* JYGoodClassListViewModel.m */,
+				18056A3E21A641DE00285F26 /* JYRechargeViewModel.h */,
+				18056A4921A641DE00285F26 /* JYRechargeViewModel.m */,
+				18056A4D21A641DE00285F26 /* JYTeacherDonInfoViewModel.h */,
+				18056A4221A641DE00285F26 /* JYTeacherDonInfoViewModel.m */,
+				18056A4721A641DE00285F26 /* JYTeacherDonListViewModel.h */,
 				18056A5121A641DE00285F26 /* JYTeacherDonListViewModel.m */,
-				18056A5221A641DE00285F26 /* JYVideoTestListViewModel.h */,
-				18056A5321A641DE00285F26 /* JYClassListViewModel.m */,
-				18056A5421A641DE00285F26 /* JYClassBuyViewModel.m */,
+				18056A4321A641DE00285F26 /* JYTrainingInfoViewModel.h */,
 				18056A5521A641DE00285F26 /* JYTrainingInfoViewModel.m */,
+				454E327E21B0384D0044E372 /* JYVideoEvaViewModel.h */,
+				454E327D21B0384D0044E372 /* JYVideoEvaViewModel.m */,
+				18056A3D21A641DE00285F26 /* JYVideoInfoViewModel.h */,
+				18056A4A21A641DE00285F26 /* JYVideoInfoViewModel.m */,
+				18056A5221A641DE00285F26 /* JYVideoTestListViewModel.h */,
+				18056A4621A641DE00285F26 /* JYVideoTestListViewModel.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -1081,6 +1107,18 @@
 		18056A5621A641DE00285F26 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				454E328621B038680044E372 /* JYBigStarTableViewCell.h */,
+				454E328321B038670044E372 /* JYBigStarTableViewCell.m */,
+				454E328121B038660044E372 /* JYEvaBtnTableViewCell.h */,
+				454E328921B0386B0044E372 /* JYEvaBtnTableViewCell.m */,
+				454E328521B038680044E372 /* JYEvaTextViewTableViewCell.h */,
+				454E328721B038680044E372 /* JYEvaTextViewTableViewCell.m */,
+				454E328021B038660044E372 /* JYEvaTipTableViewCell.h */,
+				454E328221B038670044E372 /* JYEvaTipTableViewCell.m */,
+				454E328821B038690044E372 /* JYEvaUpOrDownTableViewCell.h */,
+				454E328421B038670044E372 /* JYEvaUpOrDownTableViewCell.m */,
+				454E326521B033BE0044E372 /* JYBuyBottomView.h */,
+				454E326621B033BF0044E372 /* JYBuyBottomView.m */,
 				4594F1A821AEDD4F008DA2AC /* JYFourBtnView.h */,
 				4594F1A921AEDD4F008DA2AC /* JYFourBtnView.m */,
 				4594F1A321AED764008DA2AC /* JYTabsView.h */,
@@ -1162,6 +1200,8 @@
 		18056A9321A641DE00285F26 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				454E329021B0387D0044E372 /* JYVideoEvaViewController.h */,
+				454E328F21B0387D0044E372 /* JYVideoEvaViewController.m */,
 				18056AAB21A641DE00285F26 /* JYClassBuyViewController.h */,
 				18056AA121A641DE00285F26 /* JYClassBuyViewController.m */,
 				18056A9921A641DE00285F26 /* JYClassInfoViewController.h */,
@@ -2086,13 +2126,16 @@
 				180F60EE21AD539300BD176B /* JYBindPhoneViewController.m in Sources */,
 				18056AE921A641DE00285F26 /* JYRechargeViewController.m in Sources */,
 				18056AC021A641DE00285F26 /* JYBuyTitleTableViewCell.m in Sources */,
+				454E326721B033BF0044E372 /* JYBuyBottomView.m in Sources */,
 				180F60DB21AD539300BD176B /* JYCodeTableViewCell.m in Sources */,
+				454E328B21B0386C0044E372 /* JYBigStarTableViewCell.m in Sources */,
 				45A84C7421A701B700893726 /* JYOnlineClassInfoView.m in Sources */,
 				180F60E721AD539300BD176B /* JYOrderTabBar.m in Sources */,
 				18056A2F21A641D500285F26 /* JYRecentRecTableViewCell.m in Sources */,
 				18056A0C21A641CB00285F26 /* JYStudyViewController.m in Sources */,
 				18056AB021A641DE00285F26 /* JYGoodClassListViewModel.m in Sources */,
 				180F60C921AD539300BD176B /* DDTwoBtnTableViewCell.m in Sources */,
+				454E328E21B0386C0044E372 /* JYEvaBtnTableViewCell.m in Sources */,
 				18FC9E4A21A55E1C00FC6544 /* UIView+cornerRadius.m in Sources */,
 				180F60F321AD539300BD176B /* JYEditMineViewController.m in Sources */,
 				18056AD921A641DE00285F26 /* JYcheckMoneyTableViewCell.m in Sources */,
@@ -2136,9 +2179,11 @@
 				18056AC421A641DE00285F26 /* JYBuyTagTableViewCell.m in Sources */,
 				180F60D321AD539300BD176B /* JYImgTextBtn.m in Sources */,
 				180F60DD21AD539300BD176B /* JYBindPhoneTableViewCell.m in Sources */,
+				454E327F21B0384D0044E372 /* JYVideoEvaViewModel.m in Sources */,
 				18056AC621A641DE00285F26 /* JYClassImgsTableViewCell.m in Sources */,
 				18056AC821A641DE00285F26 /* JYClassVideioTableViewCell.m in Sources */,
 				180F5F0021ACE31B00BD176B /* JYLoginLogoTableViewCell.m in Sources */,
+				454E328C21B0386C0044E372 /* JYEvaUpOrDownTableViewCell.m in Sources */,
 				180F60EB21AD539300BD176B /* JYBindPhoneNumViewController.m in Sources */,
 				18056ACC21A641DE00285F26 /* JYClassImgTableViewCell.m in Sources */,
 				18056ADA21A641DE00285F26 /* JYVideoTestTableViewCell.m in Sources */,
@@ -2176,6 +2221,7 @@
 				180F5EFD21ACE31B00BD176B /* JYLoginTipTableViewCell.m in Sources */,
 				4594F1AA21AEDD50008DA2AC /* JYFourBtnView.m in Sources */,
 				188C090F21AEA5060019D420 /* DDTextView.m in Sources */,
+				454E328D21B0386C0044E372 /* JYEvaTextViewTableViewCell.m in Sources */,
 				45D97CE721A70559004C3997 /* JYOnlineClassTableViewCell.m in Sources */,
 				18056AE321A641DE00285F26 /* JYFreeClassListViewController.m in Sources */,
 				180F60D821AD539300BD176B /* JYSaveTableViewCell.m in Sources */,
@@ -2183,12 +2229,14 @@
 				180F60D021AD539300BD176B /* JYPhotoCheckTableViewCell.m in Sources */,
 				18056ABE21A641DE00285F26 /* JYClassInfoTableViewCell.m in Sources */,
 				180F5EFC21ACE31B00BD176B /* JYLoginWayTipTableViewCell.m in Sources */,
+				454E329121B0387E0044E372 /* JYVideoEvaViewController.m in Sources */,
 				180F60D421AD539300BD176B /* JYAboutContentTableViewCell.m in Sources */,
 				18056AB621A641DE00285F26 /* JYVideoTestListViewModel.m in Sources */,
 				180F5F0121ACE31B00BD176B /* JYLoginViewController.m in Sources */,
 				18056AB421A641DE00285F26 /* JYClassReadViewModel.m in Sources */,
 				18056A2E21A641D500285F26 /* JYSearchResultTableViewCell.m in Sources */,
 				18056AB521A641DE00285F26 /* JYTeacherDonInfoViewModel.m in Sources */,
+				454E328A21B0386C0044E372 /* JYEvaTipTableViewCell.m in Sources */,
 				18056A2B21A641D500285F26 /* JYHomeViewModel.m in Sources */,
 				18FC9E5821A55E1C00FC6544 /* DDScrollView.m in Sources */,
 				18056AE621A641DE00285F26 /* JYClassInfoViewController.m in Sources */,
