@@ -217,6 +217,7 @@
 		180788B021A7C395003F23AB /* JYFreeClassView.m in Sources */ = {isa = PBXBuildFile; fileRef = 180788AF21A7C395003F23AB /* JYFreeClassView.m */; };
 		180788B621A7C6E3003F23AB /* JYVideoTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 180788B421A7C6E3003F23AB /* JYVideoTestView.m */; };
 		180788BC21A7CCF3003F23AB /* JYBStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 180788BB21A7CCF3003F23AB /* JYBStarView.m */; };
+		180CD97021AFF58D00DA30FA /* CheckPayView in Resources */ = {isa = PBXBuildFile; fileRef = 180CD96F21AFF58D00DA30FA /* CheckPayView */; };
 		180F5EEB21ACE31B00BD176B /* JYLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 180F5EC921ACE31B00BD176B /* JYLoginViewModel.m */; };
 		180F5EEC21ACE31B00BD176B /* QQ@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180F5ECB21ACE31B00BD176B /* QQ@2x.png */; };
 		180F5EED21ACE31B00BD176B /* 微信2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180F5ECC21ACE31B00BD176B /* 微信2@2x.png */; };
@@ -655,6 +656,7 @@
 		180788B521A7C6E3003F23AB /* JYVideoTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYVideoTestView.h; sourceTree = "<group>"; };
 		180788BA21A7CCF3003F23AB /* JYBStarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYBStarView.h; sourceTree = "<group>"; };
 		180788BB21A7CCF3003F23AB /* JYBStarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYBStarView.m; sourceTree = "<group>"; };
+		180CD96F21AFF58D00DA30FA /* CheckPayView */ = {isa = PBXFileReference; lastKnownFileType = folder; name = CheckPayView; path = ../../../jnjy/jnjy/Base/CheckPayView; sourceTree = "<group>"; };
 		180F5EC821ACE31B00BD176B /* JYLoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYLoginViewModel.h; sourceTree = "<group>"; };
 		180F5EC921ACE31B00BD176B /* JYLoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYLoginViewModel.m; sourceTree = "<group>"; };
 		180F5ECB21ACE31B00BD176B /* QQ@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QQ@2x.png"; sourceTree = "<group>"; };
@@ -1636,6 +1638,7 @@
 		18FC9DEF21A55E1C00FC6544 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				180CD96F21AFF58D00DA30FA /* CheckPayView */,
 				188C090D21AEA5050019D420 /* DDTextView.h */,
 				188C090E21AEA5050019D420 /* DDTextView.m */,
 				18FC9DF521A55E1C00FC6544 /* BSUtility.h */,
@@ -1901,6 +1904,7 @@
 				180787E921A79309003F23AB /* 上@2x.png in Resources */,
 				180787EC21A79309003F23AB /* 评价(1)@2x.png in Resources */,
 				1807883521A79309003F23AB /* ju-icon-star课程@2x.png in Resources */,
+				180CD97021AFF58D00DA30FA /* CheckPayView in Resources */,
 				1807882521A79309003F23AB /* ju-icon-star名师-@2x.png in Resources */,
 				1807882A21A79309003F23AB /* 导航(1)@3x.png in Resources */,
 				1807881921A79309003F23AB /* 分享-白@3x.png in Resources */,
