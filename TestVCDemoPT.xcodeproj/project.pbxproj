@@ -336,6 +336,7 @@
 		181360CA21B107DE00E32A57 /* DDExWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181360C921B107DE00E32A57 /* DDExWebViewController.m */; };
 		181360D521B1218A00E32A57 /* JYPayTipTitleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 181360D221B1218900E32A57 /* JYPayTipTitleTableViewCell.m */; };
 		181360D621B1218A00E32A57 /* JYPayDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 181360D421B1218A00E32A57 /* JYPayDetailTableViewCell.m */; };
+		1813618821B147A200E32A57 /* JYBindPhoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1813618721B147A200E32A57 /* JYBindPhoneView.m */; };
 		188C090F21AEA5060019D420 /* DDTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 188C090E21AEA5050019D420 /* DDTextView.m */; };
 		18FC9DDB21A55DF300FC6544 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC9DDA21A55DF300FC6544 /* AppDelegate.m */; };
 		18FC9DDE21A55DF300FC6544 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC9DDD21A55DF300FC6544 /* ViewController.m */; };
@@ -865,6 +866,8 @@
 		181360D221B1218900E32A57 /* JYPayTipTitleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYPayTipTitleTableViewCell.m; sourceTree = "<group>"; };
 		181360D321B1218900E32A57 /* JYPayTipTitleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYPayTipTitleTableViewCell.h; sourceTree = "<group>"; };
 		181360D421B1218A00E32A57 /* JYPayDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYPayDetailTableViewCell.m; sourceTree = "<group>"; };
+		1813618621B144CA00E32A57 /* JYBindPhoneView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYBindPhoneView.h; sourceTree = "<group>"; };
+		1813618721B147A200E32A57 /* JYBindPhoneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYBindPhoneView.m; sourceTree = "<group>"; };
 		188C090D21AEA5050019D420 /* DDTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDTextView.h; path = ../../../jnjy/jnjy/Base/DDTextView.h; sourceTree = "<group>"; };
 		188C090E21AEA5050019D420 /* DDTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDTextView.m; path = ../../../jnjy/jnjy/Base/DDTextView.m; sourceTree = "<group>"; };
 		18FC9DD621A55DF300FC6544 /* TestVCDemoPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestVCDemoPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1138,6 +1141,8 @@
 		18056A5621A641DE00285F26 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1813618621B144CA00E32A57 /* JYBindPhoneView.h */,
+				1813618721B147A200E32A57 /* JYBindPhoneView.m */,
 				181360D121B1218900E32A57 /* JYPayDetailTableViewCell.h */,
 				181360D421B1218A00E32A57 /* JYPayDetailTableViewCell.m */,
 				181360D321B1218900E32A57 /* JYPayTipTitleTableViewCell.h */,
@@ -2242,6 +2247,7 @@
 				18056ABC21A641DE00285F26 /* JYClassBuyViewModel.m in Sources */,
 				180F60DF21AD539300BD176B /* JYOrderNumTableViewCell.m in Sources */,
 				180F60EC21AD539300BD176B /* JYFeedbackViewController.m in Sources */,
+				1813618821B147A200E32A57 /* JYBindPhoneView.m in Sources */,
 				18056ACB21A641DE00285F26 /* JYTrainingTabsTableViewCell.m in Sources */,
 				18056A3521A641D500285F26 /* JYSearchViewController.m in Sources */,
 				18056AB221A641DE00285F26 /* JYCourseViewModel.m in Sources */,
