@@ -365,6 +365,7 @@
 		18FC9E5B21A55E1C00FC6544 /* JYAbstractTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC9E3B21A55E1C00FC6544 /* JYAbstractTableViewCell.m */; };
 		18FC9E5F21A55FC300FC6544 /* VCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC9E5E21A55FC300FC6544 /* VCManager.m */; };
 		18FC9E8F21A567FF00FC6544 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FC9E8E21A567FF00FC6544 /* Images.xcassets */; };
+		451A70B221B433CD00ACAC0A /* houbu in Resources */ = {isa = PBXBuildFile; fileRef = 451A70B121B433CD00ACAC0A /* houbu */; };
 		454E326721B033BF0044E372 /* JYBuyBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 454E326621B033BF0044E372 /* JYBuyBottomView.m */; };
 		454E327F21B0384D0044E372 /* JYVideoEvaViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 454E327D21B0384D0044E372 /* JYVideoEvaViewModel.m */; };
 		454E328A21B0386C0044E372 /* JYEvaTipTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 454E328221B038670044E372 /* JYEvaTipTableViewCell.m */; };
@@ -927,6 +928,7 @@
 		18FC9E5D21A55FC300FC6544 /* VCManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCManager.h; sourceTree = "<group>"; };
 		18FC9E5E21A55FC300FC6544 /* VCManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCManager.m; sourceTree = "<group>"; };
 		18FC9E8E21A567FF00FC6544 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		451A70B121B433CD00ACAC0A /* houbu */ = {isa = PBXFileReference; lastKnownFileType = folder; path = houbu; sourceTree = "<group>"; };
 		454E326521B033BE0044E372 /* JYBuyBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYBuyBottomView.h; sourceTree = "<group>"; };
 		454E326621B033BF0044E372 /* JYBuyBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYBuyBottomView.m; sourceTree = "<group>"; };
 		454E327D21B0384D0044E372 /* JYVideoEvaViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYVideoEvaViewModel.m; sourceTree = "<group>"; };
@@ -1731,6 +1733,7 @@
 		18FC9DD821A55DF300FC6544 /* TestVCDemoPT */ = {
 			isa = PBXGroup;
 			children = (
+				451A70B121B433CD00ACAC0A /* houbu */,
 				180F5FF321AD457900BD176B /* cankao */,
 				18FC9E8D21A5659000FC6544 /* TestVC */,
 				18FC9E5C21A55E2D00FC6544 /* JnjyPrefixHeader.pch */,
@@ -2071,6 +2074,7 @@
 				1807882921A79309003F23AB /* ju-icon-star5@2x.png in Resources */,
 				1807880421A79309003F23AB /* 视频(1)@3x.png in Resources */,
 				1807883221A79309003F23AB /* Path-白@2x.png in Resources */,
+				451A70B221B433CD00ACAC0A /* houbu in Resources */,
 				1807885D21A79309003F23AB /* banner2@3x.png in Resources */,
 				180F5EF521ACE31B00BD176B /* 手机@2x.png in Resources */,
 				1807881021A79309003F23AB /* 课程2@2x.png in Resources */,
@@ -2477,7 +2481,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YDMR8ARQ28;
+				DEVELOPMENT_TEAM = VTHRPD6C6G;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/TestVCDemoPT/JnjyPrefixHeader.pch";
 				INFOPLIST_FILE = TestVCDemoPT/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -2497,7 +2501,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YDMR8ARQ28;
+				DEVELOPMENT_TEAM = VTHRPD6C6G;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/TestVCDemoPT/JnjyPrefixHeader.pch";
 				INFOPLIST_FILE = TestVCDemoPT/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
