@@ -42,7 +42,7 @@
     //    NSString *vcName = @"JYEvaListViewController";
     //    NSString *vcName = @"JYDirectViewController";
 //    NSString *vcName = @"JYIntroViewController";
-    NSString *vcName = @"DDExWebViewController";
+    NSString *vcName = @"TestAnimationViewController";
     [[VCManager sharedManager] regsisterClass:vcName obj:vcName];
     Class c = [[VCManager sharedManager] getClass:vcName];
     id obj = [[c alloc] init];
