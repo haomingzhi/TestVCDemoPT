@@ -42,7 +42,7 @@
     CGFloat r1 = smallCirCleView.bounds.size.width / 2;
     
     // 获取圆心距离
-    CGFloat d = [self pointToPoitnDistanceWithPoint:CGPointMake(100, 100) potintB:CGPointMake(220, 300)];
+    CGFloat d = [self pointToPoitnDistanceWithPoint:smallCirCleView.center potintB:bigCirCleView.center];//[self pointToPoitnDistanceWithPoint:CGPointMake(100, 100) potintB:CGPointMake(220, 300)];
     CGFloat sinθ = (x2 - x1) / d;
     CGFloat cosθ = (y2 - y1) / d;
     

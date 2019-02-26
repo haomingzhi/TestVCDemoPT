@@ -20,4 +20,7 @@
 @property (nonatomic, assign) CGFloat centerX;
 @property (nonatomic, assign) CGFloat centerY;
 -(CGSize) middle:(CGSize ) s;
+- (UIView *)normalShadow:(UIView *)imgv;
+- (UIView *)normalShadow:(UIView *)imgv withShadowOffset:(CGSize)size;
+- (UIView *)normalShadow:(UIView *)imgv withShadowColor:(UIColor *)color;
 @end

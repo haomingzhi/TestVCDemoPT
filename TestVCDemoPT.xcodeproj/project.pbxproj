@@ -129,6 +129,13 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		182CAF8A2203E732004B64F3 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
 		18FC9DCD21A55DF300FC6544 = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +155,7 @@
 		18FC9DD821A55DF300FC6544 /* TestVCDemoPT */ = {
 			isa = PBXGroup;
 			children = (
+				182CAF8A2203E732004B64F3 /* Animation */,
 				1813CF002202E1FE0081B1AB /* Login */,
 				18FC9E8D21A5659000FC6544 /* TestVC */,
 				18FC9DEF21A55E1C00FC6544 /* Base */,

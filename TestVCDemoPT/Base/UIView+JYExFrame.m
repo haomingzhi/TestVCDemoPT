@@ -59,6 +59,51 @@
     [self didChangeValueForKey:@"x"];
 }
 
+- (UIView *)normalShadow:(UIView *)imgv
+{
+    return   [self normalShadow:imgv withShadowColor: [UIColor lightGrayColor]];
+}
+
+- (UIView *)normalShadow:(UIView *)imgv withShadowColor:(UIColor *)color
+{
+    
+    UIView *sv             = [UIView new];
+    sv.frame               = imgv.frame;
+    imgv.top = 0;
+    imgv.left = 0;
+    //    sv.backgroundColor     = [UIColor whiteColor];
+    sv.layer.cornerRadius  = imgv.layer.cornerRadius;
+    sv.layer.masksToBounds = NO;
+    
+    sv.layer.shadowColor   = color.CGColor;
+    sv.layer.shadowOffset  = CGSizeMake(3, 3);
+    sv.layer.shadowOpacity = 0.5;
+    sv.layer.shadowRadius  = 1.5;
+    
+    [sv addSubview:imgv];
+    return sv;
+}
+
+- (UIView *)normalShadow:(UIView *)imgv withShadowOffset:(CGSize)size
+{
+    
+    UIView *sv             = [UIView new];
+    sv.frame               = imgv.frame;
+    imgv.top = 0;
+    imgv.left = 0;
+    //    sv.backgroundColor     = [UIColor whiteColor];
+    sv.layer.cornerRadius  = imgv.layer.cornerRadius;
+    sv.layer.masksToBounds = NO;
+    
+    sv.layer.shadowColor   = [UIColor lightGrayColor].CGColor;
+    sv.layer.shadowOffset  = size;//CGSizeMake(6, 6);
+    sv.layer.shadowOpacity = 0.5;
+    sv.layer.shadowRadius  = 3;
+    
+    [sv addSubview:imgv];
+    return sv;
+}
+
 -(CGFloat)y
 {
     return self.frame.origin.y;
