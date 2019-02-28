@@ -11,6 +11,11 @@
 		1813CF032202E2380081B1AB /* JYLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1813CF022202E2380081B1AB /* JYLoginManager.m */; };
 		1813CF062202E9AB0081B1AB /* JYUserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1813CF052202E9AB0081B1AB /* JYUserInfoModel.m */; };
 		1813CF092202F3740081B1AB /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1813CF082202F3740081B1AB /* TestView.m */; };
+		1838163F2227BB7100FD89E0 /* UIView+JYLayerEdit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1838163D2227BB7000FD89E0 /* UIView+JYLayerEdit.m */; };
+		183816402227BB7100FD89E0 /* UIButton+JYStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1838163E2227BB7100FD89E0 /* UIButton+JYStyle.m */; };
+		183816432227C10600FD89E0 /* UILabel+JYStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 183816422227C10600FD89E0 /* UILabel+JYStyle.m */; };
+		183816462227C8E400FD89E0 /* UIView+JYStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 183816452227C8E400FD89E0 /* UIView+JYStyle.m */; };
+		185D2B8B222518890097AE18 /* JYTeacherInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D2B8A222518890097AE18 /* JYTeacherInfoViewController.m */; };
 		18FC9DDB21A55DF300FC6544 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC9DDA21A55DF300FC6544 /* AppDelegate.m */; };
 		18FC9DDE21A55DF300FC6544 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC9DDD21A55DF300FC6544 /* ViewController.m */; };
 		18FC9DE121A55DF300FC6544 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FC9DDF21A55DF300FC6544 /* Main.storyboard */; };
@@ -49,6 +54,16 @@
 		1813CF052202E9AB0081B1AB /* JYUserInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYUserInfoModel.m; sourceTree = "<group>"; };
 		1813CF072202F3740081B1AB /* TestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
 		1813CF082202F3740081B1AB /* TestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
+		1838163B2227BB7000FD89E0 /* UIButton+JYStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+JYStyle.h"; sourceTree = "<group>"; };
+		1838163C2227BB7000FD89E0 /* UIView+JYLayerEdit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JYLayerEdit.h"; sourceTree = "<group>"; };
+		1838163D2227BB7000FD89E0 /* UIView+JYLayerEdit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JYLayerEdit.m"; sourceTree = "<group>"; };
+		1838163E2227BB7100FD89E0 /* UIButton+JYStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+JYStyle.m"; sourceTree = "<group>"; };
+		183816412227C10600FD89E0 /* UILabel+JYStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+JYStyle.h"; sourceTree = "<group>"; };
+		183816422227C10600FD89E0 /* UILabel+JYStyle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+JYStyle.m"; sourceTree = "<group>"; };
+		183816442227C8E400FD89E0 /* UIView+JYStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+JYStyle.h"; sourceTree = "<group>"; };
+		183816452227C8E400FD89E0 /* UIView+JYStyle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+JYStyle.m"; sourceTree = "<group>"; };
+		185D2B89222518890097AE18 /* JYTeacherInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYTeacherInfoViewController.h; sourceTree = "<group>"; };
+		185D2B8A222518890097AE18 /* JYTeacherInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYTeacherInfoViewController.m; sourceTree = "<group>"; };
 		18FC9DD621A55DF300FC6544 /* TestVCDemoPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestVCDemoPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18FC9DD921A55DF300FC6544 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18FC9DDA21A55DF300FC6544 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -199,6 +214,14 @@
 				18FC9E3921A55E1C00FC6544 /* TabViewControllerManager.m */,
 				18FC9E3721A55E1C00FC6544 /* UIView+JYExFrame.h */,
 				18FC9E2D21A55E1C00FC6544 /* UIView+JYExFrame.m */,
+				1838163B2227BB7000FD89E0 /* UIButton+JYStyle.h */,
+				1838163E2227BB7100FD89E0 /* UIButton+JYStyle.m */,
+				1838163C2227BB7000FD89E0 /* UIView+JYLayerEdit.h */,
+				1838163D2227BB7000FD89E0 /* UIView+JYLayerEdit.m */,
+				183816412227C10600FD89E0 /* UILabel+JYStyle.h */,
+				183816422227C10600FD89E0 /* UILabel+JYStyle.m */,
+				183816442227C8E400FD89E0 /* UIView+JYStyle.h */,
+				183816452227C8E400FD89E0 /* UIView+JYStyle.m */,
 				18FC9DF721A55E1C00FC6544 /* Util */,
 			);
 			path = Base;
@@ -304,6 +327,8 @@
 				1813CEFE2202E0B00081B1AB /* TestAnimationViewController.m */,
 				1813CF072202F3740081B1AB /* TestView.h */,
 				1813CF082202F3740081B1AB /* TestView.m */,
+				185D2B89222518890097AE18 /* JYTeacherInfoViewController.h */,
+				185D2B8A222518890097AE18 /* JYTeacherInfoViewController.m */,
 			);
 			path = TestVC;
 			sourceTree = "<group>";
@@ -382,10 +407,14 @@
 				18FC9E4C21A55E1C00FC6544 /* UITextView+placeHolder.m in Sources */,
 				18FC9E5221A55E1C00FC6544 /* Tools.m in Sources */,
 				1813CF032202E2380081B1AB /* JYLoginManager.m in Sources */,
+				183816462227C8E400FD89E0 /* UIView+JYStyle.m in Sources */,
 				18FC9E4E21A55E1C00FC6544 /* NSString+MD5.m in Sources */,
 				18FC9E4D21A55E1C00FC6544 /* NSString+AttributedString.m in Sources */,
 				18FC9E5321A55E1C00FC6544 /* UIView+JYExFrame.m in Sources */,
+				183816402227BB7100FD89E0 /* UIButton+JYStyle.m in Sources */,
 				18FC9DDE21A55DF300FC6544 /* ViewController.m in Sources */,
+				183816432227C10600FD89E0 /* UILabel+JYStyle.m in Sources */,
+				1838163F2227BB7100FD89E0 /* UIView+JYLayerEdit.m in Sources */,
 				18FC9E4021A55E1C00FC6544 /* DDRequestManager.m in Sources */,
 				1813CEFF2202E0B00081B1AB /* TestAnimationViewController.m in Sources */,
 				18FC9E4121A55E1C00FC6544 /* customLabel.m in Sources */,
@@ -405,6 +434,7 @@
 				18FC9DDB21A55DF300FC6544 /* AppDelegate.m in Sources */,
 				18FC9E5A21A55E1C00FC6544 /* DDExDialogView.m in Sources */,
 				18FC9E4B21A55E1C00FC6544 /* NSTimer+block.m in Sources */,
+				185D2B8B222518890097AE18 /* JYTeacherInfoViewController.m in Sources */,
 				18FC9E5821A55E1C00FC6544 /* DDScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "VCManager.h"
+#import "JYTeacherInfoViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -42,7 +43,8 @@
     //    NSString *vcName = @"JYEvaListViewController";
     //    NSString *vcName = @"JYDirectViewController";
 //    NSString *vcName = @"JYIntroViewController";
-    NSString *vcName = @"TestAnimationViewController";
+//    NSString *vcName = @"TestAnimationViewController";
+     NSString *vcName = @"JYTeacherInfoViewController";
     [[VCManager sharedManager] regsisterClass:vcName obj:vcName];
     Class c = [[VCManager sharedManager] getClass:vcName];
     id obj = [[c alloc] init];

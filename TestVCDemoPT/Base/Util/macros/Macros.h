@@ -349,7 +349,7 @@ dispatch_async(dispatch_get_main_queue(), block);\
 #define statuBarHei (iPhoneX ? 44: 20)
 #define tabbarHei (iPhoneX ? 84: 50)
 
-
+#define  mainBgColor UIColorFromRGB(0xffffff)
 
 
 
