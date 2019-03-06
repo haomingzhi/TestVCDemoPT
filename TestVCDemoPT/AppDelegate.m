@@ -8,7 +8,6 @@
 
 #import "AppDelegate.h"
 #import "VCManager.h"
-#import "JYTeacherInfoViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -44,11 +43,15 @@
     //    NSString *vcName = @"JYDirectViewController";
 //    NSString *vcName = @"JYIntroViewController";
 //    NSString *vcName = @"TestAnimationViewController";
-     NSString *vcName = @"JYTeacherInfoViewController";
+//     NSString *vcName = @"JYTeacherListViewController";
+//         NSString *vcName = @"JYSearchZxViewController";
+//    NSString *vcName = @"JYNoZxViewController";
+    NSString *vcName = @"JYTeacherInfoViewController";
     [[VCManager sharedManager] regsisterClass:vcName obj:vcName];
     Class c = [[VCManager sharedManager] getClass:vcName];
     id obj = [[c alloc] init];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:obj];
+//      nav.navigationBar.translucent = YES;
     self.window.rootViewController = nav;
     return YES;
 }

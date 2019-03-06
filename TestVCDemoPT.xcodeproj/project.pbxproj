@@ -15,7 +15,69 @@
 		183816402227BB7100FD89E0 /* UIButton+JYStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1838163E2227BB7100FD89E0 /* UIButton+JYStyle.m */; };
 		183816432227C10600FD89E0 /* UILabel+JYStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 183816422227C10600FD89E0 /* UILabel+JYStyle.m */; };
 		183816462227C8E400FD89E0 /* UIView+JYStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 183816452227C8E400FD89E0 /* UIView+JYStyle.m */; };
+		184B4948222E20180072BBAF /* JYTeacherHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B4947222E20180072BBAF /* JYTeacherHistoryViewController.m */; };
+		184B494B222E244C0072BBAF /* JYCommentListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B494A222E244C0072BBAF /* JYCommentListViewController.m */; };
+		184B494E222E255B0072BBAF /* JYCommentListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B494D222E255B0072BBAF /* JYCommentListViewModel.m */; };
+		184B4951222E2AC60072BBAF /* 已点赞@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184B494F222E2AC60072BBAF /* 已点赞@2x.png */; };
+		184B4952222E2AC60072BBAF /* 已点赞@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 184B4950222E2AC60072BBAF /* 已点赞@3x.png */; };
+		184B4955222E43710072BBAF /* JYHtmlTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B4954222E43710072BBAF /* JYHtmlTableViewCell.m */; };
+		184B4958222E50D20072BBAF /* JYTeacherListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B4957222E50D20072BBAF /* JYTeacherListViewController.m */; };
+		184B495B222E549E0072BBAF /* JYTeacherListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B495A222E549E0072BBAF /* JYTeacherListViewModel.m */; };
+		184B495E222E56310072BBAF /* JYTeacherListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B495D222E56310072BBAF /* JYTeacherListTableViewCell.m */; };
+		184B4961222E60F30072BBAF /* JYMarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B4960222E60F30072BBAF /* JYMarkView.m */; };
+		184B4964222E6A2D0072BBAF /* JYSearchZxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B4963222E6A2D0072BBAF /* JYSearchZxViewController.m */; };
+		184B4967222E6C760072BBAF /* JYSoonAskTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B4966222E6C760072BBAF /* JYSoonAskTableViewCell.m */; };
+		184B496A222E6DCD0072BBAF /* JYSearchTipTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B4969222E6DCD0072BBAF /* JYSearchTipTableViewCell.m */; };
+		184B496D222E6E090072BBAF /* JYSearchTypeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B496C222E6E090072BBAF /* JYSearchTypeTableViewCell.m */; };
+		184B4970222E6E480072BBAF /* JYTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B496F222E6E480072BBAF /* JYTipView.m */; };
+		184B4973222E7AB80072BBAF /* JYNoZxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B4972222E7AB80072BBAF /* JYNoZxViewController.m */; };
+		185280BC222F6C07006DE84A /* JYNavView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185280BB222F6C07006DE84A /* JYNavView.m */; };
+		185280BF222F794E006DE84A /* NSString+JYTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 185280BE222F794E006DE84A /* NSString+JYTool.m */; };
+		185280C2222FB9A5006DE84A /* JYCommentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 185280C1222FB9A4006DE84A /* JYCommentModel.m */; };
+		185280C5222FC486006DE84A /* UITableView+JYTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 185280C4222FC486006DE84A /* UITableView+JYTool.m */; };
 		185D2B8B222518890097AE18 /* JYTeacherInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D2B8A222518890097AE18 /* JYTeacherInfoViewController.m */; };
+		18609B55222CC1EB004E6BDB /* 提问老师@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18609B51222CC1EB004E6BDB /* 提问老师@3x.png */; };
+		18609B56222CC1EB004E6BDB /* 提问老师@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18609B52222CC1EB004E6BDB /* 提问老师@2x.png */; };
+		18609B57222CC1EB004E6BDB /* 客服@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18609B53222CC1EB004E6BDB /* 客服@3x.png */; };
+		18609B58222CC1EB004E6BDB /* 客服@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18609B54222CC1EB004E6BDB /* 客服@2x.png */; };
+		18609B5B222CC2A5004E6BDB /* 暂无咨询图片@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18609B59222CC2A5004E6BDB /* 暂无咨询图片@2x.png */; };
+		18609B5C222CC2A5004E6BDB /* 暂无咨询图片@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18609B5A222CC2A5004E6BDB /* 暂无咨询图片@3x.png */; };
+		18609B68222CC2D2004E6BDB /* 选科志愿升学@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18609B5D222CC2D1004E6BDB /* 选科志愿升学@2x.png */; };
+		18609B69222CC2D2004E6BDB /* 咨询方式@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18609B5E222CC2D2004E6BDB /* 咨询方式@3x.png */; };
+		18609B6A222CC2D2004E6BDB /* 亲子关系@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18609B5F222CC2D2004E6BDB /* 亲子关系@3x.png */; };
+		18609B6B222CC2D2004E6BDB /* 表情@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18609B60222CC2D2004E6BDB /* 表情@2x.png */; };
+		18609B6C222CC2D2004E6BDB /* 孩子未来@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18609B61222CC2D2004E6BDB /* 孩子未来@2x.png */; };
+		18609B6D222CC2D2004E6BDB /* 亲子关系@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18609B62222CC2D2004E6BDB /* 亲子关系@2x.png */; };
+		18609B6E222CC2D2004E6BDB /* 孩子未来@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18609B63222CC2D2004E6BDB /* 孩子未来@3x.png */; };
+		18609B6F222CC2D2004E6BDB /* 提升成绩@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18609B64222CC2D2004E6BDB /* 提升成绩@3x.png */; };
+		18609B70222CC2D2004E6BDB /* 咨询方式@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18609B65222CC2D2004E6BDB /* 咨询方式@2x.png */; };
+		18609B71222CC2D2004E6BDB /* 提升成绩@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18609B66222CC2D2004E6BDB /* 提升成绩@2x.png */; };
+		18609B72222CC2D2004E6BDB /* 选科志愿升学@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18609B67222CC2D2004E6BDB /* 选科志愿升学@3x.png */; };
+		18609B75222CC3A3004E6BDB /* JYPointView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18609B74222CC3A3004E6BDB /* JYPointView.m */; };
+		18609B7A222CD668004E6BDB /* JYTeacherInfoViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18609B79222CD668004E6BDB /* JYTeacherInfoViewModel.m */; };
+		18609B81222CD97A004E6BDB /* 返回-黑-视频文章@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18609B7B222CD97A004E6BDB /* 返回-黑-视频文章@2x.png */; };
+		18609B82222CD97A004E6BDB /* 返回-黑-视频文章@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18609B7C222CD97A004E6BDB /* 返回-黑-视频文章@3x.png */; };
+		18609B83222CD97A004E6BDB /* 分享-黑色-视频文章@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18609B7D222CD97A004E6BDB /* 分享-黑色-视频文章@3x.png */; };
+		18609B84222CD97A004E6BDB /* 分享-文章视频@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18609B7E222CD97A004E6BDB /* 分享-文章视频@3x.png */; };
+		18609B85222CD97A004E6BDB /* 分享-黑色-视频文章@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18609B7F222CD97A004E6BDB /* 分享-黑色-视频文章@2x.png */; };
+		18609B86222CD97A004E6BDB /* 分享-文章视频@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18609B80222CD97A004E6BDB /* 分享-文章视频@2x.png */; };
+		18609B89222CF9B6004E6BDB /* 返回-视频文章@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18609B87222CF9B6004E6BDB /* 返回-视频文章@2x.png */; };
+		18609B8A222CF9B6004E6BDB /* 返回-视频文章@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18609B88222CF9B6004E6BDB /* 返回-视频文章@3x.png */; };
+		18609B8D222CFDF7004E6BDB /* UIImage+JYEdit.m in Sources */ = {isa = PBXBuildFile; fileRef = 18609B8C222CFDF7004E6BDB /* UIImage+JYEdit.m */; };
+		18609B90222D06A7004E6BDB /* JYTeacherInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18609B8F222D06A7004E6BDB /* JYTeacherInfoModel.m */; };
+		18609B96222D0CD3004E6BDB /* JYBigTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18609B95222D0CD3004E6BDB /* JYBigTitleView.m */; };
+		18609B99222D0E06004E6BDB /* JYTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18609B98222D0E06004E6BDB /* JYTitleView.m */; };
+		18609B9C222D0E98004E6BDB /* JYBigTitleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18609B9B222D0E98004E6BDB /* JYBigTitleTableViewCell.m */; };
+		18609B9F222D0EB1004E6BDB /* JYJobTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18609B9E222D0EB1004E6BDB /* JYJobTableViewCell.m */; };
+		18609BA2222D0EC2004E6BDB /* JYGoodAtTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18609BA1222D0EC2004E6BDB /* JYGoodAtTableViewCell.m */; };
+		18609BA5222D0EEC004E6BDB /* JYHistoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18609BA4222D0EEC004E6BDB /* JYHistoryTableViewCell.m */; };
+		18609BA8222D0F36004E6BDB /* JYTitleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18609BA7222D0F36004E6BDB /* JYTitleTableViewCell.m */; };
+		18609BAB222D0F4D004E6BDB /* JYTeacherSayTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18609BAA222D0F4D004E6BDB /* JYTeacherSayTableViewCell.m */; };
+		18609BAE222D0F5F004E6BDB /* JYZxWayTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18609BAD222D0F5F004E6BDB /* JYZxWayTableViewCell.m */; };
+		18609BB1222D0FEC004E6BDB /* JYCommentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18609BB0222D0FEC004E6BDB /* JYCommentTableViewCell.m */; };
+		18609BB4222D1240004E6BDB /* 查看更多箭头@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18609BB2222D123F004E6BDB /* 查看更多箭头@3x.png */; };
+		18609BB5222D1240004E6BDB /* 查看更多箭头@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18609BB3222D123F004E6BDB /* 查看更多箭头@2x.png */; };
+		18609BB8222D2C33004E6BDB /* JYImgTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18609BB7222D2C33004E6BDB /* JYImgTableViewCell.m */; };
 		18FC9DDB21A55DF300FC6544 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC9DDA21A55DF300FC6544 /* AppDelegate.m */; };
 		18FC9DDE21A55DF300FC6544 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC9DDD21A55DF300FC6544 /* ViewController.m */; };
 		18FC9DE121A55DF300FC6544 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FC9DDF21A55DF300FC6544 /* Main.storyboard */; };
@@ -62,8 +124,103 @@
 		183816422227C10600FD89E0 /* UILabel+JYStyle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+JYStyle.m"; sourceTree = "<group>"; };
 		183816442227C8E400FD89E0 /* UIView+JYStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+JYStyle.h"; sourceTree = "<group>"; };
 		183816452227C8E400FD89E0 /* UIView+JYStyle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+JYStyle.m"; sourceTree = "<group>"; };
+		184B4946222E20180072BBAF /* JYTeacherHistoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYTeacherHistoryViewController.h; sourceTree = "<group>"; };
+		184B4947222E20180072BBAF /* JYTeacherHistoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYTeacherHistoryViewController.m; sourceTree = "<group>"; };
+		184B4949222E244C0072BBAF /* JYCommentListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYCommentListViewController.h; sourceTree = "<group>"; };
+		184B494A222E244C0072BBAF /* JYCommentListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYCommentListViewController.m; sourceTree = "<group>"; };
+		184B494C222E255B0072BBAF /* JYCommentListViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYCommentListViewModel.h; sourceTree = "<group>"; };
+		184B494D222E255B0072BBAF /* JYCommentListViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYCommentListViewModel.m; sourceTree = "<group>"; };
+		184B494F222E2AC60072BBAF /* 已点赞@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "已点赞@2x.png"; sourceTree = "<group>"; };
+		184B4950222E2AC60072BBAF /* 已点赞@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "已点赞@3x.png"; sourceTree = "<group>"; };
+		184B4953222E43710072BBAF /* JYHtmlTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYHtmlTableViewCell.h; sourceTree = "<group>"; };
+		184B4954222E43710072BBAF /* JYHtmlTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYHtmlTableViewCell.m; sourceTree = "<group>"; };
+		184B4956222E50D20072BBAF /* JYTeacherListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYTeacherListViewController.h; sourceTree = "<group>"; };
+		184B4957222E50D20072BBAF /* JYTeacherListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYTeacherListViewController.m; sourceTree = "<group>"; };
+		184B4959222E549E0072BBAF /* JYTeacherListViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYTeacherListViewModel.h; sourceTree = "<group>"; };
+		184B495A222E549E0072BBAF /* JYTeacherListViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYTeacherListViewModel.m; sourceTree = "<group>"; };
+		184B495C222E56310072BBAF /* JYTeacherListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYTeacherListTableViewCell.h; sourceTree = "<group>"; };
+		184B495D222E56310072BBAF /* JYTeacherListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYTeacherListTableViewCell.m; sourceTree = "<group>"; };
+		184B495F222E60F30072BBAF /* JYMarkView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYMarkView.h; sourceTree = "<group>"; };
+		184B4960222E60F30072BBAF /* JYMarkView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYMarkView.m; sourceTree = "<group>"; };
+		184B4962222E6A2D0072BBAF /* JYSearchZxViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYSearchZxViewController.h; sourceTree = "<group>"; };
+		184B4963222E6A2D0072BBAF /* JYSearchZxViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYSearchZxViewController.m; sourceTree = "<group>"; };
+		184B4965222E6C760072BBAF /* JYSoonAskTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYSoonAskTableViewCell.h; sourceTree = "<group>"; };
+		184B4966222E6C760072BBAF /* JYSoonAskTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYSoonAskTableViewCell.m; sourceTree = "<group>"; };
+		184B4968222E6DCD0072BBAF /* JYSearchTipTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYSearchTipTableViewCell.h; sourceTree = "<group>"; };
+		184B4969222E6DCD0072BBAF /* JYSearchTipTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYSearchTipTableViewCell.m; sourceTree = "<group>"; };
+		184B496B222E6E090072BBAF /* JYSearchTypeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYSearchTypeTableViewCell.h; sourceTree = "<group>"; };
+		184B496C222E6E090072BBAF /* JYSearchTypeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYSearchTypeTableViewCell.m; sourceTree = "<group>"; };
+		184B496E222E6E480072BBAF /* JYTipView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYTipView.h; sourceTree = "<group>"; };
+		184B496F222E6E480072BBAF /* JYTipView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYTipView.m; sourceTree = "<group>"; };
+		184B4971222E7AB80072BBAF /* JYNoZxViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYNoZxViewController.h; sourceTree = "<group>"; };
+		184B4972222E7AB80072BBAF /* JYNoZxViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYNoZxViewController.m; sourceTree = "<group>"; };
+		185280BA222F6C07006DE84A /* JYNavView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYNavView.h; sourceTree = "<group>"; };
+		185280BB222F6C07006DE84A /* JYNavView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYNavView.m; sourceTree = "<group>"; };
+		185280BD222F794E006DE84A /* NSString+JYTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+JYTool.h"; sourceTree = "<group>"; };
+		185280BE222F794E006DE84A /* NSString+JYTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+JYTool.m"; sourceTree = "<group>"; };
+		185280C0222FB9A4006DE84A /* JYCommentModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYCommentModel.h; sourceTree = "<group>"; };
+		185280C1222FB9A4006DE84A /* JYCommentModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYCommentModel.m; sourceTree = "<group>"; };
+		185280C3222FC486006DE84A /* UITableView+JYTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+JYTool.h"; sourceTree = "<group>"; };
+		185280C4222FC486006DE84A /* UITableView+JYTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+JYTool.m"; sourceTree = "<group>"; };
 		185D2B89222518890097AE18 /* JYTeacherInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYTeacherInfoViewController.h; sourceTree = "<group>"; };
 		185D2B8A222518890097AE18 /* JYTeacherInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYTeacherInfoViewController.m; sourceTree = "<group>"; };
+		18609B51222CC1EB004E6BDB /* 提问老师@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "提问老师@3x.png"; sourceTree = "<group>"; };
+		18609B52222CC1EB004E6BDB /* 提问老师@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "提问老师@2x.png"; sourceTree = "<group>"; };
+		18609B53222CC1EB004E6BDB /* 客服@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "客服@3x.png"; sourceTree = "<group>"; };
+		18609B54222CC1EB004E6BDB /* 客服@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "客服@2x.png"; sourceTree = "<group>"; };
+		18609B59222CC2A5004E6BDB /* 暂无咨询图片@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "暂无咨询图片@2x.png"; sourceTree = "<group>"; };
+		18609B5A222CC2A5004E6BDB /* 暂无咨询图片@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "暂无咨询图片@3x.png"; sourceTree = "<group>"; };
+		18609B5D222CC2D1004E6BDB /* 选科志愿升学@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选科志愿升学@2x.png"; sourceTree = "<group>"; };
+		18609B5E222CC2D2004E6BDB /* 咨询方式@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "咨询方式@3x.png"; sourceTree = "<group>"; };
+		18609B5F222CC2D2004E6BDB /* 亲子关系@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "亲子关系@3x.png"; sourceTree = "<group>"; };
+		18609B60222CC2D2004E6BDB /* 表情@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "表情@2x.png"; sourceTree = "<group>"; };
+		18609B61222CC2D2004E6BDB /* 孩子未来@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "孩子未来@2x.png"; sourceTree = "<group>"; };
+		18609B62222CC2D2004E6BDB /* 亲子关系@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "亲子关系@2x.png"; sourceTree = "<group>"; };
+		18609B63222CC2D2004E6BDB /* 孩子未来@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "孩子未来@3x.png"; sourceTree = "<group>"; };
+		18609B64222CC2D2004E6BDB /* 提升成绩@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "提升成绩@3x.png"; sourceTree = "<group>"; };
+		18609B65222CC2D2004E6BDB /* 咨询方式@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "咨询方式@2x.png"; sourceTree = "<group>"; };
+		18609B66222CC2D2004E6BDB /* 提升成绩@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "提升成绩@2x.png"; sourceTree = "<group>"; };
+		18609B67222CC2D2004E6BDB /* 选科志愿升学@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选科志愿升学@3x.png"; sourceTree = "<group>"; };
+		18609B73222CC3A3004E6BDB /* JYPointView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYPointView.h; sourceTree = "<group>"; };
+		18609B74222CC3A3004E6BDB /* JYPointView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYPointView.m; sourceTree = "<group>"; };
+		18609B78222CD668004E6BDB /* JYTeacherInfoViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYTeacherInfoViewModel.h; sourceTree = "<group>"; };
+		18609B79222CD668004E6BDB /* JYTeacherInfoViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYTeacherInfoViewModel.m; sourceTree = "<group>"; };
+		18609B7B222CD97A004E6BDB /* 返回-黑-视频文章@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回-黑-视频文章@2x.png"; sourceTree = "<group>"; };
+		18609B7C222CD97A004E6BDB /* 返回-黑-视频文章@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回-黑-视频文章@3x.png"; sourceTree = "<group>"; };
+		18609B7D222CD97A004E6BDB /* 分享-黑色-视频文章@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分享-黑色-视频文章@3x.png"; sourceTree = "<group>"; };
+		18609B7E222CD97A004E6BDB /* 分享-文章视频@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分享-文章视频@3x.png"; sourceTree = "<group>"; };
+		18609B7F222CD97A004E6BDB /* 分享-黑色-视频文章@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分享-黑色-视频文章@2x.png"; sourceTree = "<group>"; };
+		18609B80222CD97A004E6BDB /* 分享-文章视频@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分享-文章视频@2x.png"; sourceTree = "<group>"; };
+		18609B87222CF9B6004E6BDB /* 返回-视频文章@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回-视频文章@2x.png"; sourceTree = "<group>"; };
+		18609B88222CF9B6004E6BDB /* 返回-视频文章@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回-视频文章@3x.png"; sourceTree = "<group>"; };
+		18609B8B222CFDF7004E6BDB /* UIImage+JYEdit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+JYEdit.h"; sourceTree = "<group>"; };
+		18609B8C222CFDF7004E6BDB /* UIImage+JYEdit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JYEdit.m"; sourceTree = "<group>"; };
+		18609B8E222D06A7004E6BDB /* JYTeacherInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYTeacherInfoModel.h; sourceTree = "<group>"; };
+		18609B8F222D06A7004E6BDB /* JYTeacherInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYTeacherInfoModel.m; sourceTree = "<group>"; };
+		18609B94222D0CD3004E6BDB /* JYBigTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYBigTitleView.h; sourceTree = "<group>"; };
+		18609B95222D0CD3004E6BDB /* JYBigTitleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYBigTitleView.m; sourceTree = "<group>"; };
+		18609B97222D0E06004E6BDB /* JYTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYTitleView.h; sourceTree = "<group>"; };
+		18609B98222D0E06004E6BDB /* JYTitleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYTitleView.m; sourceTree = "<group>"; };
+		18609B9A222D0E98004E6BDB /* JYBigTitleTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYBigTitleTableViewCell.h; sourceTree = "<group>"; };
+		18609B9B222D0E98004E6BDB /* JYBigTitleTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYBigTitleTableViewCell.m; sourceTree = "<group>"; };
+		18609B9D222D0EB1004E6BDB /* JYJobTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYJobTableViewCell.h; sourceTree = "<group>"; };
+		18609B9E222D0EB1004E6BDB /* JYJobTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYJobTableViewCell.m; sourceTree = "<group>"; };
+		18609BA0222D0EC2004E6BDB /* JYGoodAtTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYGoodAtTableViewCell.h; sourceTree = "<group>"; };
+		18609BA1222D0EC2004E6BDB /* JYGoodAtTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYGoodAtTableViewCell.m; sourceTree = "<group>"; };
+		18609BA3222D0EEC004E6BDB /* JYHistoryTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYHistoryTableViewCell.h; sourceTree = "<group>"; };
+		18609BA4222D0EEC004E6BDB /* JYHistoryTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYHistoryTableViewCell.m; sourceTree = "<group>"; };
+		18609BA6222D0F36004E6BDB /* JYTitleTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYTitleTableViewCell.h; sourceTree = "<group>"; };
+		18609BA7222D0F36004E6BDB /* JYTitleTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYTitleTableViewCell.m; sourceTree = "<group>"; };
+		18609BA9222D0F4D004E6BDB /* JYTeacherSayTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYTeacherSayTableViewCell.h; sourceTree = "<group>"; };
+		18609BAA222D0F4D004E6BDB /* JYTeacherSayTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYTeacherSayTableViewCell.m; sourceTree = "<group>"; };
+		18609BAC222D0F5F004E6BDB /* JYZxWayTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYZxWayTableViewCell.h; sourceTree = "<group>"; };
+		18609BAD222D0F5F004E6BDB /* JYZxWayTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYZxWayTableViewCell.m; sourceTree = "<group>"; };
+		18609BAF222D0FEC004E6BDB /* JYCommentTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYCommentTableViewCell.h; sourceTree = "<group>"; };
+		18609BB0222D0FEC004E6BDB /* JYCommentTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYCommentTableViewCell.m; sourceTree = "<group>"; };
+		18609BB2222D123F004E6BDB /* 查看更多箭头@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "查看更多箭头@3x.png"; sourceTree = "<group>"; };
+		18609BB3222D123F004E6BDB /* 查看更多箭头@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "查看更多箭头@2x.png"; sourceTree = "<group>"; };
+		18609BB6222D2C33004E6BDB /* JYImgTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYImgTableViewCell.h; sourceTree = "<group>"; };
+		18609BB7222D2C33004E6BDB /* JYImgTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYImgTableViewCell.m; sourceTree = "<group>"; };
 		18FC9DD621A55DF300FC6544 /* TestVCDemoPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestVCDemoPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18FC9DD921A55DF300FC6544 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18FC9DDA21A55DF300FC6544 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -151,6 +308,127 @@
 			path = Animation;
 			sourceTree = "<group>";
 		};
+		18609B50222CC1DB004E6BDB /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				184B494F222E2AC60072BBAF /* 已点赞@2x.png */,
+				184B4950222E2AC60072BBAF /* 已点赞@3x.png */,
+				18609BB3222D123F004E6BDB /* 查看更多箭头@2x.png */,
+				18609BB2222D123F004E6BDB /* 查看更多箭头@3x.png */,
+				18609B87222CF9B6004E6BDB /* 返回-视频文章@2x.png */,
+				18609B88222CF9B6004E6BDB /* 返回-视频文章@3x.png */,
+				18609B7B222CD97A004E6BDB /* 返回-黑-视频文章@2x.png */,
+				18609B7C222CD97A004E6BDB /* 返回-黑-视频文章@3x.png */,
+				18609B7F222CD97A004E6BDB /* 分享-黑色-视频文章@2x.png */,
+				18609B7D222CD97A004E6BDB /* 分享-黑色-视频文章@3x.png */,
+				18609B80222CD97A004E6BDB /* 分享-文章视频@2x.png */,
+				18609B7E222CD97A004E6BDB /* 分享-文章视频@3x.png */,
+				18609B60222CC2D2004E6BDB /* 表情@2x.png */,
+				18609B61222CC2D2004E6BDB /* 孩子未来@2x.png */,
+				18609B63222CC2D2004E6BDB /* 孩子未来@3x.png */,
+				18609B62222CC2D2004E6BDB /* 亲子关系@2x.png */,
+				18609B5F222CC2D2004E6BDB /* 亲子关系@3x.png */,
+				18609B66222CC2D2004E6BDB /* 提升成绩@2x.png */,
+				18609B64222CC2D2004E6BDB /* 提升成绩@3x.png */,
+				18609B5D222CC2D1004E6BDB /* 选科志愿升学@2x.png */,
+				18609B67222CC2D2004E6BDB /* 选科志愿升学@3x.png */,
+				18609B65222CC2D2004E6BDB /* 咨询方式@2x.png */,
+				18609B5E222CC2D2004E6BDB /* 咨询方式@3x.png */,
+				18609B59222CC2A5004E6BDB /* 暂无咨询图片@2x.png */,
+				18609B5A222CC2A5004E6BDB /* 暂无咨询图片@3x.png */,
+				18609B54222CC1EB004E6BDB /* 客服@2x.png */,
+				18609B53222CC1EB004E6BDB /* 客服@3x.png */,
+				18609B52222CC1EB004E6BDB /* 提问老师@2x.png */,
+				18609B51222CC1EB004E6BDB /* 提问老师@3x.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		18609B76222CD634004E6BDB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				18609B78222CD668004E6BDB /* JYTeacherInfoViewModel.h */,
+				18609B79222CD668004E6BDB /* JYTeacherInfoViewModel.m */,
+				184B494C222E255B0072BBAF /* JYCommentListViewModel.h */,
+				184B494D222E255B0072BBAF /* JYCommentListViewModel.m */,
+				184B4959222E549E0072BBAF /* JYTeacherListViewModel.h */,
+				184B495A222E549E0072BBAF /* JYTeacherListViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		18609B77222CD646004E6BDB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18609B8E222D06A7004E6BDB /* JYTeacherInfoModel.h */,
+				18609B8F222D06A7004E6BDB /* JYTeacherInfoModel.m */,
+				185280C0222FB9A4006DE84A /* JYCommentModel.h */,
+				185280C1222FB9A4006DE84A /* JYCommentModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18609B91222D0B17004E6BDB /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				18609B93222D0B2E004E6BDB /* Cell */,
+				18609B92222D0B28004E6BDB /* View */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		18609B92222D0B28004E6BDB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18609B94222D0CD3004E6BDB /* JYBigTitleView.h */,
+				18609B95222D0CD3004E6BDB /* JYBigTitleView.m */,
+				18609B97222D0E06004E6BDB /* JYTitleView.h */,
+				18609B98222D0E06004E6BDB /* JYTitleView.m */,
+				184B495F222E60F30072BBAF /* JYMarkView.h */,
+				184B4960222E60F30072BBAF /* JYMarkView.m */,
+				184B496E222E6E480072BBAF /* JYTipView.h */,
+				184B496F222E6E480072BBAF /* JYTipView.m */,
+				185280BA222F6C07006DE84A /* JYNavView.h */,
+				185280BB222F6C07006DE84A /* JYNavView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18609B93222D0B2E004E6BDB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				18609B9A222D0E98004E6BDB /* JYBigTitleTableViewCell.h */,
+				18609B9B222D0E98004E6BDB /* JYBigTitleTableViewCell.m */,
+				18609B9D222D0EB1004E6BDB /* JYJobTableViewCell.h */,
+				18609B9E222D0EB1004E6BDB /* JYJobTableViewCell.m */,
+				18609BA0222D0EC2004E6BDB /* JYGoodAtTableViewCell.h */,
+				18609BA1222D0EC2004E6BDB /* JYGoodAtTableViewCell.m */,
+				18609BA3222D0EEC004E6BDB /* JYHistoryTableViewCell.h */,
+				18609BA4222D0EEC004E6BDB /* JYHistoryTableViewCell.m */,
+				18609BA6222D0F36004E6BDB /* JYTitleTableViewCell.h */,
+				18609BA7222D0F36004E6BDB /* JYTitleTableViewCell.m */,
+				18609BA9222D0F4D004E6BDB /* JYTeacherSayTableViewCell.h */,
+				18609BAA222D0F4D004E6BDB /* JYTeacherSayTableViewCell.m */,
+				18609BAC222D0F5F004E6BDB /* JYZxWayTableViewCell.h */,
+				18609BAD222D0F5F004E6BDB /* JYZxWayTableViewCell.m */,
+				18609BAF222D0FEC004E6BDB /* JYCommentTableViewCell.h */,
+				18609BB0222D0FEC004E6BDB /* JYCommentTableViewCell.m */,
+				18609BB6222D2C33004E6BDB /* JYImgTableViewCell.h */,
+				18609BB7222D2C33004E6BDB /* JYImgTableViewCell.m */,
+				184B4953222E43710072BBAF /* JYHtmlTableViewCell.h */,
+				184B4954222E43710072BBAF /* JYHtmlTableViewCell.m */,
+				184B495C222E56310072BBAF /* JYTeacherListTableViewCell.h */,
+				184B495D222E56310072BBAF /* JYTeacherListTableViewCell.m */,
+				184B4965222E6C760072BBAF /* JYSoonAskTableViewCell.h */,
+				184B4966222E6C760072BBAF /* JYSoonAskTableViewCell.m */,
+				184B4968222E6DCD0072BBAF /* JYSearchTipTableViewCell.h */,
+				184B4969222E6DCD0072BBAF /* JYSearchTipTableViewCell.m */,
+				184B496B222E6E090072BBAF /* JYSearchTypeTableViewCell.h */,
+				184B496C222E6E090072BBAF /* JYSearchTypeTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		18FC9DCD21A55DF300FC6544 = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +448,10 @@
 		18FC9DD821A55DF300FC6544 /* TestVCDemoPT */ = {
 			isa = PBXGroup;
 			children = (
+				18609B91222D0B17004E6BDB /* CustomView */,
+				18609B77222CD646004E6BDB /* Model */,
+				18609B76222CD634004E6BDB /* ViewModel */,
+				18609B50222CC1DB004E6BDB /* Image */,
 				182CAF8A2203E732004B64F3 /* Animation */,
 				1813CF002202E1FE0081B1AB /* Login */,
 				18FC9E8D21A5659000FC6544 /* TestVC */,
@@ -223,6 +505,14 @@
 				183816442227C8E400FD89E0 /* UIView+JYStyle.h */,
 				183816452227C8E400FD89E0 /* UIView+JYStyle.m */,
 				18FC9DF721A55E1C00FC6544 /* Util */,
+				18609B73222CC3A3004E6BDB /* JYPointView.h */,
+				18609B74222CC3A3004E6BDB /* JYPointView.m */,
+				18609B8B222CFDF7004E6BDB /* UIImage+JYEdit.h */,
+				18609B8C222CFDF7004E6BDB /* UIImage+JYEdit.m */,
+				185280BD222F794E006DE84A /* NSString+JYTool.h */,
+				185280BE222F794E006DE84A /* NSString+JYTool.m */,
+				185280C3222FC486006DE84A /* UITableView+JYTool.h */,
+				185280C4222FC486006DE84A /* UITableView+JYTool.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -329,6 +619,16 @@
 				1813CF082202F3740081B1AB /* TestView.m */,
 				185D2B89222518890097AE18 /* JYTeacherInfoViewController.h */,
 				185D2B8A222518890097AE18 /* JYTeacherInfoViewController.m */,
+				184B4946222E20180072BBAF /* JYTeacherHistoryViewController.h */,
+				184B4947222E20180072BBAF /* JYTeacherHistoryViewController.m */,
+				184B4949222E244C0072BBAF /* JYCommentListViewController.h */,
+				184B494A222E244C0072BBAF /* JYCommentListViewController.m */,
+				184B4956222E50D20072BBAF /* JYTeacherListViewController.h */,
+				184B4957222E50D20072BBAF /* JYTeacherListViewController.m */,
+				184B4962222E6A2D0072BBAF /* JYSearchZxViewController.h */,
+				184B4963222E6A2D0072BBAF /* JYSearchZxViewController.m */,
+				184B4971222E7AB80072BBAF /* JYNoZxViewController.h */,
+				184B4972222E7AB80072BBAF /* JYNoZxViewController.m */,
 			);
 			path = TestVC;
 			sourceTree = "<group>";
@@ -390,10 +690,39 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18609B8A222CF9B6004E6BDB /* 返回-视频文章@3x.png in Resources */,
+				18609BB5222D1240004E6BDB /* 查看更多箭头@2x.png in Resources */,
 				18FC9DE621A55DF600FC6544 /* LaunchScreen.storyboard in Resources */,
+				18609B6B222CC2D2004E6BDB /* 表情@2x.png in Resources */,
+				18609B5B222CC2A5004E6BDB /* 暂无咨询图片@2x.png in Resources */,
+				18609B83222CD97A004E6BDB /* 分享-黑色-视频文章@3x.png in Resources */,
 				18FC9E8F21A567FF00FC6544 /* Images.xcassets in Resources */,
+				18609B69222CC2D2004E6BDB /* 咨询方式@3x.png in Resources */,
 				18FC9DE321A55DF600FC6544 /* Assets.xcassets in Resources */,
+				18609B6E222CC2D2004E6BDB /* 孩子未来@3x.png in Resources */,
+				18609B89222CF9B6004E6BDB /* 返回-视频文章@2x.png in Resources */,
+				18609B68222CC2D2004E6BDB /* 选科志愿升学@2x.png in Resources */,
+				18609B6A222CC2D2004E6BDB /* 亲子关系@3x.png in Resources */,
+				18609B6D222CC2D2004E6BDB /* 亲子关系@2x.png in Resources */,
+				18609B5C222CC2A5004E6BDB /* 暂无咨询图片@3x.png in Resources */,
+				18609BB4222D1240004E6BDB /* 查看更多箭头@3x.png in Resources */,
+				184B4952222E2AC60072BBAF /* 已点赞@3x.png in Resources */,
+				184B4951222E2AC60072BBAF /* 已点赞@2x.png in Resources */,
+				18609B6C222CC2D2004E6BDB /* 孩子未来@2x.png in Resources */,
+				18609B81222CD97A004E6BDB /* 返回-黑-视频文章@2x.png in Resources */,
+				18609B71222CC2D2004E6BDB /* 提升成绩@2x.png in Resources */,
+				18609B70222CC2D2004E6BDB /* 咨询方式@2x.png in Resources */,
+				18609B57222CC1EB004E6BDB /* 客服@3x.png in Resources */,
+				18609B82222CD97A004E6BDB /* 返回-黑-视频文章@3x.png in Resources */,
+				18609B72222CC2D2004E6BDB /* 选科志愿升学@3x.png in Resources */,
+				18609B86222CD97A004E6BDB /* 分享-文章视频@2x.png in Resources */,
+				18609B56222CC1EB004E6BDB /* 提问老师@2x.png in Resources */,
+				18609B85222CD97A004E6BDB /* 分享-黑色-视频文章@2x.png in Resources */,
+				18609B58222CC1EB004E6BDB /* 客服@2x.png in Resources */,
+				18609B84222CD97A004E6BDB /* 分享-文章视频@3x.png in Resources */,
 				18FC9DE121A55DF300FC6544 /* Main.storyboard in Resources */,
+				18609B55222CC1EB004E6BDB /* 提问老师@3x.png in Resources */,
+				18609B6F222CC2D2004E6BDB /* 提升成绩@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,38 +733,71 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18609B8D222CFDF7004E6BDB /* UIImage+JYEdit.m in Sources */,
 				18FC9E4C21A55E1C00FC6544 /* UITextView+placeHolder.m in Sources */,
 				18FC9E5221A55E1C00FC6544 /* Tools.m in Sources */,
+				184B495B222E549E0072BBAF /* JYTeacherListViewModel.m in Sources */,
+				184B4961222E60F30072BBAF /* JYMarkView.m in Sources */,
 				1813CF032202E2380081B1AB /* JYLoginManager.m in Sources */,
 				183816462227C8E400FD89E0 /* UIView+JYStyle.m in Sources */,
 				18FC9E4E21A55E1C00FC6544 /* NSString+MD5.m in Sources */,
+				184B495E222E56310072BBAF /* JYTeacherListTableViewCell.m in Sources */,
+				184B4948222E20180072BBAF /* JYTeacherHistoryViewController.m in Sources */,
 				18FC9E4D21A55E1C00FC6544 /* NSString+AttributedString.m in Sources */,
 				18FC9E5321A55E1C00FC6544 /* UIView+JYExFrame.m in Sources */,
+				184B494E222E255B0072BBAF /* JYCommentListViewModel.m in Sources */,
 				183816402227BB7100FD89E0 /* UIButton+JYStyle.m in Sources */,
+				18609BAB222D0F4D004E6BDB /* JYTeacherSayTableViewCell.m in Sources */,
+				184B4967222E6C760072BBAF /* JYSoonAskTableViewCell.m in Sources */,
 				18FC9DDE21A55DF300FC6544 /* ViewController.m in Sources */,
 				183816432227C10600FD89E0 /* UILabel+JYStyle.m in Sources */,
+				185280C2222FB9A5006DE84A /* JYCommentModel.m in Sources */,
+				18609BB1222D0FEC004E6BDB /* JYCommentTableViewCell.m in Sources */,
+				18609B90222D06A7004E6BDB /* JYTeacherInfoModel.m in Sources */,
+				184B496A222E6DCD0072BBAF /* JYSearchTipTableViewCell.m in Sources */,
 				1838163F2227BB7100FD89E0 /* UIView+JYLayerEdit.m in Sources */,
 				18FC9E4021A55E1C00FC6544 /* DDRequestManager.m in Sources */,
 				1813CEFF2202E0B00081B1AB /* TestAnimationViewController.m in Sources */,
+				18609BB8222D2C33004E6BDB /* JYImgTableViewCell.m in Sources */,
 				18FC9E4121A55E1C00FC6544 /* customLabel.m in Sources */,
+				18609BA8222D0F36004E6BDB /* JYTitleTableViewCell.m in Sources */,
+				18609BAE222D0F5F004E6BDB /* JYZxWayTableViewCell.m in Sources */,
+				18609B99222D0E06004E6BDB /* JYTitleView.m in Sources */,
 				18FC9E4A21A55E1C00FC6544 /* UIView+cornerRadius.m in Sources */,
 				18FC9E5421A55E1C00FC6544 /* JYBaseViewModel.m in Sources */,
+				185280BF222F794E006DE84A /* NSString+JYTool.m in Sources */,
+				185280BC222F6C07006DE84A /* JYNavView.m in Sources */,
 				18FC9E3E21A55E1C00FC6544 /* DDExNoDataView.m in Sources */,
 				18FC9E5721A55E1C00FC6544 /* BSUtility.m in Sources */,
+				184B4970222E6E480072BBAF /* JYTipView.m in Sources */,
 				18FC9E5121A55E1C00FC6544 /* UITextField+NLLimit.m in Sources */,
+				18609B75222CC3A3004E6BDB /* JYPointView.m in Sources */,
+				184B496D222E6E090072BBAF /* JYSearchTypeTableViewCell.m in Sources */,
+				18609BA5222D0EEC004E6BDB /* JYHistoryTableViewCell.m in Sources */,
+				184B4955222E43710072BBAF /* JYHtmlTableViewCell.m in Sources */,
+				18609B7A222CD668004E6BDB /* JYTeacherInfoViewModel.m in Sources */,
+				18609B9F222D0EB1004E6BDB /* JYJobTableViewCell.m in Sources */,
+				184B4958222E50D20072BBAF /* JYTeacherListViewController.m in Sources */,
 				18FC9E5F21A55FC300FC6544 /* VCManager.m in Sources */,
 				1813CF092202F3740081B1AB /* TestView.m in Sources */,
 				18FC9E5921A55E1C00FC6544 /* TabViewControllerManager.m in Sources */,
+				18609BA2222D0EC2004E6BDB /* JYGoodAtTableViewCell.m in Sources */,
 				1813CF062202E9AB0081B1AB /* JYUserInfoModel.m in Sources */,
+				18609B9C222D0E98004E6BDB /* JYBigTitleTableViewCell.m in Sources */,
 				18FC9E3D21A55E1C00FC6544 /* JYBaseTabBarController.m in Sources */,
+				185280C5222FC486006DE84A /* UITableView+JYTool.m in Sources */,
 				18FC9E5B21A55E1C00FC6544 /* JYAbstractTableViewCell.m in Sources */,
+				18609B96222D0CD3004E6BDB /* JYBigTitleView.m in Sources */,
+				184B4964222E6A2D0072BBAF /* JYSearchZxViewController.m in Sources */,
 				18FC9E4921A55E1C00FC6544 /* UIView+shotMethod.m in Sources */,
 				18FC9DE921A55DF600FC6544 /* main.m in Sources */,
+				184B494B222E244C0072BBAF /* JYCommentListViewController.m in Sources */,
 				18FC9DDB21A55DF300FC6544 /* AppDelegate.m in Sources */,
 				18FC9E5A21A55E1C00FC6544 /* DDExDialogView.m in Sources */,
 				18FC9E4B21A55E1C00FC6544 /* NSTimer+block.m in Sources */,
 				185D2B8B222518890097AE18 /* JYTeacherInfoViewController.m in Sources */,
 				18FC9E5821A55E1C00FC6544 /* DDScrollView.m in Sources */,
+				184B4973222E7AB80072BBAF /* JYNoZxViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

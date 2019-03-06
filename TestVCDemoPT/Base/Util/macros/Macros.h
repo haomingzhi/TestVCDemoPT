@@ -26,9 +26,9 @@
 #define Notification_Font_Size   10   // 通知文字大小
 #define Chatroom_Message_Font_Size 16 // 聊天室聊天文字大小
 #define IPhoneX   ((UIScreenHeight == 812)? YES:NO)
-
+#define LineWidth 0.25 * [UIScreen mainScreen].scale
 #define kHarpyCurrentVersion [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
-
+#define Padding 17.5
 //判断是否 Retina屏、设备是否iPhone 5、是否是iPad
 #define isRetina ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 960), [[UIScreen mainScreen] currentMode].size) : NO)
 

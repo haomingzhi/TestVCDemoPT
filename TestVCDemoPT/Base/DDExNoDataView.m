@@ -38,9 +38,7 @@
 -(void)layoutSubviews
 {
    
-        _imgV.width = 120;
-        _imgV.height = 120;
-         _imgV.top = 43;
+    
     
     _imgV.layer.cornerRadius = _imgV.height/2.0;
     _imgV.centerX = UIScreenWidth * .5f;
@@ -69,7 +67,9 @@
         _imgV = [UIImageView new];
         _imgV.image = [UIImage imageNamed:@"空白页表情"];
         _imgV.top = 93;
-        
+        _imgV.width = 120;
+        _imgV.height = 120;
+        _imgV.top = 43;
     }
     return _imgV;
 }

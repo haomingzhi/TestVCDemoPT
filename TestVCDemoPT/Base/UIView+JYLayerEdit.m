@@ -301,12 +301,14 @@ static void *contentWidthXKey = &contentWidthXKey;
 -(void)shadowColor:(UIColor *)color shadowOffset:(CGSize )shadowOffset shadowOpacity:(CGFloat)opacity
 {
     UIView *sv             = [UIView new];
-    sv.frame               = self.bounds;
+    sv.frame               = self.frame;
     sv.layer.shadowColor   = color.CGColor;
     sv.layer.shadowOffset  = shadowOffset;//CGSizeMake(10, 10);
     sv.layer.shadowOpacity = opacity;
     [self.superview addSubview:sv];
     [sv addSubview:self];
+    sv.top = 0;
+    sv.left = 0;
 }
 
 -(void)shadowWidthPath:(UIBezierPath *)path

@@ -11,9 +11,24 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface UIButton (JYStyle)
++(void)createBtns:(NSArray *)arr withBtnsArr:(NSMutableArray *)btnArr withSuperView:(UIView *)supview withSel:(SEL)sel;
+
 +(UIButton *)newBtn;
+
 +(UIButton *)newStyleBtn:(NSString *)text;
-+(UIButton *)findTeacherBtn;
+
++(UIButton *)newFindTeacherBtn;
+
++(UIButton *)newAskBtn;
+
++(UIButton *)newZxKfBtn;
+
++(UIButton *)newNavShareBtn:(NSInteger)type;
+
++(UIButton *)newNavBackBtn:(NSInteger)type;
+-(void)setCommentBtn:(NSInteger)count;
++(UIButton *)newCommentBtn:(NSInteger)count;
++(UIButton *)newMoreBtn:(NSString *)str;
 @end
 
 NS_ASSUME_NONNULL_END
