@@ -44,9 +44,9 @@
    UILabel *tv = [UILabel newNavTitleLb:@"导师履历"];
     tv.textColor = UIColorFromRGB(0xffffff);
     self.navigationItem.titleView = tv;
-    UIButton *rBtn = [UIButton newNavShareBtn:1];
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:rBtn];
-     [rBtn addTarget:self action:@selector(backHandle:) forControlEvents:UIControlEventTouchUpInside];
+//    UIButton *rBtn = [UIButton newNavShareBtn:1];
+//    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:rBtn];
+//     [rBtn addTarget:self action:@selector(backHandle:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:[UIView new]];
     [self.view addSubview:self.tableView];
     [self.view addSubview:self.navBackgroundView];
@@ -144,23 +144,29 @@
     }
     else if (indexPath.section == 2)
     {
+        if (!self.viewModel.model.intro ||[self.viewModel.model.intro isEqualToString:@""]) {
+            return 0.0001;
+        }
         if (indexPath.row == 0) {
             return 40;
         }
         else if (indexPath.row == 1)
         {
-            //获取导师详情中的个人简介内容高度
+        
             return self.viewModel.teacherIntroHeight;
         }
     }
     else
     {
+        if (!self.viewModel.model.teacherStory||[self.viewModel.model.teacherStory isEqualToString:@""]) {
+            return 0.0001;
+        }
         if (indexPath.row == 0) {
             return 40;
         }
         else if (indexPath.row == 1)
         {
-            //获取导师详情中的个人简介内容高度
+        
             return self.viewModel.teacherStoryHeight;
         }
     }
@@ -212,6 +218,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
       __weak typeof(self) weak_self = self;
+    JYTeacherInfoModel *m = self.viewModel.model;
     UITableViewCell *cell;
     if (indexPath.section == 0) {
         cell = [tableView dequeueReusableCellWithIdentifier:@"JYImgTableViewCell"];
@@ -219,7 +226,8 @@
             [tableView registerClass:[JYImgTableViewCell class] forCellReuseIdentifier:@"JYImgTableViewCell"];
             cell = [tableView dequeueReusableCellWithIdentifier:@"JYImgTableViewCell"];
         }
-        [(JYImgTableViewCell*)cell refresh:@{@"img":@""}];
+        NSDictionary *dic = [m getDic:indexPath type:1];
+        [(JYImgTableViewCell*)cell refresh:dic];
         //        cell.separatorInset = UIEdgeInsetsMake(0, 10000, 0, 0);
     }
     else if (indexPath.section == 1)
@@ -230,7 +238,7 @@
                 [tableView registerClass:[JYBigTitleTableViewCell class] forCellReuseIdentifier:@"JYBigTitleTableViewCell"];
                 cell = [tableView dequeueReusableCellWithIdentifier:@"JYBigTitleTableViewCell"];
             }
-            NSDictionary *dic = @{@"title":@"林佳"};
+            NSDictionary *dic =  [m getDic:indexPath type:1];
             [(JYBigTitleTableViewCell*)cell refresh:dic];
             //             cell.separatorInset = UIEdgeInsetsMake(0, 10000, 0, 0);
         }
@@ -241,9 +249,7 @@
                 [tableView registerClass:[JYJobTableViewCell class] forCellReuseIdentifier:@"JYJobTableViewCell"];
                 cell = [tableView dequeueReusableCellWithIdentifier:@"JYJobTableViewCell"];
             }
-            NSDictionary *dic = @{@"title":@"师范大学心理学教授\n\
-中国职业规划师\n\
-校园在线教育顾问"};
+            NSDictionary *dic =  [m getDic:indexPath type:1];
             [(JYJobTableViewCell*)cell refresh:dic];
             //             cell.separatorInset = UIEdgeInsetsMake(0, 10000, 0, 0);
         }
@@ -254,7 +260,7 @@
                 [tableView registerClass:[JYGoodAtTableViewCell class] forCellReuseIdentifier:@"JYGoodAtTableViewCell"];
                 cell = [tableView dequeueReusableCellWithIdentifier:@"JYGoodAtTableViewCell"];
             }
-            NSDictionary *dic = @{@"title":@"擅长：升学、选科、志愿填报",@"hiddenLine":@YES};
+            NSDictionary *dic = [m getDic:indexPath type:1];
             [(JYGoodAtTableViewCell*)cell refresh:dic];
             //             cell.separatorInset = UIEdgeInsetsMake(0, 17.5, 0, 17.5);
         }
@@ -263,14 +269,20 @@
     else
         if (indexPath.section == 2) {
             if (indexPath.row == 0) {
-                cell = [tableView dequeueReusableCellWithIdentifier:@"JYTitleTableViewCell"];
+                cell = [tableView dequeueReusableCellWithIdentifier:@"JYTitleTableViewCellX"];
                 if (!cell) {
-                    [tableView registerClass:[JYTitleTableViewCell class] forCellReuseIdentifier:@"JYTitleTableViewCell"];
-                    cell = [tableView dequeueReusableCellWithIdentifier:@"JYTitleTableViewCell"];
+                    [tableView registerClass:[JYTitleTableViewCell class] forCellReuseIdentifier:@"JYTitleTableViewCellX"];
+                    cell = [tableView dequeueReusableCellWithIdentifier:@"JYTitleTableViewCellX"];
                 }
-                NSDictionary *dic = @{@"title":@"个人简介"};
+                NSDictionary *dic =  [m getDic:indexPath type:1];
                 [(JYTitleTableViewCell*)cell refresh:dic];
-                //             cell.separatorInset = UIEdgeInsetsMake(0, 10000, 0, 0);
+                if (!self.viewModel.model.intro||[self.viewModel.model.intro isEqualToString:@""]) {
+                    cell.hidden = YES;
+                }
+                else
+                {
+                    cell.hidden = NO;
+                }
             }
             else
             {
@@ -279,43 +291,71 @@
                     [tableView registerClass:[JYHtmlTableViewCell class] forCellReuseIdentifier:@"JYHtmlTableViewCell"];
                     cell = [tableView dequeueReusableCellWithIdentifier:@"JYHtmlTableViewCell"];
                 }
-                NSDictionary *dic = @{@"title":@"“我一共带过630个孩子填报志愿，其中450个孩子考上了比原定目标更好的大学，180个孩子出国深造，相信你的孩子也能！”"};
+                NSDictionary *dic =  [m getDic:indexPath type:1];
                 [(JYHtmlTableViewCell*)cell refresh:dic];
                 [(JYHtmlTableViewCell*)cell setCallBack:^(NSDictionary * _Nonnull dic) {
                     CGFloat h = [dic[@"H"] floatValue];
                     weak_self.viewModel.teacherIntroHeight = h;
+                    [CATransaction begin];
+                    [CATransaction setDisableActions:YES];
                     [weak_self.tableView beginUpdates];
                     [weak_self.tableView endUpdates];
+                    [CATransaction commit];
                 }];
+                if (!self.viewModel.model.intro||[self.viewModel.model.intro isEqualToString:@""]) {
+                    cell.hidden = YES;
+                }
+                else
+                {
+                    cell.hidden = NO;
+                }
             }
         }
         else
       {
                 if (indexPath.row == 0) {
-                    cell = [tableView dequeueReusableCellWithIdentifier:@"JYTitleTableViewCell"];
+                    cell = [tableView dequeueReusableCellWithIdentifier:@"kkk"];
                     if (!cell) {
-                        [tableView registerClass:[JYTitleTableViewCell class] forCellReuseIdentifier:@"JYTitleTableViewCell"];
-                        cell = [tableView dequeueReusableCellWithIdentifier:@"JYTitleTableViewCell"];
+                        [tableView registerClass:[JYTitleTableViewCell class] forCellReuseIdentifier:@"kkk"];
+                        cell = [tableView dequeueReusableCellWithIdentifier:@"kkk"];
                     }
-                    NSDictionary *dic = @{@"title":@"老师故事"};
+                    NSDictionary *dic =  [m getDic:indexPath type:1];
                     [(JYTitleTableViewCell*)cell refresh:dic];
-                  
+                    if (!self.viewModel.model.teacherStory||[self.viewModel.model.teacherStory isEqualToString:@""]) {
+                        cell.hidden = YES;
+                        NSLog(@"ffff");
+                    }
+                    else
+                    {
+                        cell.hidden = NO;
+                        NSLog(@"cccc");
+                    }
                 }
                 else
                 {
-                                    cell = [tableView dequeueReusableCellWithIdentifier:@"JYHtmlTableViewCell"];
+                                    cell = [tableView dequeueReusableCellWithIdentifier:@"JYHtmlTableViewCellX"];
                                     if (!cell) {
-                                        [tableView registerClass:[JYHtmlTableViewCell class] forCellReuseIdentifier:@"JYHtmlTableViewCell"];
-                                        cell = [tableView dequeueReusableCellWithIdentifier:@"JYHtmlTableViewCell"];
+                                        [tableView registerClass:[JYHtmlTableViewCell class] forCellReuseIdentifier:@"JYHtmlTableViewCellX"];
+                                        cell = [tableView dequeueReusableCellWithIdentifier:@"JYHtmlTableViewCellX"];
                                     }
-                                    NSDictionary *dic = @{@"title":@"我一共带过630个孩子填报志愿，其中450个孩子考上了比原定目标更好的大学，180个孩子出国深造，相信你的孩子也能！我为您探索微信小程序用户的认知、行为特点，及对未来小程序的使用诉求等。"};
+                    NSDictionary *dic =  [m getDic:indexPath type:1];
                                     [(JYHtmlTableViewCell*)cell refresh:dic];
                     [(JYHtmlTableViewCell*)cell setCallBack:^(NSDictionary * _Nonnull dic) {
                         CGFloat h = [dic[@"H"] floatValue];
                         weak_self.viewModel.teacherStoryHeight = h;
+                        [CATransaction begin];
+                        [CATransaction setDisableActions:YES];
                         [weak_self.tableView beginUpdates];
                         [weak_self.tableView endUpdates];
+                        [CATransaction commit];
                     }];
+                    if (!self.viewModel.model.teacherStory||[self.viewModel.model.teacherStory isEqualToString:@""]) {
+                        cell.hidden = YES;
+                    }
+                    else
+                    {
+                        cell.hidden = NO;
+                    }
                 }
             }
     
@@ -331,9 +371,9 @@
     if (!_navBackgroundView) {
         _navBackgroundView = [JYNavView newNavView:@"导师履历"];
         UIButton *lbtn = [_navBackgroundView setNavLeftBtn];
-        UIButton *rbtn = [_navBackgroundView setNavRightBtn];
+//        UIButton *rbtn = [_navBackgroundView setNavRightBtn];
         [lbtn addTarget:self action:@selector(backHandle:) forControlEvents:UIControlEventTouchUpInside];
-        [rbtn addTarget:self action:@selector(backHandle:) forControlEvents:UIControlEventTouchUpInside];
+//        [rbtn addTarget:self action:@selector(backHandle:) forControlEvents:UIControlEventTouchUpInside];
         _navBackgroundView.backgroundColor = UIColorFromRGB(0xffffff);
         //        [(UIImageView *)_navBackgroundView setImage:[UIImage imageNamed:@"daohanlan"]];
     }
@@ -359,7 +399,7 @@
     [self.navigationController.navigationBar setBackgroundImage:[UIImage imageWithColor:UIColorFromRGBA(0x8B80F1, 0)] forBarMetrics:UIBarMetricsDefault];
     self.navBackgroundView.alpha = 1 - (xm - self.tableView.contentOffset.y + 20)/xm;
     
-    [self.tableView reloadData];
+//    [self.tableView reloadData];
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
@@ -373,15 +413,7 @@
         //        {
         self.navBackgroundView.alpha = 1 - (xm - scrollView.contentOffset.y + 20)/xm;
          self.navigationController.navigationBar.alpha = (xm - scrollView.contentOffset.y + 20)/xm;
-//        if (scrollView.contentOffset.y <= -(NavHeight)) {
-//            //            self.navBackgroundView.alpha = 1;
-//            self.navigationController.navigationBar.hidden = YES;
-//        }
-//        else if (scrollView.contentOffset.y >= 0)
-//        {
-//            self.navigationController.navigationBar.hidden = NO;
-//        }
-        
+
     }
 }
 

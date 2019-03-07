@@ -40,6 +40,15 @@
     [self addSubview:self.rightV];
 }
 
+-(void)setTitle:(NSString *)title
+{
+    _title = title;
+    if ([self.titleV isKindOfClass:[UILabel class]]) {
+        UILabel *lb = (UILabel *)self.titleV;
+        lb.text = title;
+    }
+}
+
 -(UIButton *)setNavLeftBtnImg:(NSString *)img
 {
     UIButton *btn = [UIButton newBtn];

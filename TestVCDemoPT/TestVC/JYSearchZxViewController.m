@@ -14,9 +14,12 @@
 #import "JYSoonAskTableViewCell.h"
 #import "JYSearchTipTableViewCell.h"
 #import "JYSearchTypeTableViewCell.h"
+#import "JYTeacherListViewController.h"
+#import "JYSearchZxViewModel.h"
+#import "JYTeacherTypeModel.h"
 @interface JYSearchZxViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong)UITableView *tableView;
-@property(nonatomic,strong)JYTeacherListViewModel *viewModel;
+@property(nonatomic,strong)JYSearchZxViewModel *viewModel;
 
 @property(nonatomic,strong)UIView *navBackgroundView;
 @end
@@ -32,8 +35,24 @@
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:backBtn];
     [self.view addSubview:[UIView new]];
     [self.view addSubview:self.tableView];
+    [self fetchData];
 }
-
+-(void)fetchData
+{
+    __weak typeof(self) weak_self = self;
+    [self.viewModel fetchData:@{} Completion:^(BOOL b, NSString *msg) {
+        //                    [SV_DDLoading dismiss];
+        
+        if(!b)
+        {
+            [weak_self.tableView reloadData];
+            return ;
+        }
+       
+        [weak_self.tableView reloadData];
+        
+    }];
+}
 -(void)backHandle:(UIButton *)btn
 {
     [self.navigationController popViewControllerAnimated:YES];
@@ -52,10 +71,10 @@
 }
 
 
--(JYTeacherListViewModel*)viewModel
+-(JYSearchZxViewModel*)viewModel
 {
     if (!_viewModel) {
-        _viewModel = [JYTeacherListViewModel new];
+        _viewModel = [JYSearchZxViewModel new];
     }
     return _viewModel;
 }
@@ -87,48 +106,34 @@
 
 #pragma mark - UITableViewDelegate
 
-//-(UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section
-//{
-//    if (section == 4) {
-//        return self.moreCommentBtn;
-//    }
-//    if(section == 0)
-//    {
-//        UIView *v = [UIView new];
-//        v.backgroundColor = UIColorFromRGB(0xffffff);
-//        return v;
-//    }
-//    UIView *v = [UIView new];
-//    v.backgroundColor = UIColorFromRGB(0xF1F2F5);
-//    return v;
-//}
-//
-//-(CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section
-//{
-//    if (section == 4) {
-//        return 40;
-//    }
-//    if(section == 0)
-//    {
-//        return 0.0001;
-//    }
-//    return 10;
-//}
-//
+-(UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section
+{
+   
+    UIView *v = [UIView new];
+    v.backgroundColor = UIColorFromRGB(0xffffff);
+    return v;
+}
+
+-(CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section
+{
+    
+    return 0.0001;
+}
+
 -(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
 {
     
     if (section == 0) {
         JYTitleView *v = [JYTitleView newTitleView:@"快速问"];
-        v.height = 50;
+        v.height = 45;
         v.titleLb.top = 14;
          v.titleLb.left = 17.5;
         return v;
     }
     else
     {
-        JYTitleView *v = [JYTitleView newTitleView:@"赵老师"];
-        v.height = 50;
+        JYTitleView *v = [JYTitleView newTitleView:@"找老师"];
+        v.height = 45;
         v.titleLb.top = 14;
         v.titleLb.left = 17.5;
         return v;
@@ -138,14 +143,14 @@
 -(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
 {
     
-    return 50;
+    return 45;
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     
     if (indexPath.section == 0) {
         if (indexPath.row == 0) {
-            return 53;
+            return 52;
         }
         else
         {
@@ -161,8 +166,16 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableView deselectRowAtIndexPath:indexPath animated:NO];
+    if (indexPath.section == 0 && indexPath.row == 0) {
+         //去客服聊天窗提问
+        
+    }
+    else
     if (indexPath.section == 1) {
-         
+        JYTeacherTypeModel *m = self.viewModel.dataArr[indexPath.row];
+        JYTeacherListViewController *vc = [JYTeacherListViewController new];
+        vc.title = m.type;
+        [self.navigationController pushViewController:vc animated:YES];
     }
     
 }
@@ -186,11 +199,12 @@
 {
     if(section == 0)
         return 2;
-    return 6;
+    return self.viewModel.dataArr.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    JYTeacherTypeModel *m = self.viewModel.dataArr[indexPath.row];
     UITableViewCell *cell;
     if (indexPath.section == 0) {
         if (indexPath.row == 0) {
@@ -217,7 +231,7 @@
         [tableView registerClass:[JYSearchTypeTableViewCell class] forCellReuseIdentifier:@"JYSearchTypeTableViewCell"];
         cell = [tableView dequeueReusableCellWithIdentifier:@"JYSearchTypeTableViewCell"];
     }
-        NSDictionary *dic = @{@"title":@"选科、志愿、升学",@"level":@"志愿填报专家",@"img":@""};
+        NSDictionary *dic = [m getDic];//@{@"title":@"选科、志愿、升学",@"level":@"志愿填报专家",@"img":@""};
     [(JYSearchTypeTableViewCell*)cell refresh:dic];
     //                 cell.separatorInset = UIEdgeInsetsMake(0, 17.5, 0, 17.5);
     

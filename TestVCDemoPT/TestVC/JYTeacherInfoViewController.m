@@ -45,23 +45,29 @@
     // Do any additional setup after loading the view.
     [self.navigationController.navigationBar setBackgroundImage:[UIImage  imageWithColor:UIColorFromRGBA(0x8B80F1, 0)] forBarMetrics:UIBarMetricsDefault];
     [self.navigationController.navigationBar setShadowImage:[[UIImage alloc] init]];
-
+    if (self.model) {
+        self.viewModel.model = self.model;
+    }
     UIButton *backBtn = [UIButton newNavBackBtn:1];
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:backBtn];
     self.view.backgroundColor = UIColorFromRGB(0xF1F2F5);
-  UILabel *tv = [UILabel newNavTitleLb:@"林佳"];
+    UILabel *tv = [UILabel newNavTitleLb:self.viewModel.model.name];
     tv.textColor = UIColorFromRGB(0xffffff);
     self.navigationItem.titleView = tv;
-    UIButton *rBtn = [UIButton newNavShareBtn:1];
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:rBtn];
+    
+//    UIButton *rBtn = [UIButton newNavShareBtn:1];
+//    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:rBtn];
     [backBtn addTarget:self action:@selector(backHandle:) forControlEvents:UIControlEventTouchUpInside];
-    [rBtn addTarget:self action:@selector(backHandle:) forControlEvents:UIControlEventTouchUpInside];
+//    [rBtn addTarget:self action:@selector(backHandle:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:[UIView new]];
     [self.view addSubview:self.tableView];
     [self.view addSubview:self.bottomView];
     [self.view addSubview:self.navBackgroundView];
     self.navigationController.navigationBar.translucent = YES;
-    [self fetchData];
+    if (self.ID) {
+         [self fetchData];
+    }
+   
 }
 
 -(void)fetchData
@@ -75,8 +81,12 @@
             [weak_self.tableView reloadData];
             return ;
         }
-         weak_self.commentTitleView.title = @"家长评价(3330)";
-          [weak_self.moreCommentBtn setCommentBtn:3330];
+        UILabel *tv = [UILabel newNavTitleLb:weak_self.viewModel.model.name];
+        tv.textColor = UIColorFromRGB(0xffffff);
+        weak_self.navigationItem.titleView = tv;
+        [weak_self.navBackgroundView setTitle:weak_self.viewModel.model.name];
+         weak_self.commentTitleView.title = [NSString stringWithFormat:@"家长评价(%@)",@(self.viewModel.commentList.count)];
+          [weak_self.moreCommentBtn setCommentBtn:self.viewModel.commentList.count];
         [weak_self.tableView reloadData];
         
     }];
@@ -134,7 +144,13 @@
 
 -(void)teacherHandle:(UIButton *)btn
 {
-    //去导师聊天窗
+   
+    [self goToTeacherIM];
+}
+
+-(void)goToTeacherIM
+{
+     //去导师聊天窗
 }
 
 -(JYTeacherInfoViewModel*)viewModel
@@ -275,6 +291,10 @@
         //去老师履历
         [self gotoLvLi];
     }
+    else if(indexPath.section == 3)
+    {
+        [self goToTeacherIM];
+    }
     
 }
 
@@ -382,7 +402,7 @@
                 [tableView registerClass:[JYTitleTableViewCell class] forCellReuseIdentifier:@"JYTitleTableViewCell"];
                 cell = [tableView dequeueReusableCellWithIdentifier:@"JYTitleTableViewCell"];
             }
-            NSDictionary *dic = @{@"title":@"老师说"};
+            NSDictionary *dic = [m getDic:indexPath];
             [(JYTitleTableViewCell*)cell refresh:dic];
 //             cell.separatorInset = UIEdgeInsetsMake(0, 10000, 0, 0);
         }
@@ -405,7 +425,7 @@
                 [tableView registerClass:[JYZxWayTableViewCell class] forCellReuseIdentifier:@"JYZxWayTableViewCell"];
                 cell = [tableView dequeueReusableCellWithIdentifier:@"JYZxWayTableViewCell"];
             }
-            NSDictionary *dic = @{@"title":@"咨询方式",@"img":@"咨询方式",@"info":@"24小时  图文+语音/次"};
+            NSDictionary *dic = [m getDic:indexPath];
             [(JYZxWayTableViewCell*)cell refresh:dic];
 //             cell.separatorInset = UIEdgeInsetsMake(0, -10000, 0, 0);
         }
@@ -430,11 +450,11 @@
 -(JYNavView *)navBackgroundView
 {
     if (!_navBackgroundView) {
-        _navBackgroundView = [JYNavView newNavView:@"林佳"];
+        _navBackgroundView = [JYNavView newNavView:@""];
        UIButton *lbtn = [_navBackgroundView setNavLeftBtn];
-        UIButton *rbtn = [_navBackgroundView setNavRightBtn];
+//        UIButton *rbtn = [_navBackgroundView setNavRightBtn];
         [lbtn addTarget:self action:@selector(backHandle:) forControlEvents:UIControlEventTouchUpInside];
-            [rbtn addTarget:self action:@selector(backHandle:) forControlEvents:UIControlEventTouchUpInside];
+//            [rbtn addTarget:self action:@selector(backHandle:) forControlEvents:UIControlEventTouchUpInside];
         _navBackgroundView.backgroundColor = UIColorFromRGB(0xffffff);
 //        [(UIImageView *)_navBackgroundView setImage:[UIImage imageNamed:@"daohanlan"]];
     }
@@ -443,7 +463,7 @@
 
 -(void)backHandle:(UIButton *)btn
 {
-    
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 -(void)shareHandle:(UIButton *)btn
@@ -472,7 +492,7 @@
     [self.navigationController.navigationBar setBackgroundImage:[UIImage imageWithColor:UIColorFromRGBA(0x8B80F1, 0)] forBarMetrics:UIBarMetricsDefault];
     self.navBackgroundView.alpha = 1 - (xm - self.tableView.contentOffset.y + 20)/xm;
    self.navigationController.navigationBar.alpha = (xm - self.tableView.contentOffset.y + 20)/xm;
-    [self.tableView reloadData];
+//    [self.tableView reloadData];
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView

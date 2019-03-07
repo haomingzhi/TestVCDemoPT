@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "JYTeacherInfoModel.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @interface JYTeacherInfoViewController : UIViewController
-
+@property(nonatomic,strong) NSString *ID;
+@property(nonatomic,strong)JYTeacherInfoModel *model;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -10,6 +10,7 @@
 #import "DDRequestManager.h"
 #import "JYCommentModel.h"
 #import "NSString+JYTool.h"
+#import "JYTestDataManager.h"
 @interface JYTeacherInfoViewModel()
 @property(nonatomic,strong)JYBaseViewModel *obj;
 @end
@@ -146,7 +147,7 @@
 -(void)fetchData:(NSDictionary *)parms Completion:(void (^)(BOOL,NSString *))block
 {
     __weak typeof(self) weak_self = self;
-    Class c = [[DDRequestManager sharedManager] getClass:@"MoneyInfo"];
+    Class c = [[DDRequestManager sharedManager] getClass:@"TeacherInfo"];
     if(c)//判断是否注册了具体对象 然后调用对象方法
     {
         if (!self.obj) {
@@ -171,17 +172,27 @@
     else
     {
 #ifdef DEBUG
-        self.dataArr = @[@{},@{},@{},@{},@{},@{},@{},@{}];
-        NSMutableArray *arr = [NSMutableArray new];
-        for (NSInteger i = 0;i < 7; i++) {
-            JYCommentModel *m = [JYCommentModel new];
-            [arr addObject:m];
-        }
-        self.commentList =arr;
-        block(YES,@"测试假数据");
+        [[JYTestDataManager sharedManager] buildData:NSClassFromString(@"JYCommentModel") callBack:^(NSArray * _Nonnull arr) {
+            
+            //            weak_self.curTab.curLevel.dataArr = arr;
+            
+            weak_self.commentList =arr;
+            weak_self.state = 1;
+            block(YES,@"测试假数据");
+        }];
+//        self.dataArr = @[@{},@{},@{},@{},@{},@{},@{},@{}];
+//        NSMutableArray *arr = [NSMutableArray new];
+//        for (NSInteger i = 0;i < 7; i++) {
+//            JYCommentModel *m = [JYCommentModel new];
+//            [arr addObject:m];
+//        }
+//        self.commentList =arr;
+//        block(YES,@"测试假数据");
 #else
         NSLog(@"未实现方法%@  %@",[self Class],__cmd);
 #endif
     }
 }
+
+
 @end

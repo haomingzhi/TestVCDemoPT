@@ -31,6 +31,10 @@
 		184B496D222E6E090072BBAF /* JYSearchTypeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B496C222E6E090072BBAF /* JYSearchTypeTableViewCell.m */; };
 		184B4970222E6E480072BBAF /* JYTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B496F222E6E480072BBAF /* JYTipView.m */; };
 		184B4973222E7AB80072BBAF /* JYNoZxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B4972222E7AB80072BBAF /* JYNoZxViewController.m */; };
+		184D701A2230B9F30050A01D /* JYTestDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 184D70182230B9F30050A01D /* JYTestDataManager.m */; };
+		184D701D2230FD060050A01D /* JYBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 184D701C2230FD060050A01D /* JYBaseModel.m */; };
+		184D7020223118C60050A01D /* JYSearchZxViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 184D701F223118C60050A01D /* JYSearchZxViewModel.m */; };
+		184D70232231196A0050A01D /* JYTeacherTypeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 184D70222231196A0050A01D /* JYTeacherTypeModel.m */; };
 		185280BC222F6C07006DE84A /* JYNavView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185280BB222F6C07006DE84A /* JYNavView.m */; };
 		185280BF222F794E006DE84A /* NSString+JYTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 185280BE222F794E006DE84A /* NSString+JYTool.m */; };
 		185280C2222FB9A5006DE84A /* JYCommentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 185280C1222FB9A4006DE84A /* JYCommentModel.m */; };
@@ -154,6 +158,14 @@
 		184B496F222E6E480072BBAF /* JYTipView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYTipView.m; sourceTree = "<group>"; };
 		184B4971222E7AB80072BBAF /* JYNoZxViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYNoZxViewController.h; sourceTree = "<group>"; };
 		184B4972222E7AB80072BBAF /* JYNoZxViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYNoZxViewController.m; sourceTree = "<group>"; };
+		184D70182230B9F30050A01D /* JYTestDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTestDataManager.m; sourceTree = "<group>"; };
+		184D70192230B9F30050A01D /* JYTestDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTestDataManager.h; sourceTree = "<group>"; };
+		184D701B2230FD060050A01D /* JYBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYBaseModel.h; sourceTree = "<group>"; };
+		184D701C2230FD060050A01D /* JYBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYBaseModel.m; sourceTree = "<group>"; };
+		184D701E223118C60050A01D /* JYSearchZxViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYSearchZxViewModel.h; sourceTree = "<group>"; };
+		184D701F223118C60050A01D /* JYSearchZxViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYSearchZxViewModel.m; sourceTree = "<group>"; };
+		184D70212231196A0050A01D /* JYTeacherTypeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYTeacherTypeModel.h; sourceTree = "<group>"; };
+		184D70222231196A0050A01D /* JYTeacherTypeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYTeacherTypeModel.m; sourceTree = "<group>"; };
 		185280BA222F6C07006DE84A /* JYNavView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYNavView.h; sourceTree = "<group>"; };
 		185280BB222F6C07006DE84A /* JYNavView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYNavView.m; sourceTree = "<group>"; };
 		185280BD222F794E006DE84A /* NSString+JYTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+JYTool.h"; sourceTree = "<group>"; };
@@ -308,6 +320,15 @@
 			path = Animation;
 			sourceTree = "<group>";
 		};
+		184D70172230B9F30050A01D /* TestDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				184D70192230B9F30050A01D /* JYTestDataManager.h */,
+				184D70182230B9F30050A01D /* JYTestDataManager.m */,
+			);
+			path = TestDataManager;
+			sourceTree = "<group>";
+		};
 		18609B50222CC1DB004E6BDB /* Image */ = {
 			isa = PBXGroup;
 			children = (
@@ -353,6 +374,8 @@
 				184B494D222E255B0072BBAF /* JYCommentListViewModel.m */,
 				184B4959222E549E0072BBAF /* JYTeacherListViewModel.h */,
 				184B495A222E549E0072BBAF /* JYTeacherListViewModel.m */,
+				184D701E223118C60050A01D /* JYSearchZxViewModel.h */,
+				184D701F223118C60050A01D /* JYSearchZxViewModel.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -364,6 +387,10 @@
 				18609B8F222D06A7004E6BDB /* JYTeacherInfoModel.m */,
 				185280C0222FB9A4006DE84A /* JYCommentModel.h */,
 				185280C1222FB9A4006DE84A /* JYCommentModel.m */,
+				184D701B2230FD060050A01D /* JYBaseModel.h */,
+				184D701C2230FD060050A01D /* JYBaseModel.m */,
+				184D70212231196A0050A01D /* JYTeacherTypeModel.h */,
+				184D70222231196A0050A01D /* JYTeacherTypeModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -504,6 +531,7 @@
 				183816422227C10600FD89E0 /* UILabel+JYStyle.m */,
 				183816442227C8E400FD89E0 /* UIView+JYStyle.h */,
 				183816452227C8E400FD89E0 /* UIView+JYStyle.m */,
+				184D70172230B9F30050A01D /* TestDataManager */,
 				18FC9DF721A55E1C00FC6544 /* Util */,
 				18609B73222CC3A3004E6BDB /* JYPointView.h */,
 				18609B74222CC3A3004E6BDB /* JYPointView.m */,
@@ -776,11 +804,14 @@
 				18609BA5222D0EEC004E6BDB /* JYHistoryTableViewCell.m in Sources */,
 				184B4955222E43710072BBAF /* JYHtmlTableViewCell.m in Sources */,
 				18609B7A222CD668004E6BDB /* JYTeacherInfoViewModel.m in Sources */,
+				184D7020223118C60050A01D /* JYSearchZxViewModel.m in Sources */,
 				18609B9F222D0EB1004E6BDB /* JYJobTableViewCell.m in Sources */,
 				184B4958222E50D20072BBAF /* JYTeacherListViewController.m in Sources */,
 				18FC9E5F21A55FC300FC6544 /* VCManager.m in Sources */,
 				1813CF092202F3740081B1AB /* TestView.m in Sources */,
+				184D701D2230FD060050A01D /* JYBaseModel.m in Sources */,
 				18FC9E5921A55E1C00FC6544 /* TabViewControllerManager.m in Sources */,
+				184D701A2230B9F30050A01D /* JYTestDataManager.m in Sources */,
 				18609BA2222D0EC2004E6BDB /* JYGoodAtTableViewCell.m in Sources */,
 				1813CF062202E9AB0081B1AB /* JYUserInfoModel.m in Sources */,
 				18609B9C222D0E98004E6BDB /* JYBigTitleTableViewCell.m in Sources */,
@@ -796,6 +827,7 @@
 				18FC9E5A21A55E1C00FC6544 /* DDExDialogView.m in Sources */,
 				18FC9E4B21A55E1C00FC6544 /* NSTimer+block.m in Sources */,
 				185D2B8B222518890097AE18 /* JYTeacherInfoViewController.m in Sources */,
+				184D70232231196A0050A01D /* JYTeacherTypeModel.m in Sources */,
 				18FC9E5821A55E1C00FC6544 /* DDScrollView.m in Sources */,
 				184B4973222E7AB80072BBAF /* JYNoZxViewController.m in Sources */,
 			);

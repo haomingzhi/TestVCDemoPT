@@ -1,16 +1,16 @@
 //
-//  JYTeacherListViewModel.h
+//  JYSearchZxViewModel.h
 //  TestVCDemoPT
 //
-//  Created by apple on 2019/3/5.
+//  Created by apple on 2019/3/7.
 //  Copyright © 2019 wjy. All rights reserved.
 //
 
 #import "JYBaseViewModel.h"
-#import "JYTeacherInfoViewModel.h"
+
 NS_ASSUME_NONNULL_BEGIN
 
-@interface JYTeacherListViewModel : JYBaseViewModel
+@interface JYSearchZxViewModel : JYBaseViewModel
 
 @end
 

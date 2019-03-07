@@ -24,6 +24,7 @@ NS_ASSUME_NONNULL_BEGIN
 -(void)addData:(NSDictionary *)parms Completion:(void (^)(BOOL success, NSString *message))block;
 -(void)deleteData:(NSDictionary *)parms Completion:(void (^)(BOOL success, NSString *message))block;
 -(void)editData:(NSDictionary *)parms Completion:(void (^)(BOOL success, NSString *message))block;
+-(void)buildTestData;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -45,8 +45,8 @@
 //    NSString *vcName = @"TestAnimationViewController";
 //     NSString *vcName = @"JYTeacherListViewController";
 //         NSString *vcName = @"JYSearchZxViewController";
-//    NSString *vcName = @"JYNoZxViewController";
-    NSString *vcName = @"JYTeacherInfoViewController";
+    NSString *vcName = @"JYNoZxViewController";
+//    NSString *vcName = @"JYTeacherInfoViewController";
     [[VCManager sharedManager] regsisterClass:vcName obj:vcName];
     Class c = [[VCManager sharedManager] getClass:vcName];
     id obj = [[c alloc] init];

@@ -7,10 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "JYBaseModel.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface JYCommentModel : NSObject
+@interface JYCommentModel : JYBaseModel
 @property(nonatomic,strong)NSString *img;
 @property(nonatomic,strong)NSString *name;
 @property(nonatomic,strong)NSNumber *point;

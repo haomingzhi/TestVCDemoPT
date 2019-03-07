@@ -43,6 +43,7 @@
         _containerView.height = 80;
         _containerView.top = 7.5;
         [_containerView allCorners:9];
+         [_containerView borderColor:UIColorFromRGB(0xe8e8e8) borderWidth:LineWidth];
         _containerView.backgroundColor = UIColorFromRGB(0xffffff);
     }
     return _containerView;
@@ -63,7 +64,7 @@
 {
     if (!_arrowImgV) {
         _arrowImgV = [UIImageView new];
-        _arrowImgV.width = 7;
+        _arrowImgV.width = 8;
         _arrowImgV.height = 11;
         _arrowImgV.image = [UIImage imageNamed:@"查看更多箭头"];
     }

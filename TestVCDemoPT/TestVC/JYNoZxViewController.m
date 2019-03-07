@@ -9,6 +9,7 @@
 #import "JYNoZxViewController.h"
 #import "UIButton+JYStyle.h"
 #import "UILabel+JYStyle.h"
+#import "JYSearchZxViewController.h"
 @interface JYNoZxViewController ()
 @property(nonatomic,strong)UIButton *zxBtn;
 @property(nonatomic,strong)UIImageView *imgV;
@@ -32,8 +33,15 @@
         _zxBtn = [UIButton newFindTeacherBtn];
         _zxBtn.left = self.view.width/2.0 - _zxBtn.width/2.0;
         _zxBtn.top = 30 + self.tipLb.top + self.tipLb.height;
+        [_zxBtn addTarget:self action:@selector(click:) forControlEvents:UIControlEventTouchUpInside];
     }
     return _zxBtn;
+}
+
+-(void)click:(UIButton *)btn
+{
+    JYSearchZxViewController *vc = [JYSearchZxViewController new];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 -(UILabel *)tipLb

@@ -86,7 +86,7 @@
         [vArr removeAllObjects];
     }
     
-    vArr = ab;
+    [vArr addObjectsFromArray:ab];
 }
 
 +(JYMarkView *)newMarkView:(NSInteger)type

@@ -7,10 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "JYBaseModel.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface JYTeacherInfoModel : NSObject
+@interface JYTeacherInfoModel : JYBaseModel
 @property(nonatomic,strong)NSString *img;
 @property(nonatomic,strong)NSString *name;
 @property(nonatomic,strong)NSString *marks;
@@ -26,6 +26,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,strong)NSArray *mark2Arr;
 -(NSDictionary *)getDic;
 -(NSDictionary *)getDic:(NSIndexPath *)indexPath;
+-(NSDictionary *)getDic:(NSIndexPath *)indexPath type:(NSInteger)type;
 @end
 
 NS_ASSUME_NONNULL_END
