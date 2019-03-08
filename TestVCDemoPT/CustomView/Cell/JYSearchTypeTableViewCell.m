@@ -43,7 +43,7 @@
         _containerView.height = 80;
         _containerView.top = 7.5;
         [_containerView allCorners:9];
-         [_containerView borderColor:UIColorFromRGB(0xe8e8e8) borderWidth:LineWidth];
+//         [_containerView borderColor:UIColorFromRGB(0xe8e8e8) borderWidth:LineWidth];
         _containerView.backgroundColor = UIColorFromRGB(0xffffff);
     }
     return _containerView;
@@ -77,6 +77,9 @@
         _typeLb = [UILabel newTitleLb:@""];
         _typeLb.font = [UIFont systemFontOfSize:15];
         _typeLb.width = 260;
+        if (UIScreenWidth == 320) {
+            _typeLb.width = 185;
+        }
         _typeLb.height = 17;
     }
     return _typeLb;
@@ -89,6 +92,9 @@
         _leveLb.font = [UIFont systemFontOfSize:12];
         _leveLb.textColor = UIColorFromRGB(0x525252);
         _leveLb.width = 260;
+        if (UIScreenWidth == 320) {
+            _leveLb.width = 185;
+        }
         _leveLb.height = 14;
     }
     return _leveLb;

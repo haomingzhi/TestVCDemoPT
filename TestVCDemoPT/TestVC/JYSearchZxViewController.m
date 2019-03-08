@@ -175,6 +175,7 @@
         JYTeacherTypeModel *m = self.viewModel.dataArr[indexPath.row];
         JYTeacherListViewController *vc = [JYTeacherListViewController new];
         vc.title = m.type;
+        vc.ID = m.ID;
         [self.navigationController pushViewController:vc animated:YES];
     }
     

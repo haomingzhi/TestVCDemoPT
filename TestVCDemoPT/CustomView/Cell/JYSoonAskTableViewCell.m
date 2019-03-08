@@ -37,7 +37,7 @@
         _btn.left = 17.5;
         _btn.height = 44;
         [_btn allCorners:9];
-        [_btn borderColor:UIColorFromRGB(0xe8e8e8) borderWidth:LineWidth];
+//        [_btn borderColor:UIColorFromRGB(0xe8e8e8) borderWidth:LineWidth];
         _btn.userInteractionEnabled = NO;
 //        [_btn addTarget:self action:@selector(click:) forControlEvents:UIControlEventTouchUpInside];
     }

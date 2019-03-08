@@ -40,7 +40,7 @@
     UIButton *backBtn = [UIButton newNavBackBtn:1];
     [backBtn addTarget:self action:@selector(backHandle:) forControlEvents:UIControlEventTouchUpInside];
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:backBtn];
-    self.view.backgroundColor = UIColorFromRGB(0xF1F2F5);
+    self.view.backgroundColor = UIColorFromRGB(0xffffff);
    UILabel *tv = [UILabel newNavTitleLb:@"导师履历"];
     tv.textColor = UIColorFromRGB(0xffffff);
     self.navigationItem.titleView = tv;
@@ -89,7 +89,7 @@
 -(UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section
 {
     
-    if(section == 0)
+    if(section == 0 || section == 3)
     {
         UIView *v = [UIView new];
         v.backgroundColor = UIColorFromRGB(0xffffff);
@@ -103,10 +103,11 @@
 -(CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section
 {
    
-    if(section == 0)
+    if(section == 0 || section == 3)
     {
         return 0.0001;
     }
+    
     return 10;
 }
 
@@ -262,6 +263,7 @@
             }
             NSDictionary *dic = [m getDic:indexPath type:1];
             [(JYGoodAtTableViewCell*)cell refresh:dic];
+            [(JYGoodAtTableViewCell*)cell setHiddenLine:YES];
             //             cell.separatorInset = UIEdgeInsetsMake(0, 17.5, 0, 17.5);
         }
        
@@ -323,21 +325,19 @@
                     [(JYTitleTableViewCell*)cell refresh:dic];
                     if (!self.viewModel.model.teacherStory||[self.viewModel.model.teacherStory isEqualToString:@""]) {
                         cell.hidden = YES;
-                        NSLog(@"ffff");
                     }
                     else
                     {
                         cell.hidden = NO;
-                        NSLog(@"cccc");
                     }
                 }
                 else
                 {
-                                    cell = [tableView dequeueReusableCellWithIdentifier:@"JYHtmlTableViewCellX"];
-                                    if (!cell) {
-                                        [tableView registerClass:[JYHtmlTableViewCell class] forCellReuseIdentifier:@"JYHtmlTableViewCellX"];
-                                        cell = [tableView dequeueReusableCellWithIdentifier:@"JYHtmlTableViewCellX"];
-                                    }
+                    cell = [tableView dequeueReusableCellWithIdentifier:@"JYHtmlTableViewCellX"];
+                    if (!cell) {
+                        [tableView registerClass:[JYHtmlTableViewCell class] forCellReuseIdentifier:@"JYHtmlTableViewCellX"];
+                        cell = [tableView dequeueReusableCellWithIdentifier:@"JYHtmlTableViewCellX"];
+                    }
                     NSDictionary *dic =  [m getDic:indexPath type:1];
                                     [(JYHtmlTableViewCell*)cell refresh:dic];
                     [(JYHtmlTableViewCell*)cell setCallBack:^(NSDictionary * _Nonnull dic) {

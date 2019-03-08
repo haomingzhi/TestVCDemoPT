@@ -39,6 +39,8 @@
 		185280BF222F794E006DE84A /* NSString+JYTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 185280BE222F794E006DE84A /* NSString+JYTool.m */; };
 		185280C2222FB9A5006DE84A /* JYCommentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 185280C1222FB9A4006DE84A /* JYCommentModel.m */; };
 		185280C5222FC486006DE84A /* UITableView+JYTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 185280C4222FC486006DE84A /* UITableView+JYTool.m */; };
+		18540674223271A10032E06F /* CustomRefreshGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 18540672223271A00032E06F /* CustomRefreshGifFooter.m */; };
+		18540675223271A10032E06F /* CustomRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 18540673223271A00032E06F /* CustomRefreshGifHeader.m */; };
 		185D2B8B222518890097AE18 /* JYTeacherInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D2B8A222518890097AE18 /* JYTeacherInfoViewController.m */; };
 		18609B55222CC1EB004E6BDB /* 提问老师@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18609B51222CC1EB004E6BDB /* 提问老师@3x.png */; };
 		18609B56222CC1EB004E6BDB /* 提问老师@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18609B52222CC1EB004E6BDB /* 提问老师@2x.png */; };
@@ -109,6 +111,7 @@
 		18FC9E5B21A55E1C00FC6544 /* JYAbstractTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC9E3B21A55E1C00FC6544 /* JYAbstractTableViewCell.m */; };
 		18FC9E5F21A55FC300FC6544 /* VCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC9E5E21A55FC300FC6544 /* VCManager.m */; };
 		18FC9E8F21A567FF00FC6544 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FC9E8E21A567FF00FC6544 /* Images.xcassets */; };
+		C6B6F2CBA95A404765FA9BE5 /* libPods-TestVCDemoPT.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6035A9F3F196F49D4D17A13C /* libPods-TestVCDemoPT.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -174,6 +177,10 @@
 		185280C1222FB9A4006DE84A /* JYCommentModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYCommentModel.m; sourceTree = "<group>"; };
 		185280C3222FC486006DE84A /* UITableView+JYTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+JYTool.h"; sourceTree = "<group>"; };
 		185280C4222FC486006DE84A /* UITableView+JYTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+JYTool.m"; sourceTree = "<group>"; };
+		18540670223271A00032E06F /* CustomRefreshGifHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomRefreshGifHeader.h; sourceTree = "<group>"; };
+		18540671223271A00032E06F /* CustomRefreshGifFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomRefreshGifFooter.h; sourceTree = "<group>"; };
+		18540672223271A00032E06F /* CustomRefreshGifFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomRefreshGifFooter.m; sourceTree = "<group>"; };
+		18540673223271A00032E06F /* CustomRefreshGifHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomRefreshGifHeader.m; sourceTree = "<group>"; };
 		185D2B89222518890097AE18 /* JYTeacherInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYTeacherInfoViewController.h; sourceTree = "<group>"; };
 		185D2B8A222518890097AE18 /* JYTeacherInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYTeacherInfoViewController.m; sourceTree = "<group>"; };
 		18609B51222CC1EB004E6BDB /* 提问老师@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "提问老师@3x.png"; sourceTree = "<group>"; };
@@ -289,6 +296,9 @@
 		18FC9E5D21A55FC300FC6544 /* VCManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCManager.h; sourceTree = "<group>"; };
 		18FC9E5E21A55FC300FC6544 /* VCManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCManager.m; sourceTree = "<group>"; };
 		18FC9E8E21A567FF00FC6544 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6035A9F3F196F49D4D17A13C /* libPods-TestVCDemoPT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestVCDemoPT.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F57995C4ACF191304F10C859 /* Pods-TestVCDemoPT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestVCDemoPT.release.xcconfig"; path = "Target Support Files/Pods-TestVCDemoPT/Pods-TestVCDemoPT.release.xcconfig"; sourceTree = "<group>"; };
+		F597D3DB258E0755C610A65E /* Pods-TestVCDemoPT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestVCDemoPT.debug.xcconfig"; path = "Target Support Files/Pods-TestVCDemoPT/Pods-TestVCDemoPT.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -296,6 +306,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6B6F2CBA95A404765FA9BE5 /* libPods-TestVCDemoPT.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +338,17 @@
 				184D70182230B9F30050A01D /* JYTestDataManager.m */,
 			);
 			path = TestDataManager;
+			sourceTree = "<group>";
+		};
+		1854066F223271A00032E06F /* 自定义gif刷新 */ = {
+			isa = PBXGroup;
+			children = (
+				18540670223271A00032E06F /* CustomRefreshGifHeader.h */,
+				18540671223271A00032E06F /* CustomRefreshGifFooter.h */,
+				18540672223271A00032E06F /* CustomRefreshGifFooter.m */,
+				18540673223271A00032E06F /* CustomRefreshGifHeader.m */,
+			);
+			path = "自定义gif刷新";
 			sourceTree = "<group>";
 		};
 		18609B50222CC1DB004E6BDB /* Image */ = {
@@ -398,6 +420,7 @@
 		18609B91222D0B17004E6BDB /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
+				1854066F223271A00032E06F /* 自定义gif刷新 */,
 				18609B93222D0B2E004E6BDB /* Cell */,
 				18609B92222D0B28004E6BDB /* View */,
 			);
@@ -461,6 +484,8 @@
 			children = (
 				18FC9DD821A55DF300FC6544 /* TestVCDemoPT */,
 				18FC9DD721A55DF300FC6544 /* Products */,
+				53C9DBBD49374F5F6C4B21F1 /* Pods */,
+				BCBDFB4FEFD77FA8B78FDAB4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -661,6 +686,23 @@
 			path = TestVC;
 			sourceTree = "<group>";
 		};
+		53C9DBBD49374F5F6C4B21F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F597D3DB258E0755C610A65E /* Pods-TestVCDemoPT.debug.xcconfig */,
+				F57995C4ACF191304F10C859 /* Pods-TestVCDemoPT.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BCBDFB4FEFD77FA8B78FDAB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6035A9F3F196F49D4D17A13C /* libPods-TestVCDemoPT.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -668,9 +710,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18FC9DEC21A55DF600FC6544 /* Build configuration list for PBXNativeTarget "TestVCDemoPT" */;
 			buildPhases = (
+				5DA8FF75AEA096D72883AEB5 /* [CP] Check Pods Manifest.lock */,
 				18FC9DD221A55DF300FC6544 /* Sources */,
 				18FC9DD321A55DF300FC6544 /* Frameworks */,
 				18FC9DD421A55DF300FC6544 /* Resources */,
+				7668D8AC3948E5B2504B6DE8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -756,6 +800,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5DA8FF75AEA096D72883AEB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestVCDemoPT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7668D8AC3948E5B2504B6DE8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestVCDemoPT/Pods-TestVCDemoPT-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestVCDemoPT/Pods-TestVCDemoPT-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18FC9DD221A55DF300FC6544 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -791,6 +884,7 @@
 				18609BA8222D0F36004E6BDB /* JYTitleTableViewCell.m in Sources */,
 				18609BAE222D0F5F004E6BDB /* JYZxWayTableViewCell.m in Sources */,
 				18609B99222D0E06004E6BDB /* JYTitleView.m in Sources */,
+				18540675223271A10032E06F /* CustomRefreshGifHeader.m in Sources */,
 				18FC9E4A21A55E1C00FC6544 /* UIView+cornerRadius.m in Sources */,
 				18FC9E5421A55E1C00FC6544 /* JYBaseViewModel.m in Sources */,
 				185280BF222F794E006DE84A /* NSString+JYTool.m in Sources */,
@@ -823,6 +917,7 @@
 				18FC9E4921A55E1C00FC6544 /* UIView+shotMethod.m in Sources */,
 				18FC9DE921A55DF600FC6544 /* main.m in Sources */,
 				184B494B222E244C0072BBAF /* JYCommentListViewController.m in Sources */,
+				18540674223271A10032E06F /* CustomRefreshGifFooter.m in Sources */,
 				18FC9DDB21A55DF300FC6544 /* AppDelegate.m in Sources */,
 				18FC9E5A21A55E1C00FC6544 /* DDExDialogView.m in Sources */,
 				18FC9E4B21A55E1C00FC6544 /* NSTimer+block.m in Sources */,
@@ -969,6 +1064,7 @@
 		};
 		18FC9DED21A55DF600FC6544 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F597D3DB258E0755C610A65E /* Pods-TestVCDemoPT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -989,6 +1085,7 @@
 		};
 		18FC9DEE21A55DF600FC6544 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F57995C4ACF191304F10C859 /* Pods-TestVCDemoPT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

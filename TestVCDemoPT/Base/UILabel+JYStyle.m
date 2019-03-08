@@ -58,19 +58,30 @@
 +(UILabel *)newInfoMarkStyleLabel:(NSString *)text
 {
     UILabel *lb = [UILabel newLabel];
-    lb.width = 180;
-    lb.height = 22;
-    lb.text = text;
-    [lb sizeToFit];
-    lb.width = lb.width + 10;
-    lb.font = [UIFont systemFontOfSize:11];
-    lb.textColor = UIColorFromRGB(0x999999);
-    [lb allCorners:11];
-    [lb borderWidth:1];
-    [lb borderColor:UIColorFromRGB(0xEFEFEF )];
-    lb.textAlignment = NSTextAlignmentCenter;
+    [lb infoMarkStyle:text];
     return lb;
 }
+
+-(void)infoMarkStyle:(NSString *)text
+{
+    self.width = 180;
+    self.height = 22;
+    self.text = text;
+    [self sizeToFit];
+    self.width = self.width + 12;
+    self.height = 22;
+    self.font = [UIFont systemFontOfSize:11];
+    self.textColor = UIColorFromRGB(0x999999);
+    [self allCorners:11];
+    [self borderWidth:1];
+    [self borderColor:UIColorFromRGB(0xEFEFEF )];
+    self.textAlignment = NSTextAlignmentCenter;
+}
+
+//-(void)setText:(NSString *)text
+//{
+//    [super sette];
+//}
 
 +(UILabel *)newTeacherInfoLabel:(NSString *)text
 {

@@ -68,6 +68,11 @@
             
             lab.left = 0;
         }
+        lab.text = title;
+        if (self.type == 1) {
+            [lab infoMarkStyle:title];
+        }
+       
         lab.tag = 100 + i;
         lab.top = 1;
 //        lab.height = 22;

@@ -30,6 +30,8 @@
         _webView = [UIWebView new];
         _webView.delegate = self;
         _webView.scrollView.bounces = NO;
+        _webView.scrollView.scrollEnabled = NO;
+        _webView.userInteractionEnabled = NO;
     }
     return _webView;
 }
@@ -41,6 +43,8 @@
 
 - (void)webViewDidFinishLoad:(UIWebView *)webView
 {
+//    NSString *jsString = [[NSString alloc] initWithFormat:@"document.body.style.fontSize=%f;document.body.style.color=%@",12.0,@"ffffff"];[webView stringByEvaluatingJavaScriptFromString:jsString];
+    
      self.isFinished = YES;
     [self setNeedsLayout];
     if (_callBack) {
@@ -73,6 +77,14 @@
     self.height = self.webView.height;
     self.webView.top = 0;
     self.webView.hidden = !self.isFinished;
+    self.webView.scrollView.contentOffset = CGPointMake(0, 0);
+    if (@available(iOS 11.0, *)) {
+        
+        self.webView.scrollView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+        
+    }else {
+//        self.automaticallyAdjustsScrollViewInsets = NO;
+    }
 }
 
 

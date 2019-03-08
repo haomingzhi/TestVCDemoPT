@@ -19,7 +19,7 @@ typedef NS_ENUM(NSUInteger, CornerType) {
 @property(nonatomic,strong)CAShapeLayer *maskLayer;//面罩图层
 @property(nonatomic,strong)CALayer *backgroundLayer;//背景图层
 
-
+-(void)resetBorderLayer;
 
 -(void)allCorners:(CGFloat)r;//圆角为r
 

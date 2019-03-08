@@ -67,12 +67,17 @@
     [super layoutSubviews];
     _tipAV.left = 17.5;
     _tipAV.top = 10;
-    
+  
     _tipBV.left = _tipAV.left + [self getStringSize:@"专业导师快速应答"].width + 16 + 14;
     _tipBV.top = 10;
-    
+    if (UIScreenWidth == 320) {
+        _tipBV.left = _tipAV.left + [self getStringSize:@"专业导师快速应答"].width + 11;
+    }
     _tipCV.left = _tipBV.left + [self getStringSize:@"隐私保障，更放心"].width + 16 + 14;
     _tipCV.top = 10;
+    if (UIScreenWidth == 320) {
+        _tipCV.left = _tipBV.left + [self getStringSize:@"隐私保障，更放心"].width  + 11;
+    }
 }
 
 -(CGSize)getStringSize:(NSString *)str

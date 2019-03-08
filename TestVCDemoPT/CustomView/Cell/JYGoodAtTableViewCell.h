@@ -11,6 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface JYGoodAtTableViewCell : UITableViewCell
+@property(nonatomic)BOOL hiddenLine;
 -(void)refresh:(NSDictionary *)dic;
 @end
 

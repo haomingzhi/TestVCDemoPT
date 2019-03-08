@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,strong)NSString *img;
 @property(nonatomic,strong)NSString *level;
 @property(nonatomic,strong)NSString *type;
-
+@property(nonatomic,strong)NSString *ID;
 @end
 
 NS_ASSUME_NONNULL_END

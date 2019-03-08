@@ -44,6 +44,9 @@
         _titleLb = [UILabel newLabel];
         _titleLb.font = [UIFont systemFontOfSize:11];
         _titleLb.textColor = UIColorFromRGB(0x525252);
+        if (UIScreenWidth == 320) {
+                _titleLb.font = [UIFont systemFontOfSize:10];
+        }
         _titleLb.width = 200;
         _titleLb.height = 15;
     }

@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "UIView+JYLayerEdit.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @interface UILabel (JYStyle)
@@ -37,7 +37,7 @@ NS_ASSUME_NONNULL_BEGIN
 +(UILabel *)newTitleLb:(NSString *)title;
 
 +(UILabel *)newHLineLb;
-
+-(void)infoMarkStyle:(NSString *)text;
 +(UILabel *)newVLineLb;
 -(void)resetSize;
 -(void)setRichText:(NSString *)str withContent:(NSString *)content withColor:(UIColor*)color withFont:(UIFont *)font;

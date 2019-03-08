@@ -28,7 +28,7 @@
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
         [self.contentView addSubview:self.containerView];
-        [self.containerView shadowColor:UIColorFromRGBA(0x000000, 1) shadowOffset:CGSizeMake(2, 2) shadowOpacity:0.1];
+        [self.containerView shadowColor:UIColorFromRGBA(0x000000, 1) shadowOffset:CGSizeMake(0, 0) shadowOpacity:0.1];
         [self.containerView addSubview:self.imgV];
         [self.containerView addSubview:self.nameLb];
         [self.containerView addSubview:self.markV];

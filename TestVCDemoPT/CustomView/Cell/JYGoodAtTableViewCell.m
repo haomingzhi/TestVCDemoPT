@@ -49,15 +49,22 @@
 {
     _goodAtLb.text = dic[@"title"];
     [_goodAtLb resetSize];
-    if ([dic[@"hiddenLine"] boolValue]) {
-        _lineLb.hidden = YES;
-    }
-    else
-    {
-        _lineLb.hidden = NO;
-    }
+//    if ([dic[@"hiddenLine"] boolValue]) {
+//        _lineLb.hidden = YES;
+//    }
+//    else
+//    {
+//        _lineLb.hidden = NO;
+//    }
     [self setNeedsLayout];
 }
+
+-(void)setHiddenLine:(BOOL)hiddenLine
+{
+    _hiddenLine = hiddenLine;
+    _lineLb.hidden = hiddenLine;
+}
+
 -(void)layoutSubviews
 {
     [super layoutSubviews];

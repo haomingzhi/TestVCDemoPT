@@ -59,15 +59,17 @@ static void *contentWidthXKey = &contentWidthXKey;
 //    self.layer.masksToBounds = YES;
 }
 
+
+
 -(void)borderWidth:(CGFloat)w
 {
     CAShapeLayer *ly = objc_getAssociatedObject(self, borderLayerKey);
     if (!ly) {
         ly = [CAShapeLayer layer];
-        ly.frame = self.bounds;
+     
         objc_setAssociatedObject(self, borderLayerKey, ly, OBJC_ASSOCIATION_RETAIN);
     }
-   
+      ly.frame = self.bounds;
     ly.lineWidth = w;
 //    ly.borderWidth = w;
 //    ly.borderColor = [UIColor greenColor].CGColor;
@@ -79,9 +81,10 @@ static void *contentWidthXKey = &contentWidthXKey;
     CAShapeLayer *ly = objc_getAssociatedObject(self, borderLayerKey);
     if (!ly) {
         ly = [CAShapeLayer layer];
-        ly.frame = self.bounds;
+    
         objc_setAssociatedObject(self, borderLayerKey, ly, OBJC_ASSOCIATION_RETAIN);
     }
+        ly.frame = self.bounds;
     ly.strokeColor = color.CGColor;
     [self.layer addSublayer:ly];
 }
@@ -97,9 +100,10 @@ static void *contentWidthXKey = &contentWidthXKey;
     CAShapeLayer *ly = objc_getAssociatedObject(self, borderLayerKey);
     if (!ly) {
         ly = [CAShapeLayer layer];
-        ly.frame = self.bounds;
+     
         //    ly.path = self.maskLayer.path;
     }
+       ly.frame = self.bounds;
 //    CAShapeLayer *sl = [CAShapeLayer layer];
 //    sl.frame = self.bounds;
 //    sl.path = self.maskLayer.path;
@@ -290,7 +294,7 @@ static void *contentWidthXKey = &contentWidthXKey;
 
 -(void)shadowColor:(UIColor *)color
 {
-    [self shadowColor:color shadowOffset:CGSizeMake(3, 3)];
+    [self shadowColor:color shadowOffset:CGSizeMake(0, 0)];
 }
 
 -(void)shadowColor:(UIColor *)color shadowOffset:(CGSize )shadowOffset
