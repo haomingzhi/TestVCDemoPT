@@ -29,7 +29,7 @@
 //    UIButton *backBtn = [UIButton newNavBackBtn:0];
 //    [backBtn addTarget:self action:@selector(backHandle:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:self.navBackgroundView];
-//    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:backBtn];
+    self.navigationItem.leftBarButtonItem = nil;//[[UIBarButtonItem alloc] initWithCustomView:backBtn];
     [self.view addSubview:[UIView new]];
     [self.view addSubview:self.tableView];
     self.navigationController.navigationBar.alpha = 0;
@@ -78,30 +78,40 @@
     //mj_footer 上拉加载
     MJRefreshAutoNormalFooter *footer = [MJRefreshAutoNormalFooter footerWithRefreshingBlock:^{
         [weak_self.viewModel fetchNextPageDataCompletion:^(BOOL b, NSString *msg) {
-            UITableView * table = tableView;
-
+            if (b) {
+                if (!weak_self.viewModel.hasMore) {
+                    [tableView.mj_footer endRefreshingWithNoMoreData];
+                } else {
+                    [tableView.mj_footer endRefreshing];
+                }
+            } else {
+//                if (![XTool isStringEmpty:msg]) {
+//                    [SV_DDLoading showMessage:msg];
+//                    //                    [SV_DDLoading dismissWithDelay:1];
+//                }
+//                [table.mj_footer endRefreshing];
+            }
             [weak_self updateFooterRefreshState:0];
             [tableView reloadData];
         }];
-
     }];
+    
     [footer setTitle:@"加载中..." forState:MJRefreshStateRefreshing];
     [tableView setMj_footer:footer];
     [tableView.mj_footer setHidden:YES];
-
-
 }
+
 - (void)updateFooterRefreshState:(NSInteger)status{
-
-
     UITableView * table = self.tableView;
-        JYCommentListViewModel *m =  self.viewModel;
-            if (m.hasMore == NO) {
-                [table.mj_footer setHidden:YES];
-            } else {
-                [table.mj_footer setHidden:NO];
-            }
-
+    JYCommentListViewModel *m = self.viewModel;
+        if (m.hasMore == NO)
+        {
+            [table.mj_footer setHidden:YES];
+        }
+        else
+        {
+            [table.mj_footer setHidden:NO];
+        }
 }
 
 -(void)backHandle:(UIButton *)btn

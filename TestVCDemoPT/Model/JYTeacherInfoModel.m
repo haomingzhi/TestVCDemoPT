@@ -102,7 +102,8 @@
 -(void)buildTestData
 {
 //    NSLog(@"%@ %s",@"未实现方法",__func__);
-    _job = [NSString stringWithFormat:@"%@",[[JYTestDataManager sharedManager] buildChineseWord:16]];//@"师范大学心理学教授、中国职业规划师";
+    NSInteger i = arc4random()%50 + 50;
+    _job = [NSString stringWithFormat:@"%@",[[JYTestDataManager sharedManager] buildChineseWord:i]];//@"师范大学心理学教授、中国职业规划师";
     _name = [[JYTestDataManager sharedManager] buildName] ;//@"排班密码";
     _goodAt = [NSString stringWithFormat:@"擅长:%@",[[JYTestDataManager sharedManager] buildChineseWord:16]];//@"擅长：学科选择、志愿填报";
     _timeZx = [NSString stringWithFormat:@"%@次咨询",@([[JYTestDataManager sharedManager] buildIntValue:1000])];//@"323次咨询";
@@ -112,5 +113,8 @@
     _teacherSay = [[JYTestDataManager sharedManager] buildArcArticle];//@"“我一共带过630个孩子填报志愿，其中450个孩子考上了比原定目标更好的大学，180个孩子出国深造，相信你的孩子也能！”";
     _teacherStory = [[JYTestDataManager sharedManager] buildArcArticle];//@"我一共带过630个孩子填报志愿，其中450个孩子考上了比原定目标更好的大学，180个孩子出国深造，相信你的孩子也能！我为您探索微信小程序用户的认知、行为特点，及对未来小程序的使用诉求等。";
     _intro = [[JYTestDataManager sharedManager] buildArcArticle];//@"“我一共带过630个孩子填报志愿，其中450个孩子考上了比原定目标更好的大学，180个孩子出国深造，相信你的孩子也能！”";
+        self.img = [[JYTestDataManager sharedManager] buildImg];
+//    _img = @"http://t2.hddhhn.com/uploads/tu/201812/276/869f20b40e83900f41151f9780ee6616.jpg";
+//    _img = @"http://admin.jinniuedu.com/UploadImgFile/20190129/54d9395d161dc4c3.png";
 }
 @end

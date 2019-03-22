@@ -67,7 +67,15 @@
     if (self.ID) {
          [self fetchData];
     }
-   
+    
+}
+
+-(void)ApplicationDidBecomeActive
+{
+    CGFloat xm = ImgHeigth  - NavHeight;
+    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageWithColor:UIColorFromRGBA(0x8B80F1, 0)] forBarMetrics:UIBarMetricsDefault];
+    self.navBackgroundView.alpha = 1 - (xm - self.tableView.contentOffset.y + 20)/xm;
+    self.navigationController.navigationBar.alpha = (xm - self.tableView.contentOffset.y + 20)/xm;
 }
 
 -(void)fetchData
@@ -493,6 +501,13 @@
     self.navBackgroundView.alpha = 1 - (xm - self.tableView.contentOffset.y + 20)/xm;
    self.navigationController.navigationBar.alpha = (xm - self.tableView.contentOffset.y + 20)/xm;
 //    [self.tableView reloadData];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(ApplicationDidBecomeActive) name:UIApplicationDidBecomeActiveNotification object:nil];
+}
+
+-(void)viewDidDisappear:(BOOL)animated
+{
+      [super viewDidDisappear:animated];
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
@@ -527,6 +542,7 @@
 -(void)gotoMoreComment//去更多评价
 {
     JYCommentListViewController *vc = [JYCommentListViewController new];
+//    vc.ID = self.viewModel.
     [self.navigationController pushViewController:vc animated:YES];
 }
 /*

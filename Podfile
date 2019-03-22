@@ -9,4 +9,6 @@ target 'TestVCDemoPT' do
  #加载动画
     pod 'SVProgressHUD'
  pod 'MJRefresh', '~> 3.1.15.7'
+  pod 'SDWebImage'
+   pod 'SDWebImage/GIF'
 end

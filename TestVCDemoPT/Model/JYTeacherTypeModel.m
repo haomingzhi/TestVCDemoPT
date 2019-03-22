@@ -20,7 +20,7 @@
 {
     self.type = [[JYTestDataManager sharedManager] buildChineseWord:15];
     self.level = [[JYTestDataManager sharedManager] buildChineseWord:14];
-    self.img = @"";
+    self.img = [[JYTestDataManager sharedManager] buildImg];
    
 }
 #endif

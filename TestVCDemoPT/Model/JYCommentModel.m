@@ -16,7 +16,7 @@
 //    _time = @"2018-09-22";
 //    _point = @5;
 //    _name = @"排班密码";
-    return @{@"title":_content?:@"",@"time":_time?:@"",@"img":@"",@"point":_point?:@0,@"name":_name?:@""};
+    return @{@"title":_content?:@"",@"time":_time?:@"",@"img":_img?:@"",@"point":_point?:@0,@"name":_name?:@""};
 }
 
 -(CGFloat)contentHeight
@@ -36,6 +36,7 @@
     self.time = [[JYTestDataManager sharedManager] buildDateTime];
     self.point = [[NSNumber alloc] initWithInteger:[[JYTestDataManager sharedManager] buildPoint]];
     self.name = [[JYTestDataManager sharedManager] buildName];
+    self.img = [[JYTestDataManager sharedManager] buildImg];
 }
 #endif
 @end

@@ -16,6 +16,17 @@
 @end
 
 @implementation JYTeacherListViewModel
+
+-(BOOL)hasMore
+{
+    
+    if (self.page >= self.pageCount) {
+        return NO;
+    }
+    return YES;
+}
+
+
 -(void)fetchData:(NSDictionary *)parms Completion:(void (^)(BOOL,NSString *))block
 {
     __weak typeof(self) weak_self = self;
@@ -44,11 +55,12 @@
     else
     {
 #ifdef DEBUG
+           self.page = 1;
         [[JYTestDataManager sharedManager] buildData:NSClassFromString(@"JYTeacherInfoModel") callBack:^(NSArray * _Nonnull arr) {
             
             //            weak_self.curTab.curLevel.dataArr = arr;
-            
-            weak_self.dataArr =arr;
+            weak_self.pageCount = 3;//(arr.count + 5)/6;
+            weak_self.dataArr = [arr subarrayWithRange:NSMakeRange(0, MIN(6, arr.count))];
             weak_self.state = 1;
             block(YES,@"测试假数据");
         }];
@@ -102,10 +114,14 @@
     else
     {
 #ifdef DEBUG
+            self.page ++;
         [[JYTestDataManager sharedManager] buildData:NSClassFromString(@"JYTeacherInfoModel") callBack:^(NSArray * _Nonnull arr) {
             
             //            weak_self.curTab.curLevel.dataArr = arr;
-            
+            NSMutableArray *ma = [NSMutableArray arrayWithArray:weak_self.dataArr];
+            [ma addObjectsFromArray:[arr subarrayWithRange:NSMakeRange(0, MIN(6, arr.count))]];
+            weak_self.pageCount = 3;//(ma.count + 5)/6;
+            weak_self.dataArr = ma;
             weak_self.nextDataArr =arr;
             weak_self.state = 1;
             block(YES,@"测试假数据");

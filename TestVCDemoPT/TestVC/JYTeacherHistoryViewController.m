@@ -25,7 +25,7 @@
 
 @interface JYTeacherHistoryViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong)UITableView *tableView;
-
+@property(nonatomic)CGFloat scY;
 @property(nonatomic,strong)JYNavView *navBackgroundView;
 @end
 
@@ -50,6 +50,17 @@
     [self.view addSubview:[UIView new]];
     [self.view addSubview:self.tableView];
     [self.view addSubview:self.navBackgroundView];
+    
+}
+
+-(void)ApplicationDidBecomeActive
+{
+    self.navigationController.navigationBar.translucent = YES;
+    
+    //    self.navigationController.navigationBar.hidden = YES;
+    CGFloat xm = ImgHeigth2  - NavHeight;
+    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageWithColor:UIColorFromRGBA(0x8B80F1, 0)] forBarMetrics:UIBarMetricsDefault];
+    self.navBackgroundView.alpha = 1 - (xm - self.scY + 20)/xm;
 }
 -(void)backHandle:(UIButton *)btn
 {
@@ -398,8 +409,13 @@
     CGFloat xm = ImgHeigth2  - NavHeight;
     [self.navigationController.navigationBar setBackgroundImage:[UIImage imageWithColor:UIColorFromRGBA(0x8B80F1, 0)] forBarMetrics:UIBarMetricsDefault];
     self.navBackgroundView.alpha = 1 - (xm - self.tableView.contentOffset.y + 20)/xm;
-    
-//    [self.tableView reloadData];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(ApplicationDidBecomeActive) name:UIApplicationDidBecomeActiveNotification object:nil];
+}
+
+-(void)viewDidDisappear:(BOOL)animated
+{
+    [super viewDidDisappear:animated];
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
@@ -413,7 +429,7 @@
         //        {
         self.navBackgroundView.alpha = 1 - (xm - scrollView.contentOffset.y + 20)/xm;
          self.navigationController.navigationBar.alpha = (xm - scrollView.contentOffset.y + 20)/xm;
-
+        self.scY = self.tableView.contentOffset.y;
     }
 }
 

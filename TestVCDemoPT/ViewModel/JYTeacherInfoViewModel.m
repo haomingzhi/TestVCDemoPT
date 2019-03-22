@@ -35,7 +35,7 @@
 
 -(CGFloat)jobHeight
 {
-   CGSize sz = [self.model.job getSize:[UIFont systemFontOfSize:14] size:CGSizeMake(UIScreenWidth - 35, MAXFLOAT)];
+   CGSize sz = [self.model.job getSize:[UIFont systemFontOfSize:13] size:CGSizeMake(UIScreenWidth - 35, MAXFLOAT)];
     return sz.height;
 //    return 49;
 }

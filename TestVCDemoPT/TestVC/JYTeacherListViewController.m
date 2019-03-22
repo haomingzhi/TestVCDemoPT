@@ -12,6 +12,7 @@
 #import "JYTeacherListViewModel.h"
 #import "JYTeacherListTableViewCell.h"
 #import "UITableView+JYTool.h"
+#import "CustomRefreshGifHeader.h"
 #import "JYTeacherInfoViewController.h"
 //#import "CustomRefreshGifHeader.h"
 @interface JYTeacherListViewController ()<UITableViewDelegate,UITableViewDataSource>
@@ -34,8 +35,9 @@
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:backBtn];
     [self.view addSubview:[UIView new]];
     [self.view addSubview:self.tableView];
-    //    [self setTable];
-    [self fetchData];
+        [self setTable];
+//    [self fetchData];
+    [self.tableView.mj_header beginRefreshing];
 }
 
 -(void)fetchData
@@ -54,55 +56,67 @@
         [weak_self.tableView noDataShow:weak_self.viewModel.dataArr];
     }];
 }
-//-(void)setTable
-//{
-//    __weak typeof(self) weak_self = self;
-//    //下拉刷新
-//    __weak UITableView *tableView = self.tableView;
-//    tableView.mj_header = [CustomRefreshGifHeader headerWithRefreshingBlock:^{
-//        //        [SV_DDLoading show];
-//        [tableView.mj_footer resetNoMoreData];
-//        NSDictionary *params = @{};
-//        [weak_self.viewModel fetchData:params Completion:^(BOOL b, NSString *msg) {
-//            //            [SV_DDLoading dismiss];
-//            UITableView * table = tableView;
-//            [table.mj_header endRefreshing];
-//            if(!b)
-//                return ;
-//            [weak_self updateFooterRefreshState:0];
-//            [table reloadData];
-//            [weak_self.tableView noDataShow:weak_self.viewModel.dataArr];
-//        }];
-//    }];
-//
-//    //mj_footer 上拉加载
-//    MJRefreshAutoNormalFooter *footer = [MJRefreshAutoNormalFooter footerWithRefreshingBlock:^{
-//        [weak_self.viewModel fetchNextPageDataCompletion:^(BOOL b, NSString *msg) {
-//            UITableView * table = tableView;
-//
-//            [weak_self updateFooterRefreshState:0];
-//            [tableView reloadData];
-//        }];
-//
-//    }];
-//    [footer setTitle:@"加载中..." forState:MJRefreshStateRefreshing];
-//    [tableView setMj_footer:footer];
-//    [tableView.mj_footer setHidden:YES];
-//
-//
-//}
-//- (void)updateFooterRefreshState:(NSInteger)status{
-//
-//
-//    UITableView * table = self.tableView;
-//        JYCommentListViewModel *m =  self.viewModel;
-//            if (m.hasMore == NO) {
-//                [table.mj_footer setHidden:YES];
-//            } else {
-//                [table.mj_footer setHidden:NO];
-//            }
-//
-//}
+-(void)setTable
+{
+    __weak typeof(self) weak_self = self;
+    //下拉刷新
+    __weak UITableView *tableView = self.tableView;
+    tableView.mj_header = [CustomRefreshGifHeader headerWithRefreshingBlock:^{
+        //        [SV_DDLoading show];
+        [tableView.mj_footer resetNoMoreData];
+        NSDictionary *params = @{};
+        [weak_self.viewModel fetchData:params Completion:^(BOOL b, NSString *msg) {
+            //            [SV_DDLoading dismiss];
+            UITableView * table = tableView;
+            [table.mj_header endRefreshing];
+            if(!b)
+                return ;
+            [weak_self updateFooterRefreshState:0];
+            [table reloadData];
+            [weak_self.tableView noDataShow:weak_self.viewModel.dataArr];
+        }];
+    }];
+
+    //mj_footer 上拉加载
+    MJRefreshAutoNormalFooter *footer = [MJRefreshAutoNormalFooter footerWithRefreshingBlock:^{
+        [weak_self.viewModel fetchNextPageDataCompletion:^(BOOL b, NSString *msg) {
+            if (b) {
+                if (!weak_self.viewModel.hasMore) {
+                    [tableView.mj_footer endRefreshingWithNoMoreData];
+                } else {
+                    [tableView.mj_footer endRefreshing];
+                }
+            } else {
+                //                if (![XTool isStringEmpty:msg]) {
+                //                    [SV_DDLoading showMessage:msg];
+                //                    //                    [SV_DDLoading dismissWithDelay:1];
+                //                }
+                //                [table.mj_footer endRefreshing];
+            }
+
+            [weak_self updateFooterRefreshState:0];
+            [tableView reloadData];
+        }];
+
+    }];
+    [footer setTitle:@"加载中..." forState:MJRefreshStateRefreshing];
+    [tableView setMj_footer:footer];
+    [tableView.mj_footer setHidden:YES];
+
+
+}
+- (void)updateFooterRefreshState:(NSInteger)status{
+
+
+    UITableView * table = self.tableView;
+        JYTeacherListViewModel *m =  self.viewModel;
+            if (m.hasMore == NO) {
+                [table.mj_footer setHidden:YES];
+            } else {
+                [table.mj_footer setHidden:NO];
+            }
+
+}
 
 -(void)backHandle:(UIButton *)btn
 {

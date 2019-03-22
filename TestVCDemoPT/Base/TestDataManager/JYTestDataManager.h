@@ -29,6 +29,7 @@ NS_ASSUME_NONNULL_BEGIN
 -(NSArray *)buildMark;
 -(NSArray *)buildMarks:(NSArray *)arr;
 -(NSArray *)buildInfoMark;
+-(NSString *)buildImg;
 @end
 
 NS_ASSUME_NONNULL_END

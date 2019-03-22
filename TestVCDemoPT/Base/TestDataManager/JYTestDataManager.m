@@ -31,7 +31,8 @@
 //    typedef void(^b)(NSArray * rr);
     Class c = dic[@"class"];
    void (^b)(NSArray *rr) = dic[@"block"];
-    NSInteger r = arc4random() %14;
+    NSInteger r = arc4random() %14 + 6;
+//    NSInteger r = 6;
     NSMutableArray *arr = [NSMutableArray new];
     for (NSInteger i = 0; i < r; i ++) {
         id m = [[c alloc] init];
@@ -156,8 +157,8 @@ return name;
 颛孙端木　巫马公西　漆雕乐正　壤驷公良　拓拔夹谷　宰父谷粱　晋楚阎法　汝鄢涂钦\
 段干百里　东郭南门　呼延归海　羊舌微生　岳帅缑亢　况后有琴　梁丘左丘　东门西门\
 商牟佘佴　伯赏南宫　墨哈谯笪　年爱阳佟　第五言福";
-   str = [str stringByReplacingOccurrencesOfString:@" " withString:@""];
-  NSInteger i =  arc4random()%(str.length);
+   str = [str stringByReplacingOccurrencesOfString:@"　" withString:@""];
+    NSInteger i =  arc4random()%(str.length - 1) + 1;
     if (i >= 444) {
         NSInteger n = 0;
         if (i % 2 == 0) {
@@ -274,5 +275,12 @@ return name;
         [marr addObject:arr[n]];
     }
     return  marr;
+}
+
+-(NSString *)buildImg
+{
+    NSArray *arr = @[@"https://t1.hddhhn.com/uploads/tu/201512/264/142.jpg",@"https://t1.hddhhn.com/uploads/tu/201512/252/141.jpg",@"https://t1.hddhhn.com/uploads/tu/201607/85/18.jpg",@"https://t1.hddhhn.com/uploads/tu/201611/241/2.png",@"https://t1.hddhhn.com/uploads/tu/201605/95/8.jpg",@"https://t1.hddhhn.com/uploads/tu/201606/307/19.jpg",@"https://t1.hddhhn.com/uploads/tu/201612/320/st29.png",@"https://t1.hddhhn.com/uploads/tu/201606/307/19.jpg",@"https://t1.hddhhn.com/uploads/tu/201601/323/3.jpg"];
+     NSInteger c = arc4random()%arr.count;
+    return arr[c];
 }
 @end

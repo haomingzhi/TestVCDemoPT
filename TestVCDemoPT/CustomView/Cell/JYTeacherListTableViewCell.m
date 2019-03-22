@@ -10,6 +10,7 @@
 #import "UILabel+JYStyle.h"
 #import "UIView+JYLayerEdit.h"
 #import "JYMarkView.h"
+#import "UIImageView+WebCache.h"
 @interface JYTeacherListTableViewCell()
 @property(nonatomic,strong)UIImageView *imgV;
 @property(nonatomic,strong)UILabel *nameLb;
@@ -61,7 +62,7 @@
         _imgV.height = 60;
         _imgV.width = 60;
         [_imgV allCorners:_imgV.width/2.0];
-        _imgV.backgroundColor = [UIColor yellowColor];
+//        _imgV.backgroundColor = [UIColor yellowColor];
     }
     return _imgV;
 }
@@ -119,8 +120,15 @@
 
 -(void)refresh:(NSDictionary *)dic
 {
-    self.imgV.image = [UIImage imageNamed:dic[@"img"]];
-  
+//    self.imgV.image = [UIImage imageNamed:dic[@"img"]];
+    _imgV.contentMode = UIViewContentModeCenter;
+    __weak typeof(self) weak_self = self;
+    [self.imgV sd_setImageWithURL:[NSURL URLWithString:dic[@"img"]] placeholderImage:[UIImage imageNamed:@""] completed:^(UIImage * _Nullable image, NSError * _Nullable error, SDImageCacheType cacheType, NSURL * _Nullable imageURL) {
+        if (image) {
+            weak_self.imgV.contentMode = UIViewContentModeScaleToFill;
+        }
+        
+    }];
     self.nameLb.text = dic[@"name"];
     [self.nameLb resetSize];
     self.markV.titleArr = dic[@"mark"];

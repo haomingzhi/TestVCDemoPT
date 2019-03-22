@@ -10,6 +10,7 @@
 #import "UILabel+JYStyle.h"
 #import "JYPointView.h"
 #import "UIView+JYLayerEdit.h"
+#import "UIImageView+WebCache.h"
 @interface JYCommentTableViewCell()
 @property(nonatomic,strong)UIImageView *imgV;
 @property(nonatomic,strong)UILabel *nameLb;
@@ -54,7 +55,7 @@
         [_imgV allCorners:_imgV.height];
         _imgV.left = 17.5;
         _imgV.top = 15;
-        _imgV.backgroundColor = [UIColor redColor];
+//        _imgV.backgroundColor = [UIColor redColor];
     }
     return _imgV;
 }
@@ -109,7 +110,15 @@
 
 -(void)refresh:(NSDictionary *)dic
 {
-    self.imgV.image = [UIImage imageNamed:dic[@"name"]];
+//    self.imgV.image = [UIImage imageNamed:dic[@"name"]];
+    _imgV.contentMode = UIViewContentModeCenter;
+    __weak typeof(self) weak_self = self;
+    [self.imgV sd_setImageWithURL:[NSURL URLWithString:dic[@"img"]] placeholderImage:[UIImage imageNamed:@""] completed:^(UIImage * _Nullable image, NSError * _Nullable error, SDImageCacheType cacheType, NSURL * _Nullable imageURL) {
+        if (image) {
+            weak_self.imgV.contentMode = UIViewContentModeScaleToFill;
+        }
+        
+    }];
     self.pointView.point = [dic[@"point"] integerValue];
     self.contentLb.text = dic[@"title"];
     [self.contentLb resetSize];

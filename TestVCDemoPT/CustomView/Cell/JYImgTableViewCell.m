@@ -8,6 +8,8 @@
 
 #import "JYImgTableViewCell.h"
 #import "UIView+JYLayerEdit.h"
+//#import "FLAnimatedImageView+WebCache.h"
+#import "UIImageView+WebCache.h"
 @interface JYImgTableViewCell()
 @property(nonatomic,strong)UIImageView *imgV;
 @property(nonatomic,strong)UIView *shapeView;
@@ -31,7 +33,7 @@
         _imgV = [UIImageView new];
         _imgV.width = UIScreenWidth;
         _imgV.height = 160/375.0 * UIScreenWidth;
-        _imgV.backgroundColor = [UIColor blueColor];
+//        _imgV.backgroundColor = [UIColor blueColor];
     }
     return _imgV;
 }
@@ -51,7 +53,15 @@
 
 -(void)refresh:(NSDictionary *)dic
 {
-    self.imgV.image = [UIImage imageNamed:dic[@"img"]];
+//    [ _imgV sd_setImageWithURL:[NSURL URLWithString:dic[@"img"]]] ;
+    _imgV.contentMode = UIViewContentModeCenter;
+    __weak typeof(self) weak_self = self;
+    [self.imgV sd_setImageWithURL:[NSURL URLWithString:dic[@"img"]] placeholderImage:[UIImage imageNamed:@""] completed:^(UIImage * _Nullable image, NSError * _Nullable error, SDImageCacheType cacheType, NSURL * _Nullable imageURL) {
+        if (image) {
+            weak_self.imgV.contentMode = UIViewContentModeScaleToFill;
+        }
+
+    }];
     [self setNeedsLayout];
 }
 @end

@@ -11,6 +11,9 @@
 		1813CF032202E2380081B1AB /* JYLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1813CF022202E2380081B1AB /* JYLoginManager.m */; };
 		1813CF062202E9AB0081B1AB /* JYUserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1813CF052202E9AB0081B1AB /* JYUserInfoModel.m */; };
 		1813CF092202F3740081B1AB /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1813CF082202F3740081B1AB /* TestView.m */; };
+		182CF5802237ADCF0000E5BD /* NSMutableAttributedString+JYTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 182CF57F2237ADCF0000E5BD /* NSMutableAttributedString+JYTool.m */; };
+		182CF5832237B0860000E5BD /* UITextView+JYStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 182CF5822237B0860000E5BD /* UITextView+JYStyle.m */; };
+		182CF5862237B1D70000E5BD /* TestTextViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182CF5852237B1D70000E5BD /* TestTextViewViewController.m */; };
 		1838163F2227BB7100FD89E0 /* UIView+JYLayerEdit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1838163D2227BB7000FD89E0 /* UIView+JYLayerEdit.m */; };
 		183816402227BB7100FD89E0 /* UIButton+JYStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1838163E2227BB7100FD89E0 /* UIButton+JYStyle.m */; };
 		183816432227C10600FD89E0 /* UILabel+JYStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 183816422227C10600FD89E0 /* UILabel+JYStyle.m */; };
@@ -123,6 +126,12 @@
 		1813CF052202E9AB0081B1AB /* JYUserInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYUserInfoModel.m; sourceTree = "<group>"; };
 		1813CF072202F3740081B1AB /* TestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
 		1813CF082202F3740081B1AB /* TestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
+		182CF57E2237ADCF0000E5BD /* NSMutableAttributedString+JYTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+JYTool.h"; sourceTree = "<group>"; };
+		182CF57F2237ADCF0000E5BD /* NSMutableAttributedString+JYTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+JYTool.m"; sourceTree = "<group>"; };
+		182CF5812237B0860000E5BD /* UITextView+JYStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+JYStyle.h"; sourceTree = "<group>"; };
+		182CF5822237B0860000E5BD /* UITextView+JYStyle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+JYStyle.m"; sourceTree = "<group>"; };
+		182CF5842237B1D70000E5BD /* TestTextViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTextViewViewController.h; sourceTree = "<group>"; };
+		182CF5852237B1D70000E5BD /* TestTextViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTextViewViewController.m; sourceTree = "<group>"; };
 		1838163B2227BB7000FD89E0 /* UIButton+JYStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+JYStyle.h"; sourceTree = "<group>"; };
 		1838163C2227BB7000FD89E0 /* UIView+JYLayerEdit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JYLayerEdit.h"; sourceTree = "<group>"; };
 		1838163D2227BB7000FD89E0 /* UIView+JYLayerEdit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JYLayerEdit.m"; sourceTree = "<group>"; };
@@ -566,6 +575,10 @@
 				185280BE222F794E006DE84A /* NSString+JYTool.m */,
 				185280C3222FC486006DE84A /* UITableView+JYTool.h */,
 				185280C4222FC486006DE84A /* UITableView+JYTool.m */,
+				182CF57E2237ADCF0000E5BD /* NSMutableAttributedString+JYTool.h */,
+				182CF57F2237ADCF0000E5BD /* NSMutableAttributedString+JYTool.m */,
+				182CF5812237B0860000E5BD /* UITextView+JYStyle.h */,
+				182CF5822237B0860000E5BD /* UITextView+JYStyle.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -682,6 +695,8 @@
 				184B4963222E6A2D0072BBAF /* JYSearchZxViewController.m */,
 				184B4971222E7AB80072BBAF /* JYNoZxViewController.h */,
 				184B4972222E7AB80072BBAF /* JYNoZxViewController.m */,
+				182CF5842237B1D70000E5BD /* TestTextViewViewController.h */,
+				182CF5852237B1D70000E5BD /* TestTextViewViewController.m */,
 			);
 			path = TestVC;
 			sourceTree = "<group>";
@@ -856,6 +871,7 @@
 			files = (
 				18609B8D222CFDF7004E6BDB /* UIImage+JYEdit.m in Sources */,
 				18FC9E4C21A55E1C00FC6544 /* UITextView+placeHolder.m in Sources */,
+				182CF5862237B1D70000E5BD /* TestTextViewViewController.m in Sources */,
 				18FC9E5221A55E1C00FC6544 /* Tools.m in Sources */,
 				184B495B222E549E0072BBAF /* JYTeacherListViewModel.m in Sources */,
 				184B4961222E60F30072BBAF /* JYMarkView.m in Sources */,
@@ -872,11 +888,13 @@
 				184B4967222E6C760072BBAF /* JYSoonAskTableViewCell.m in Sources */,
 				18FC9DDE21A55DF300FC6544 /* ViewController.m in Sources */,
 				183816432227C10600FD89E0 /* UILabel+JYStyle.m in Sources */,
+				182CF5832237B0860000E5BD /* UITextView+JYStyle.m in Sources */,
 				185280C2222FB9A5006DE84A /* JYCommentModel.m in Sources */,
 				18609BB1222D0FEC004E6BDB /* JYCommentTableViewCell.m in Sources */,
 				18609B90222D06A7004E6BDB /* JYTeacherInfoModel.m in Sources */,
 				184B496A222E6DCD0072BBAF /* JYSearchTipTableViewCell.m in Sources */,
 				1838163F2227BB7100FD89E0 /* UIView+JYLayerEdit.m in Sources */,
+				182CF5802237ADCF0000E5BD /* NSMutableAttributedString+JYTool.m in Sources */,
 				18FC9E4021A55E1C00FC6544 /* DDRequestManager.m in Sources */,
 				1813CEFF2202E0B00081B1AB /* TestAnimationViewController.m in Sources */,
 				18609BB8222D2C33004E6BDB /* JYImgTableViewCell.m in Sources */,

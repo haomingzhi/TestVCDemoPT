@@ -10,7 +10,7 @@
 #import "UILabel+JYStyle.h"
 #import "UIView+JYLayerEdit.h"
 #import "UIButton+JYStyle.h"
-
+#import "UIImageView+WebCache.h"
 @interface JYSearchTypeTableViewCell()
 @property(nonatomic,strong)UIView *containerView;
 @property(nonatomic,strong)UIImageView *imgV;
@@ -55,7 +55,8 @@
         _imgV = [UIImageView new];
         _imgV.height = 47;
         _imgV.width = 47;
-        _imgV.backgroundColor = [UIColor purpleColor];
+        [_imgV allCorners:20];
+//        _imgV.backgroundColor = [UIColor purpleColor];
     }
     return _imgV;
 }
@@ -103,6 +104,14 @@
 -(void)refresh:(NSDictionary *)dic
 {
     _imgV.image = [UIImage imageNamed:dic[@"img"]];
+    _imgV.contentMode = UIViewContentModeCenter;
+    __weak typeof(self) weak_self = self;
+    [self.imgV sd_setImageWithURL:[NSURL URLWithString:dic[@"img"]] placeholderImage:[UIImage imageNamed:@""] completed:^(UIImage * _Nullable image, NSError * _Nullable error, SDImageCacheType cacheType, NSURL * _Nullable imageURL) {
+        if (image) {
+            weak_self.imgV.contentMode = UIViewContentModeScaleToFill;
+        }
+        
+    }];
     _typeLb.text = dic[@"title"];
     _leveLb.text = dic[@"level"];
     [self setNeedsLayout];

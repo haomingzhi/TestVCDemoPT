@@ -45,7 +45,8 @@
 //    NSString *vcName = @"TestAnimationViewController";
 //     NSString *vcName = @"JYTeacherListViewController";
 //         NSString *vcName = @"JYSearchZxViewController";
-    NSString *vcName = @"JYNoZxViewController";
+//    NSString *vcName = @"JYNoZxViewController";
+     NSString *vcName = @"TestTextViewViewController";
 //    NSString *vcName = @"JYTeacherInfoViewController";
     [[VCManager sharedManager] regsisterClass:vcName obj:vcName];
     Class c = [[VCManager sharedManager] getClass:vcName];
